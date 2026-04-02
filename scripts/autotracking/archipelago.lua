@@ -1,11 +1,15 @@
 ScriptHost:LoadScript("scripts/autotracking/slot_options.lua")
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/tab_mapping.lua")
 
 CUR_INDEX = -1
 SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
+ROOM_ID = nil
+SET_HANDLER_KEY = nil
+LAST_AUTO_TAB_MAP_ID = nil
 
 function onClear(slot_data)
 
@@ -69,6 +73,20 @@ function onClear(slot_data)
     IS_CONNECTED = TRUE
     get_slot_options(slot_data)
     local ap_locations = get_ap_locations()
+    PLAYER_ID = Archipelago.PlayerNumber or -1
+    TEAM_NUMBER = Archipelago.TeamNumber or 0
+    if Archipelago.PlayerNumber > -1 then
+        ROOM_ID = "grinch_region_" .. TEAM_NUMBER .. "_" .. PLAYER_ID
+        Archipelago:SetNotify({ ROOM_ID })
+        Archipelago:Get({ ROOM_ID })
+        if SET_HANDLER_KEY ~= ROOM_ID then
+            if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                print("[AutoTab:Set] Registering SetReply handler for key " .. ROOM_ID)
+            end
+            Archipelago:AddSetReplyHandler(ROOM_ID, UpdateMap)
+            SET_HANDLER_KEY = ROOM_ID
+        end
+    end
 end
 
 -- called when an item gets collected
@@ -161,3 +179,39 @@ end
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
+
+-- Auto-tabbing --
+function UpdateMap(key, map_id, old_map_id)
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+        print(string.format("[AutoTab] UpdateMap called with map_id=%s", tostring(map_id)))
+    end
+
+    local normalized_map_id = tonumber(map_id) or map_id
+    if normalized_map_id == LAST_AUTO_TAB_MAP_ID then
+        return
+    end
+
+    if not TAB_MAPPING then
+        print("[AutoTab] TAB_MAPPING is nil. Tab mapping table is not loaded.")
+        return
+    end
+
+    local auto_tab = Tracker:FindObjectForCode("auto_tab")
+    if auto_tab and auto_tab.CurrentStage ~= 0 then
+        return
+    end
+
+    local tabs = TAB_MAPPING[normalized_map_id] or TAB_MAPPING[tostring(normalized_map_id)]
+
+    if tabs then
+        LAST_AUTO_TAB_MAP_ID = normalized_map_id
+        for _, tab in ipairs(tabs) do
+            if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                print(string.format("[AutoTab] Activating tab: %s", tostring(tab)))
+            end
+            Tracker:UiHint("ActivateTab", tab)
+        end
+    else
+        print(string.format("[AutoTab] No tab mapping found for map_id %s", tostring(map_id)))
+    end
+end

@@ -1,0 +1,21 @@
+TAB_MAPPING = {
+    [5] = { "Mount Crumpit", "Hub" },
+    [6] = { "Mount Crumpit", "Hub" },
+    [7] = { "Whoville", "Whoville" },
+    [8] = { "Whoville", "City Hall" },
+    [9] = { "Whoville", "Clock Tower" },
+    [10] = { "Whoville", "Post Office" },
+    [11] = { "Who Forest", "Who Forest" },
+    [12] = { "Who Forest", "Ski Resort" },
+    [13] = { "Who Forest", "Civic Center" },
+    [14] = { "Who Dump", "Who Dump" },
+    [15] = { "Who Dump", "Power Plant" },
+    [16] = { "Who Dump", "Power Plant" },
+    [17] = { "Who Dump", "Minefield" },
+    [18] = { "Who Lake", "South Shore" },
+    [19] = { "Who Lake", "South Shore" },
+    [20] = { "Who Lake", "North Shore" },
+    [22] = { "Who Lake", "Mayor's Villa" },
+    [23] = { "Who Lake", "Submarine World" },
+    [25] = { "Mount Crumpit", "Hub" }
+}

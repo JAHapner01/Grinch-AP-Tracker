@@ -96,7 +96,8 @@
                 "opt_giftsanity",
                 //"opt_supadow",
                 //"opt_killsanity",
-                "opt_misc_locations"
+                "opt_misc_locations",
+                "auto_tab"
             ]
         ]
     },
