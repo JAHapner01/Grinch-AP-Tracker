@@ -233,8 +233,8 @@ LOCATION_MAPPING = {
     [43284] = {"@Speck of Dust/Who Lake/North Shore/Mayor's Villa/WL - Mayor's Villa - GC BP in Pirate's Cave"},
 
     -- Sleigh Ride (Sleigh Room)
-    [43369] = {"@Speck of Dust/Mount Crumpit/Sleigh Ride/MC - Sleigh Ride - Stealing All Gifts"},
-    [43370] = {"@Speck of Dust/Mount Crumpit/Sleigh Ride/MC - Sleigh Ride - Neutralizing Santa"},
+    [43369] = {"@Speck of Dust/Mount Crumpit/Sleigh Room/Sleigh Ride/MC - Sleigh Ride - Stealing All Gifts"},
+    [43370] = {"@Speck of Dust/Mount Crumpit/Sleigh Room/Sleigh Ride/MC - Sleigh Ride - Neutralizing Santa"},
 
     -- Hearts of Stone
     [43469] = {"@Speck of Dust/Whoville/Post Office/WV - Post Office - Heart of Stone"},
