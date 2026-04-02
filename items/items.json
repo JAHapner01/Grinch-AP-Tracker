@@ -1,0 +1,196 @@
+[
+    {
+        "name": "Rotten Egg Launcher",
+        "type": "toggle",
+        "img": "images/items/rotten_egg_launcher.png",
+        "codes": "Rotten Egg Launcher"
+    },
+    {
+        "name": "Rocket Spring",
+        "type": "toggle",
+        "img": "images/items/rocket_spring.png",
+        "codes": "Rocket Spring"
+    },
+    {
+        "name": "Slime Shooter",
+        "type": "toggle",
+        "img": "images/items/slime_shooter.png",
+        "codes": "Slime Shooter"
+    },
+    {
+        "name": "Octopus Climbing Device",
+        "type": "toggle",
+        "img": "images/items/octopus_climbing_device.png",
+        "codes": "Octopus Climbing Device"
+    },
+    {
+        "name": "Marine Mobile",
+        "type": "toggle",
+        "img": "images/items/marine_mobile.png",
+        "codes": "Marine Mobile"
+    },
+    {
+        "name": "Grinch Copter",
+        "type": "toggle",
+        "img": "images/items/grinch_copter.png",
+        "codes": "Grinch Copter"
+    },
+    {
+        "name": "Who Cloak",
+        "type": "toggle",
+        "img": "images/items/icons/who_cloak.png",
+        "codes": "Who Cloak"
+    },
+    {
+        "name": "Painting Bucket",
+        "type": "toggle",
+        "img": "images/items/icons/painting_bucket.png",
+        "codes": "Painting Bucket"
+    },
+    {
+        "name": "Scissors",
+        "type": "toggle",
+        "img": "images/items/icons/scissors.png",
+        "codes": "Scissors"
+    },
+    {
+        "name": "Glue Bucket",
+        "type": "toggle",
+        "img": "images/items/icons/glue_bucket.png",
+        "codes": "Glue Bucket"
+    },
+    {
+        "name": "Cable Car Access Card",
+        "type": "toggle",
+        "img": "images/items/icons/cable_car_access_card.png",
+        "codes": "Cable Car Access Card"
+    },
+    {
+        "name": "Drill",
+        "type": "toggle",
+        "img": "images/items/icons/drill.png",
+        "codes": "Drill"
+    },
+    {
+        "name": "Rope",
+        "type": "toggle",
+        "img": "images/items/icons/rope.png",
+        "codes": "Rope"
+    },
+    {
+        "name": "Hook",
+        "type": "toggle",
+        "img": "images/items/icons/hook.png",
+        "codes": "Hook"
+    },
+    {
+        "name": "Sculpting Tools",
+        "type": "toggle",
+        "img": "images/items/icons/sculpting_tools.png",
+        "codes": "Sculpting Tools"
+    },
+    {
+        "name": "Hammer",
+        "type": "toggle",
+        "img": "images/items/icons/hammer.png",
+        "codes": "Hammer"
+    },
+    {
+        "name": "Scout Clothes",
+        "type": "toggle",
+        "img": "images/items/icons/scout_clothes.png",
+        "codes": "Scout Clothes"
+    },
+    {
+        "name": "Exhaust Pipes",
+        "type": "toggle",
+        "img": "images/items/icons/exhaust_pipes.png",
+        "codes": "Exhaust Pipes"
+    },
+    {
+        "name": "Tires",
+        "type": "toggle",
+        "img": "images/items/icons/tires.png",
+        "codes": "Tires"
+    },
+    {
+        "name": "Skis",
+        "type": "toggle",
+        "img": "images/items/icons/skis.png",
+        "codes": "Skis"
+    },
+    {
+        "name": "Twin-End Tuba",
+        "type": "toggle",
+        "img": "images/items/icons/twin-end_tuba.png",
+        "codes": "Twin-End Tuba"
+    },
+    {
+        "name": "Whoville Vacuum Tube",
+        "type": "toggle",
+        "img": "images/items/whoville_vacuum_tube.png",
+        "codes": "Whoville Vacuum Tube"
+    },
+    {
+        "name": "Who Forest Vacuum Tube",
+        "type": "toggle",
+        "img": "images/items/who_forest_vacuum_tube.png",
+        "codes": "Who Forest Vacuum Tube"
+    },
+    {
+        "name": "Who Dump Vacuum Tube",
+        "type": "toggle",
+        "img": "images/items/who_dump_vacuum_tube.png",
+        "codes": "Who Dump Vacuum Tube"
+    },
+    {
+        "name": "Who Lake Vacuum Tube",
+        "type": "toggle",
+        "img": "images/items/who_lake_vacuum_tube.png",
+        "codes": "Who Lake Vacuum Tube"
+    },
+    {
+        "name": "Progressive Vacuum Tube",
+        "type": "consumable",
+        "max_quantity": "4",
+        "initial_quantity": "0",
+        "img": "images/items/whoville_vacuum_tube.png",
+        "codes": "Progressive Vacuum Tube"
+    },
+    {
+        "name": "Sleigh Room Key",
+        "type": "toggle",
+        "img": "images/items/sleigh_room_key.png",
+        "codes": "Sleigh Room Key"
+    },
+    {
+        "name": "Pancake",
+        "type": "toggle",
+        "img": "images/items/pancake.png",
+        "codes": "Pancake"
+    },
+    {
+        "name": "Bad Breath",
+        "type": "toggle",
+        "img": "images/items/bad_breath.png",
+        "codes": "Bad Breath"
+    },
+    {
+        "name": "Seize",
+        "type": "toggle",
+        "img": "images/items/seize.png",
+        "codes": "Seize"
+    },
+    {
+        "name": "Max",
+        "type": "toggle",
+        "img": "images/items/max.png",
+        "codes": "Max"
+    },
+    {
+        "name": "Sneak",
+        "type": "toggle",
+        "img": "images/items/sneak.png",
+        "codes": "Sneak"
+    }
+]

@@ -1,0 +1,606 @@
+[
+    {
+        "name": "Goal",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Sleigh Ride",
+                "img": "images/items/sleigh_room_key.png",
+                "codes": "opt_goal,opt_goal_sleigh_ride"
+            },
+            {
+                "name": "Sleigh Ride with Parts",
+                "img": "images/items/skis.png",
+                "codes": "opt_goal,opt_goal_sleigh_ride_with_parts",
+                "inherit_codes": false
+            },
+            {
+                "name": "Missions Completed",
+                "img": "images/items/painting_bucket.png",
+                "codes": "opt_goal,opt_goal_missions_completed",
+                "inherit_codes": false
+            },
+            {
+                "name": "Squashing all Gifts",
+                "img": "images/locations/opened_present.png",
+                "codes": "opt_goal,opt_goal_squashing_all_gifts",
+                "inherit_codes": false
+            },
+            {
+                "name": "Supadows Completed",
+                "img": "images/items/grinch_headshot.png",
+                "codes": "opt_goal,opt_goal_supadows_completed",
+                "inherit_codes": false
+            },
+            {
+                "name": "Slaughter",
+                "img": "images/items/rotten_egg_launcher.png",
+                "codes": "opt_goal,opt_goal_slaughter",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Mission Goal Count",
+        "type": "consumable",
+        "loop": true,
+        "allow_disabled": false,
+        "img": "images/items/painting_bucket.png",
+        "codes": "opt_mission_goal_count",
+        "min_quantity": 3,
+        "max_quantity": 22,
+        "initial_quantity": 12,
+        "overlay_background": "#000000"
+    },
+    {
+        "name": "Include Gift Squashing in Missions Completed Goal",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Exclude Gift Squashing in Missions Completed Goal",
+                "img": "images/locations/unopened_present.png",
+                "img_mods": "@disabled",
+                "codes": "opt_include_gift_squashing,opt_include_gift_squashing_off"
+            },
+            {
+                "name": "Include Gift Squashing in Missions Completed Goal",
+                "img": "images/locations/opened_present.png",
+                "codes": "opt_include_gift_squashing,opt_include_gift_squashing_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Starting Area",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Whoville",
+                "img": "images/items/whoville_vacuum_tube.png",
+                "codes": "opt_starting_area,opt_starting_area_whoville"
+            },
+            {
+                "name": "Who Forest",
+                "img": "images/items/who_forest_vacuum_tube.png",
+                "codes": "opt_starting_area,opt_starting_area_who_forest",
+                "inherit_codes": false
+            },
+            {
+                "name": "Who Dump",
+                "img": "images/items/who_dump_vacuum_tube.png",
+                "codes": "opt_starting_area,opt_starting_area_who_dump",
+                "inherit_codes": false
+            },
+            {
+                "name": "Who Lake",
+                "img": "images/items/who_lake_vacuum_tube.png",
+                "codes": "opt_starting_area,opt_starting_area_who_lake",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Progressive Vacuum Tubes",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Progressive Vacuum Tubes disabled",
+                "img": "images/items/whoville_vacuum_tube.png",
+                "img_mods": "@disabled",
+                "codes": "opt_prog_vacuum,opt_prog_vacuum_off"
+            },
+            {
+                "name": "Progressive Vacuum Tubes enabled",
+                "img": "images/items/whoville_vacuum_tube.png",
+                "codes": "opt_prog_vacuum,opt_prog_vacuum_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Mission Locations",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "None",
+                "img": "images/locations/snowman.png",
+                "img_mods": "@disabled",
+                "codes": "opt_missionsanity,opt_missionsanity_none"
+            },
+            {
+                "name": "Completion",
+                "img": "images/locations/snowman.png",
+                "codes": "opt_missionsanity,opt_missionsanity_completion,opt_missionsanity_completion_only",
+                "inherit_codes": false
+            },
+            {
+                "name": "Individual",
+                "img": "images/locations/snowman.png",
+                "codes": "opt_missionsanity,opt_missionsanity_individual",
+                "inherit_codes": false
+            },
+            {
+                "name": "Both",
+                "img": "images/locations/snowman.png",
+                "codes": "opt_missionsanity_completion",
+                "inherit_codes": true // Only inherits the immediate predecessor's codes, which is why we need to specify the completion code here as well
+            }
+        ]
+    },
+    {
+        "name": "Advanced Logic",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Advanced Logic disabled",
+                "img": "images/items/grinch_headshot.png",
+                "img_mods": "@disabled",
+                "codes": "opt_advanced_logic,opt_advanced_logic_off"
+            },
+            {
+                "name": "Advanced Logic enabled",
+                "img": "images/items/grinch_headshot.png",
+                "codes": "opt_advanced_logic,opt_advanced_logic_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Exclude Environments - Post Office",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Post Office included",
+                "img": "images/items/whoville_vacuum_tube.png",
+                "codes": "opt_env_post_office_included"
+            },
+            {
+                "name": "Post Office excluded",
+                "img": "images/items/whoville_vacuum_tube.png",
+                "img_mods": "@disabled",
+                "codes": "opt_env_post_office_excluded",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Exclude Environments - Clock Tower",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Clock Tower included",
+                "img": "images/items/whoville_vacuum_tube.png",
+                "codes": "opt_env_clock_tower_included"
+            },
+            {
+                "name": "Clock Tower excluded",
+                "img": "images/items/whoville_vacuum_tube.png",
+                "img_mods": "@disabled",
+                "codes": "opt_env_clock_tower_excluded",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Exclude Environments - City Hall",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "City Hall included",
+                "img": "images/items/whoville_vacuum_tube.png",
+                "codes": "opt_env_city_hall_included"
+            },
+            {
+                "name": "City Hall excluded",
+                "img": "images/items/whoville_vacuum_tube.png",
+                "img_mods": "@disabled",
+                "codes": "opt_env_city_hall_excluded",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Exclude Environments - Ski Resort",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Ski Resort included",
+                "img": "images/items/who_forest_vacuum_tube.png",
+                "codes": "opt_env_ski_resort_included"
+            },
+            {
+                "name": "Ski Resort excluded",
+                "img": "images/items/who_forest_vacuum_tube.png",
+                "img_mods": "@disabled",
+                "codes": "opt_env_ski_resort_excluded",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Exclude Environments - Civic Center",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Civic Center included",
+                "img": "images/items/who_forest_vacuum_tube.png",
+                "codes": "opt_env_civic_center_included"
+            },
+            {
+                "name": "Civic Center excluded",
+                "img": "images/items/who_forest_vacuum_tube.png",
+                "img_mods": "@disabled",
+                "codes": "opt_env_civic_center_excluded",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Exclude Environments - Minefield",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Minefield included",
+                "img": "images/items/who_dump_vacuum_tube.png",
+                "codes": "opt_env_minefield_included"
+            },
+            {
+                "name": "Minefield excluded",
+                "img": "images/items/who_dump_vacuum_tube.png",
+                "img_mods": "@disabled",
+                "codes": "opt_env_minefield_excluded",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Exclude Environments - Power Plant",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Power Plant included",
+                "img": "images/items/who_dump_vacuum_tube.png",
+                "codes": "opt_env_power_plant_included"
+            },
+            {
+                "name": "Power Plant excluded",
+                "img": "images/items/who_dump_vacuum_tube.png",
+                "img_mods": "@disabled",
+                "codes": "opt_env_power_plant_excluded",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Exclude Environments - Generator Building",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Generator Building included",
+                "img": "images/items/who_dump_vacuum_tube.png",
+                "codes": "opt_env_generator_building_included"
+            },
+            {
+                "name": "Generator Building excluded",
+                "img": "images/items/who_dump_vacuum_tube.png",
+                "img_mods": "@disabled",
+                "codes": "opt_env_generator_building_excluded",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Exclude Environments - Scout's Hut",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Scout's Hut included",
+                "img": "images/items/who_lake_vacuum_tube.png",
+                "codes": "opt_env_scouts_hut_included"
+            },
+            {
+                "name": "Scout's Hut excluded",
+                "img": "images/items/who_lake_vacuum_tube.png",
+                "img_mods": "@disabled",
+                "codes": "opt_env_scouts_hut_excluded",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Exclude Environments - North Shore",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "North Shore included",
+                "img": "images/items/who_lake_vacuum_tube.png",
+                "codes": "opt_env_north_shore_included"
+            },
+            {
+                "name": "North Shore excluded",
+                "img": "images/items/who_lake_vacuum_tube.png",
+                "img_mods": "@disabled",
+                "codes": "opt_env_north_shore_excluded",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Exclude Environments - Mayor's Villa",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Mayor's Villa included",
+                "img": "images/items/who_lake_vacuum_tube.png",
+                "codes": "opt_env_mayors_villa_included"
+            },
+            {
+                "name": "Mayor's Villa excluded",
+                "img": "images/items/who_lake_vacuum_tube.png",
+                "img_mods": "@disabled",
+                "codes": "opt_env_mayors_villa_excluded",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Exclude Environments - Submarine World",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Submarine World included",
+                "img": "images/items/who_lake_vacuum_tube.png",
+                "codes": "opt_env_submarine_world_included"
+            },
+            {
+                "name": "Submarine World excluded",
+                "img": "images/items/who_lake_vacuum_tube.png",
+                "img_mods": "@disabled",
+                "codes": "opt_env_submarine_world_excluded",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Progressive Gadgets",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Progressive Gadgets disabled",
+                "img": "images/items/rotten_egg_launcher.png",
+                "img_mods": "@disabled",
+                "codes": "opt_prog_gadgets,opt_prog_gadgets_off"
+            },
+            {
+                "name": "Progressive Gadgets enabled",
+                "img": "images/items/rotten_egg_launcher.png",
+                "codes": "opt_prog_gadgets,opt_prog_gadgets_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Supadow Minigames",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Supadow disabled",
+                "img": "images/items/sleigh_room_key.png",
+                "img_mods": "@disabled",
+                "codes": "opt_supadow,opt_supadow_off"
+            },
+            {
+                "name": "Supadow enabled",
+                "img": "images/items/sleigh_room_key.png",
+                "codes": "opt_supadow,opt_supadow_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Giftsanity",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Giftsanity disabled",
+                "img": "images/locations/unopened_present.png",
+                "img_mods": "@disabled",
+                "codes": "opt_giftsanity,opt_giftsanity_off"
+            },
+            {
+                "name": "Giftsanity enabled",
+                "img": "images/locations/unopened_present.png",
+                "codes": "opt_giftsanity,opt_giftsanity_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Killsanity",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Killsanity disabled",
+                "img": "images/items/grinch_headshot.png",
+                "img_mods": "@disabled",
+                "codes": "opt_killsanity,opt_killsanity_off"
+            },
+            {
+                "name": "Killsanity enabled",
+                "img": "images/items/grinch_headshot.png",
+                "codes": "opt_killsanity,opt_killsanity_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Randomize Gadgets",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Randomize Gadgets disabled",
+                "img": "images/items/rotten_egg_launcher.png",
+                "img_mods": "@disabled",
+                "codes": "opt_gadget_rando,opt_gadget_rando_off"
+            },
+            {
+                "name": "Randomize Gadgets enabled",
+                "img": "images/items/rotten_egg_launcher.png",
+                "codes": "opt_gadget_rando,opt_gadget_rando_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Gadgets Randomized (not currently supported)",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "All Gadgets Randomized",
+                "img": "images/items/rotten_egg_launcher.png",
+                "codes": "opt_gadget_rando_list"
+            }
+        ]
+    },
+    {
+        "name": "Remove Grinch Copter",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Grinch Copter not removed",
+                "img": "images/items/grinch_copter.png",
+                "codes": "opt_exclude_gc,opt_exclude_gc_off"
+            },
+            {
+                "name": "Grinch Copter removed",
+                "img": "images/items/grinch_copter.png",
+                "img_mods": "@disabled",
+                "codes": "opt_exclude_gc,opt_exclude_gc_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Randomize Moves",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Randomize Moves disabled",
+                "img": "images/items/sneak.png",
+                "img_mods": "@disabled",
+                "codes": "opt_move_rando,opt_move_rando_off"
+            },
+            {
+                "name": "Randomize Moves enabled",
+                "img": "images/items/sneak.png",
+                "codes": "opt_move_rando,opt_move_rando_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Moves Randomized (not currently supported)",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "All Moves Randomized",
+                "img": "images/items/sneak.png",
+                "codes": "opt_move_rando_list"
+            }
+        ]
+    },
+    {
+        "name": "Miscellaneous Locations",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Miscellaneous Locations disabled",
+                "img": "images/items/scout_clothes.png",
+                "img_mods": "@disabled",
+                "codes": "opt_misc_locations,opt_misc_locations_off"
+            },
+            {
+                "name": "Miscellaneous Locations enabled",
+                "img": "images/items/scout_clothes.png",
+                "codes": "opt_misc_locations,opt_misc_locations_on",
+                "inherit_codes": false
+            }
+        ]
+    }
+]

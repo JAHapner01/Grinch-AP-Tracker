@@ -1,0 +1,23 @@
+﻿{
+    "name": "The Grinch Archipelago Poptracker",
+    "game_name": "The Grinch",
+    "package_version": "0.0.1",
+    "package_uid": "the_grinch_ap_jake13snake",
+    "author": "jake13snake",
+    "versions_url": "https://raw.githubusercontent.com/jahapner01/grinch-ap-tracker/versions/versions.json",
+    "min_poptracker_version": "0.30.4",
+    "variants": {
+        "standard": {
+            "display_name": "Map Tracker",
+            "flags": [
+                "ap"
+            ]
+        },
+        "var_itemsonly": {
+            "display_name": "Items Only",
+            "flags": [
+                "ap"
+            ]
+        }
+    }
+}

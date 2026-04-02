@@ -1,0 +1,267 @@
+{
+    "tracker_default": {
+        "type": "container",
+        "background": "#171717",
+        "content": {
+            "type": "dock",
+            "dropshadow": true,
+            "content": [
+                {
+                    "type": "dock",
+                    "dock": "left",
+                    "background": "#171717",
+                    "v_alignment": "stretch",
+                    "margin": "0,0,0,0",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Items",
+                            "dock": "top",
+                            "margin": "0,0,0,0",
+                            "content": {
+                                "type": "layout",
+                                "key": "shared_item_grid"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "dock",
+                    "content": [
+                        {
+                            "type": "tabbed",
+                            "dock": "top",
+                            "tabs": [
+                                {
+                                    "title": "Mount Crumpit",
+                                    "icon": "images/items/map.png",
+                                    "content": {
+                                        "type": "tabbed",
+                                        "dock": "top",
+                                        "tabs": [
+                                            {
+                                                "title": "Hub",
+                                                "content": {
+                                                    "type": "map",
+                                                    "maps": [
+                                                        "mount_crumpit_hub"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "title": "Tutorial",
+                                                "content": {
+                                                    "type": "map",
+                                                    "maps": [
+                                                        "mount_crumpit_tutorial"
+                                                    ]
+                                                }
+                                            }//,
+                                            //{
+                                            //    "title": "Supadow",
+                                            //    "content": {
+                                            //        "type": "map",
+                                            //        "maps": [
+                                            //            "mount_crumpit_supadow"
+                                            //        ]
+                                            //    }
+                                            //},
+                                            //{
+                                            //    "title": "Sleigh Room",
+                                            //    "content": {
+                                            //        "type": "map",
+                                            //        "maps": [
+                                            //            "mount_crumpit_sleigh_room"
+                                            //        ]
+                                            //    }
+                                            //},
+                                            //{
+                                            //    "title": "Sleigh Ride",
+                                            //    "content": {
+                                            //        "type": "map",
+                                            //        "maps": [
+                                            //            "mount_crumpit_sleigh_ride"
+                                            //        ]
+                                            //    }
+                                            //}
+                                        ]
+                                    }
+                                },
+                                {
+                                    "title": "Whoville",
+                                    "content": {
+                                        "type": "tabbed",
+                                        "dock": "top",
+                                        "tabs": [
+                                            {
+                                                "title": "Whoville",
+                                                "content": {
+                                                    "type": "map",
+                                                    "maps": [
+                                                        "whoville"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "title": "Post Office",
+                                                "content": {
+                                                    "type": "map",
+                                                    "maps": [
+                                                        "whoville_post_office",
+                                                        "whoville_post_office_tunnels"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "title": "City Hall",
+                                                "content": {
+                                                    "type": "map",
+                                                    "maps": [
+                                                        "whoville_city_hall_main_hall",
+                                                        "whoville_city_hall_library",
+                                                        "whoville_city_hall_statue_room"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "title": "Clock Tower",
+                                                "content": {
+                                                    "type": "map",
+                                                    "maps": [
+                                                        "whoville_clock_tower"
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "title": "Who Forest",
+                                    "content": {
+                                        "type": "tabbed",
+                                        "dock": "top",
+                                        "tabs": [
+                                            {
+                                                "title": "Who Forest",
+                                                "content": {
+                                                    "type": "map",
+                                                    "maps": [
+                                                        "who_forest"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "title": "Ski Resort",
+                                                "content": {
+                                                    "type": "map",
+                                                    "maps": [
+                                                        "who_forest_ski_resort"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "title": "Civic Center",
+                                                "content": {
+                                                    "type": "map",
+                                                    "maps": [
+                                                        "who_forest_civic_center"
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "title": "Who Dump",
+                                    "content": {
+                                        "type": "tabbed",
+                                        "dock": "top",
+                                        "tabs": [
+                                            {
+                                                "title": "Who Dump",
+                                                "content": {
+                                                    "type": "map",
+                                                    "maps": [
+                                                        "who_dump"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "title": "Minefield",
+                                                "content": {
+                                                    "type": "map",
+                                                    "maps": [
+                                                        "who_dump_minefield"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "title": "Power Plant",
+                                                "content": {
+                                                    "type": "map",
+                                                    "maps": [
+                                                        "who_dump_power_plant",
+                                                        "who_dump_generator_building"
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "title": "Who Lake",
+                                    "content": {
+                                        "type": "tabbed",
+                                        "dock": "top",
+                                        "tabs": [
+                                            {
+                                                "title": "South Shore",
+                                                "icon": "images/items/who_lake_south_shore.png",
+                                                "content": {
+                                                    "type": "map",
+                                                    "maps": [
+                                                        "who_lake_south_shore"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "title": "North Shore",
+                                                "icon": "images/items/who_lake_north_shore.png",
+                                                "content": {
+                                                    "type": "map",
+                                                    "maps": [
+                                                        "who_lake_north_shore"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "title": "Mayor's Villa",
+                                                "icon": "images/items/who_lake_mayors_villa.png",
+                                                "content": {
+                                                    "type": "map",
+                                                    "maps": [
+                                                        "who_lake_mayors_villa"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "title": "Submarine World",
+                                                "icon": "images/items/who_lake_submarine_world.png",
+                                                "content": {
+                                                    "type": "map",
+                                                    "maps": [
+                                                        "who_lake_submarine_world"
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,62 @@
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+ipch/
+*.opendb
+*.opensdf
+*.sdf
+[Bb]in/
+[Oo]bj/
+Debug/
+Release/
+build/
+*.log
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains (Rider, IntelliJ)
+.idea/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+env/
+venv/
+.venv/
+.Python
+pip-log.txt
+.pytest_cache/
+.coverage
+
+# Lua
+*.luac
+
+# Misc / OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Database / temporary files
+*.db
+*.sqlite
+*.bak
+*.tmp
+*.log

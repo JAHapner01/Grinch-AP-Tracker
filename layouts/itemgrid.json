@@ -1,0 +1,111 @@
+{
+    "shared_item_grid": {
+        "type": "array",
+        "background": "#171717",
+        "orientation": "vertical",
+        "margin": "0,0,0,0",
+        "content": [
+            {
+                "type": "text",
+                "text": "Gadgets"
+            },
+            {
+                "type": "itemgrid",
+                "item_size": 48,
+                "item_margin": "3, 3",
+                "h_alignment": "left",
+                "rows": [
+                    [
+                        "Rotten Egg Launcher",
+                        "Rocket Spring",
+                        "Octopus Climbing Device",
+                        "Slime Shooter",
+                        "Marine Mobile",
+                        "Grinch Copter"
+                    ]
+                ]
+            },
+            {
+                "type": "text",
+                "text": "Moves"
+            },
+            {
+                "type": "itemgrid",
+                "item_size": 48,
+                "item_margin": "3, 3",
+                "h_alignment": "left",
+                "rows": [
+                    [
+                        "Pancake",
+                        "Bad Breath",
+                        "Seize",
+                        "Max",
+                        "Sneak"
+                    ]
+                ]
+            },
+            {
+                "type": "text",
+                "text": "Mission Items"
+            },
+            {
+                "type": "itemgrid",
+                "item_size": 48,
+                "h_alignment": "left",
+                "rows": [
+                    [
+                        "Who Cloak",
+                        "Painting Bucket",
+                        "Sculpting Tools",
+                        "Hammer",
+                        "Glue Bucket",
+                        "Cable Car Access Card"
+                    ],
+                    [
+                        "Scissors",
+                        "Drill",
+                        "Rope",
+                        "Hook",
+                        "Scout Clothes"
+                    ]
+                ]
+            },
+            {
+                "type": "text",
+                "text": "Sleigh Parts"
+            },
+            {
+                "type": "itemgrid",
+                "item_size": 48,
+                "h_alignment": "left",
+                "rows": [
+                    [
+                        "Exhaust Pipes",
+                        "Skis",
+                        "Tires",
+                        "Twin-End Tuba"
+                    ]
+                ]
+            },
+            {
+                "type": "text",
+                "text": "Access Keys"
+            },
+            {
+                "type": "itemgrid",
+                "item_size": 48,
+                "h_alignment": "left",
+                "rows": [
+                    [
+                        "Whoville Vacuum Tube",
+                        "Who Forest Vacuum Tube",
+                        "Who Dump Vacuum Tube",
+                        "Who Lake Vacuum Tube",
+                        "Progressive Vacuum Tube",
+                        "Sleigh Room Key"
+                    ]
+                ]
+            }
+        ]
+    }
+}

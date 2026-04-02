@@ -1,0 +1,138 @@
+{
+    "settings_popup": {
+        "type": "dock",
+        "content": {
+            "type": "array",
+            "orientation": "vertical",
+            "h_alignment": "left",
+            "content": [
+                //{
+                //    "type": "group",
+                //    "header": "Goal",
+                //    "content": {
+                //        "type": "layout",
+                //        "key": "goal_grid"
+                //    }
+                //},
+                {
+                    "type": "group",
+                    "header": "Item Pool",
+                    "content": {
+                        "type": "layout",
+                        "key": "itempool_grid"
+                    }
+                },
+                {
+                    "type": "group",
+                    "header": "Location Settings",
+                    "content": {
+                        "type": "layout",
+                        "key": "location_grid"
+                    }
+                },
+                {
+                    "type": "group",
+                    "header": "Excluded Environments",
+                    "content": {
+                        "type": "layout",
+                        "key": "excluded_environments_grid"
+                    }
+                }//,
+                //{
+                //    "type": "group",
+                //    "header": "Logic Settings",
+                //    "content": {
+                //        "type": "layout",
+                //        "key": "logic_grid"
+                //    }
+                //}
+            ]
+        }
+    },
+    "goal_grid": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "item_size": "32,44",
+        "item_h_alignment": "center",
+        "item_v_alignment": "center",
+        "h_alignment": "left",
+        "rows": [
+            [
+                "opt_goal",
+                "opt_mission_goal_count",
+                "opt_include_gift_squashing"
+            ]
+        ]
+    },
+    "itempool_grid": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "item_size": "32,44",
+        "item_h_alignment": "center",
+        "item_v_alignment": "center",
+        "h_alignment": "left",
+        "rows": [
+            [
+                "opt_starting_area",
+                "opt_prog_vacuum",
+                //"opt_prog_gadgets",
+                "opt_gadget_rando",
+                //"opt_gadget_rando_list",
+                "opt_exclude_gc",
+                "opt_move_rando"//,
+                //"opt_move_rando_list"
+            ]
+        ]
+    },
+    "location_grid": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "item_size": "32,44",
+        "item_h_alignment": "center",
+        "h_alignment": "left",
+        "rows": [
+            [
+                "opt_missionsanity",
+                "opt_giftsanity",
+                //"opt_supadow",
+                //"opt_killsanity",
+                "opt_misc_locations"
+            ]
+        ]
+    },
+    "excluded_environments_grid": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "item_size": "32,44",
+        "item_h_alignment": "center",
+        "h_alignment": "left",
+        "rows": [
+            [
+                "opt_env_post_office_excluded",
+                "opt_env_city_hall_excluded",
+                "opt_env_clock_tower_excluded",
+                "opt_env_ski_resort_excluded",
+                "opt_env_civic_center_excluded",
+                "opt_env_minefield_excluded",
+                "opt_env_power_plant_excluded",
+                "opt_env_generator_building_excluded",
+                "opt_env_submarine_world_excluded",
+                "opt_env_scouts_hut_excluded",
+                "opt_env_north_shore_excluded",
+                "opt_env_mayors_villa_excluded"
+            ]
+        ]
+    },
+    "logic_grid": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "item_size": "32,44",
+        "item_h_alignment": "center",
+        "h_alignment": "left",
+        "rows": [
+            [
+                "opt_advanced_logic"
+            ]
+        ]
+    }
+}
