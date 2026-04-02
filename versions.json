@@ -1,0 +1,10 @@
+{
+	"versions": [
+		{
+			"package_version": "0.0.1",
+			"download_url": "https://github.com/JAHapner01/Grinch-AP-Tracker/archive/refs/tags/0.0.1.zip",
+			"sha256": "AC9B6D19C9F66729C7B6839B0D8B86C33C6AB0BC6D1C56F568AC3E9C752AF445",
+			"changelog": ["Initial Release"]
+		}
+	]
+}
