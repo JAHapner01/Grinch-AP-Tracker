@@ -11,12 +11,6 @@
                 "codes": "opt_goal,opt_goal_sleigh_ride"
             },
             {
-                "name": "Sleigh Ride with Parts",
-                "img": "images/items/skis.png",
-                "codes": "opt_goal,opt_goal_sleigh_ride_with_parts",
-                "inherit_codes": false
-            },
-            {
                 "name": "Missions Completed",
                 "img": "images/items/painting_bucket.png",
                 "codes": "opt_goal,opt_goal_missions_completed",
@@ -154,6 +148,46 @@
                 "img": "images/locations/snowman.png",
                 "codes": "opt_missionsanity_completion",
                 "inherit_codes": true // Only inherits the immediate predecessor's codes, which is why we need to specify the completion code here as well
+            }
+        ]
+    },
+    {
+        "name": "Randomize Mission Specific Items",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Randomize Mission Specific Items disabled",
+                "img": "images/items/painting_bucket.png",
+                "img_mods": "@disabled",
+                "codes": "opt_randomize_mission_items,opt_randomize_mission_items_off"
+            },
+            {
+                "name": "Randomize Mission Specific Items enabled",
+                "img": "images/items/painting_bucket.png",
+                "codes": "opt_randomize_mission_items,opt_randomize_mission_items_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Randomize Sleigh Parts",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Randomize Sleigh Parts disabled",
+                "img": "images/items/skis.png",
+                "img_mods": "@disabled",
+                "codes": "opt_randomize_sleigh_parts,opt_randomize_sleigh_parts_off"
+            },
+            {
+                "name": "Randomize Sleigh Parts enabled",
+                "img": "images/items/skis.png",
+                "codes": "opt_randomize_sleigh_parts,opt_randomize_sleigh_parts_on",
+                "inherit_codes": false
             }
         ]
     },
@@ -619,6 +653,26 @@
                 "img": "images/options/auto_tab.png",
                 "img_mods": "@disabled",
                 "codes": "auto_tab,auto_tab_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Legacy Locations",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "New apworld - hide legacy locations",
+                "img": "images/items/grinch_headshot.png",
+                "img_mods": "@disabled",
+                "codes": ""
+            },
+            {
+                "name": "Old apworld - show legacy locations",
+                "img": "images/items/grinch_headshot.png",
+                "codes": "opt_legacy_locations",
                 "inherit_codes": false
             }
         ]

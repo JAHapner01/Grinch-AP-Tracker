@@ -235,6 +235,7 @@ LOCATION_MAPPING = {
     -- Sleigh Ride (Sleigh Room)
     [43369] = {"@Speck of Dust/Mount Crumpit/Sleigh Room/Sleigh Ride/MC - Sleigh Ride - Stealing All Gifts"},
     [43370] = {"@Speck of Dust/Mount Crumpit/Sleigh Room/Sleigh Ride/MC - Sleigh Ride - Neutralizing Santa"},
+    [43371] = {"@Speck of Dust/Mount Crumpit/Sleigh Room/Sleigh Ride/MC - Sleigh Ride - Save Christmas"},
 
     -- Hearts of Stone
     [43469] = {"@Speck of Dust/Whoville/Post Office/WV - Post Office - Heart of Stone"},
@@ -456,13 +457,13 @@ LOCATION_MAPPING = {
     [44372] = {"@Speck of Dust/Who Lake/North Shore/Mayor's Villa/WL - Mayor's Villa - Touch Grass"},
 
     -- Mount Crumpit: Collecting all Blueprints
-    [44469] = {"@Speck of Dust/Mount Crumpit/MC - Collect all Rotten Egg Launcher Blueprints"},
-    [44470] = {"@Speck of Dust/Mount Crumpit/MC - Collect all Rocket Spring Blueprints"},
-    [44471] = {"@Speck of Dust/Mount Crumpit/MC - Collect all Slime Shooter Blueprints"},
-    [44472] = {"@Speck of Dust/Mount Crumpit/MC - Collect all Octopus Climbing Device Blueprints"},
-    [44473] = {"@Speck of Dust/Mount Crumpit/MC - Collect all Marine Mobile Blueprints"},
+    [44469] = {"@Speck of Dust/Mount Crumpit/WV - Collect all Rotten Egg Launcher Blueprints"},
+    [44470] = {"@Speck of Dust/Mount Crumpit/WF - Collect all Rocket Spring Blueprints"},
+    [44471] = {"@Speck of Dust/Mount Crumpit/WF - Collect all Slime Shooter Blueprints"},
+    [44472] = {"@Speck of Dust/Mount Crumpit/WD - Collect all Octopus Climbing Device Blueprints"},
+    [44473] = {"@Speck of Dust/Mount Crumpit/WL - Collect all Marine Mobile Blueprints"},
     [44474] = {"@Speck of Dust/Mount Crumpit/MC - Collect all Grinch Copter Blueprints"},
-    [44475] = {"@Speck of Dust/Mount Crumpit/MC - Collect all Binoculars Blueprints"},
+    [44475] = {"@Speck of Dust/Mount Crumpit/WV - Collect all Binoculars Blueprints"},
 
     -- Who Lake: Killsanity (Groundhog)
     [44569] = {"@Speck of Dust/Who Lake/North Shore/WL - North Shore - Squash the Groundhog 1 time"},
@@ -482,4 +483,22 @@ LOCATION_MAPPING = {
     [44671] = {"@Speck of Dust/Who Dump/WD - Shoot Down South Platform"},
     [44672] = {"@Speck of Dust/Who Dump/WD - Shoot Down South East Platform"},
     [44673] = {"@Speck of Dust/Who Dump/WD - Shoot Down North East Platform"},
+
+    -- Mission Specific Item Locations
+    [44769] = {"@Speck of Dust/Whoville/WV - Painting Bucket"},
+    [44770] = {"@Speck of Dust/Whoville/Clock Tower/WV - Clock Tower - Who Cloak"},
+    [44771] = {"@Speck of Dust/Whoville/Clock Tower/WV - Clock Tower - Hammer"},
+    [44772] = {"@Speck of Dust/Whoville/City Hall/WV - City Hall - Sculpting Tools"},
+    [44773] = {"@Speck of Dust/Who Forest/WF - Glue Bucket"},
+    [44774] = {"@Speck of Dust/Who Forest/WF - Cable Car Access Card"},
+    [44775] = {"@Speck of Dust/Who Dump/Minefield/WD - Minefield - Scissors"},
+    [44776] = {"@Speck of Dust/Who Lake/South Shore/Scout's Hut/WL - Scout's Hut - Scout Clothes"},
+    [44777] = {"@Speck of Dust/Who Lake/North Shore/WL - North Shore - Drill"},
+    [44778] = {"@Speck of Dust/Who Lake/North Shore/Mayor's Villa/WL - Mayor's Villa - Rope"},
+    [44779] = {"@Speck of Dust/Who Lake/North Shore/Mayor's Villa/WL - Mayor's Villa - Hook"},
+    [44869] = {"@Speck of Dust/Who Lake/North Shore/Mayor's Villa/WL - Mayor's Villa - Hooking The Mayor's Bed To The Motorboat - Scarf on Scout near Pier"},
+    [44870] = {"@Speck of Dust/Who Lake/North Shore/Mayor's Villa/WL - Mayor's Villa - Hooking The Mayor's Bed To The Motorboat - Scarf on Scout beside Tree Stump"},
+    [44871] = {"@Speck of Dust/Who Lake/North Shore/Mayor's Villa/WL - Mayor's Villa - Hooking The Mayor's Bed To The Motorboat - Scarf on Scout above Villa"},
+    [44872] = {"@Speck of Dust/Who Lake/North Shore/Mayor's Villa/WL - Mayor's Villa - Hooking The Mayor's Bed To The Motorboat - Scarf on Flying Scout"},
+    [44873] = {"@Speck of Dust/Who Lake/North Shore/Mayor's Villa/WL - Mayor's Villa - Hooking The Mayor's Bed To The Motorboat - Scarf on Scout near Pirate Cave"},
 }

@@ -275,6 +275,22 @@
                                 "visibility_rules": [
                                     ""
                                 ]
+                            },
+                            {
+                                "name": "WV - City Hall - Sculpting Tools",
+                                "chest_unopened_img": "images/locations/icons/sculpting_tools.png",
+                                "chest_opened_img": "images/locations/icons/sculpting_tools_inactive.png",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "Sneak, Seize, Pancake",
+                                    "opt_move_rando_off",
+                                    "Slime Shooter, Seize, Pancake",
+                                    "opt_gadget_rando_off, Seize, Pancake",
+                                    "Grinch Copter, Seize, Pancake"
+                                ],
+                                "visibility_rules": [
+                                    "opt_randomize_mission_items_off"
+                                ]
                             }
                         ]
                     },
@@ -308,6 +324,17 @@
                                 ],
                                 "visibility_rules": [
                                     ""
+                                ]
+                            },
+                            {
+                                "name": "WV - Clock Tower - Who Cloak",
+                                "chest_unopened_img": "images/locations/icons/who_cloak.png",
+                                "chest_opened_img": "images/locations/icons/who_cloak_inactive.png",
+                                "item_count": 1,
+                                "access_rules": [
+                                ],
+                                "visibility_rules": [
+                                    "opt_randomize_mission_items_off"
                                 ]
                             },
                             {
@@ -368,6 +395,22 @@
                                 ],
                                 "visibility_rules": [
                                     ""
+                                ]
+                            },
+                            {
+                                "name": "WV - Clock Tower - Hammer",
+                                "chest_unopened_img": "images/locations/icons/hammer.png",
+                                "chest_opened_img": "images/locations/icons/hammer_inactive.png",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "Rocket Spring, Max, Seize, Sneak",
+                                    "Rocket Spring, Max, Seize, Slime Shooter",
+                                    "Max, Seize, opt_gadget_rando_off",
+                                    "Rocket Spring, opt_move_rando_off",
+                                    "opt_gadget_rando_off, opt_move_rando_off"
+                                ],
+                                "visibility_rules": [
+                                    "opt_randomize_mission_items_off"
                                 ]
                             },
                             {
@@ -1126,6 +1169,31 @@
                         "ref": "Clock Tower/WV - Clock Tower - Ring 5th Bell"
                     },
                     {
+                        "name": "WV - Painting Bucket",
+                        "chest_unopened_img": "images/locations/icons/painting_bucket.png",
+                        "chest_opened_img": "images/locations/icons/painting_bucket_inactive.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "Pancake",
+                            "opt_move_rando_off"
+                        ],
+                        "visibility_rules": [
+                            "opt_randomize_mission_items_off"
+                        ]
+                    },
+                    {
+                        "name": "WV - Clock Tower - Who Cloak",
+                        "ref": "Clock Tower/WV - Clock Tower - Who Cloak"
+                    },
+                    {
+                        "name": "WV - Clock Tower - Hammer",
+                        "ref": "Clock Tower/WV - Clock Tower - Hammer"
+                    },
+                    {
+                        "name": "WV - City Hall - Sculpting Tools",
+                        "ref": "City Hall/WV - City Hall - Sculpting Tools"
+                    },
+                    {
                         "name": "WV - Exhaust Pipes",
                         "chest_unopened_img": "images/locations/icons/exhaust_pipes.png",
                         "chest_opened_img": "images/locations/icons/exhaust_pipes_inactive.png",
@@ -1135,7 +1203,7 @@
                             "Sleigh Room Key, opt_gadget_rando_off"
                         ],
                         "visibility_rules": [
-                            "false"
+                            "opt_randomize_sleigh_parts_off"
                         ]
                     }
                 ],
@@ -1224,8 +1292,10 @@
                                 "item_count": 1,
                                 "access_rules": [
                                     "Slime Shooter, Pancake, Max",
+                                    "Grinch Copter, Pancake, Max",
                                     "Pancake, Max, opt_gadget_rando_off",
                                     "Slime Shooter, opt_move_rando_off",
+                                    "Grinch Copter, opt_move_rando_off",
                                     "opt_gadget_rando_off, opt_move_rando_off"
                                 ],
                                 "visibility_rules": [
@@ -1316,7 +1386,9 @@
                                     "Grinch Copter, opt_move_rando_off",
                                     "opt_gadget_rando_off, opt_move_rando_off",
                                     "Octopus Climbing Device, Rocket Spring, Sneak",
-                                    "Octopus Climbing Device, Rocket Spring, opt_move_rando_off"
+                                    "Octopus Climbing Device, Rocket Spring, opt_move_rando_off",
+                                    "Grinch Copter, Rotten Egg Launcher, Slime Shooter, Bad Breath",
+                                    "Bad Breath, opt_gadget_rando_off"
                                 ],
                                 "visibility_rules": [
                                     ""
@@ -1337,7 +1409,9 @@
                                     "Slime Shooter, Grinch Copter, Sneak",
                                     "Slime Shooter, Grinch Copter, opt_move_rando_off",
                                     "Slime Shooter, Octopus Climbing Device, Rocket Spring, Sneak",
-                                    "Slime Shooter, Octopus Climbing Device, Rocket Spring, opt_move_rando_off"
+                                    "Slime Shooter, Octopus Climbing Device, Rocket Spring, opt_move_rando_off",
+                                    "Grinch Copter, Rotten Egg Launcher, Slime Shooter, Bad Breath",
+                                    "Bad Breath, opt_gadget_rando_off"
                                 ],
                                 "visibility_rules": [
                                     ""
@@ -2178,6 +2252,36 @@
                         "ref": "Civic Center/WF - Civic Center - Replacing The Candles On The Cake With Fireworks - Across bridge near entrance"
                     },
                     {
+                        "name": "WF - Glue Bucket",
+                        "chest_unopened_img": "images/locations/icons/glue_bucket.png",
+                        "chest_opened_img": "images/locations/icons/glue_bucket_inactive.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "Rotten Egg Launcher",
+                            "opt_gadget_rando_off"
+                        ],
+                        "visibility_rules": [
+                            "opt_randomize_mission_items_off"
+                        ]
+                    },
+                    {
+                        "name": "WF - Cable Car Access Card",
+                        "chest_unopened_img": "images/locations/icons/cable_car_access_card.png",
+                        "chest_opened_img": "images/locations/icons/cable_car_access_card_inactive.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "Rotten Egg Launcher, Rocket Spring, Bad Breath, Slime Shooter",
+                            "Rotten Egg Launcher, Grinch Copter, Bad Breath, Slime Shooter",
+                            "opt_move_rando_off, Rotten Egg Launcher, Rocket Spring, Slime Shooter",
+                            "opt_move_rando_off, Rotten Egg Launcher, Grinch Copter, Slime Shooter",
+                            "opt_gadget_rando_off, Bad Breath",
+                            "opt_move_rando_off, opt_gadget_rando_off"
+                        ],
+                        "visibility_rules": [
+                            "opt_randomize_mission_items_off"
+                        ]
+                    },
+                    {
                         "name": "WF - Skis",
                         "chest_unopened_img": "images/locations/icons/skis.png",
                         "chest_opened_img": "images/locations/icons/skis_inactive.png",
@@ -2187,7 +2291,7 @@
                             "Sleigh Room Key, opt_move_rando_off"
                         ],
                         "visibility_rules": [
-                            "false"
+                            "opt_randomize_sleigh_parts_off"
                         ]
                     }
                 ],
@@ -2326,6 +2430,20 @@
                                 ],
                                 "visibility_rules": [
                                     ""
+                                ]
+                            },
+                            {
+                                "name": "WD - Minefield - Scissors",
+                                "chest_unopened_img": "images/locations/icons/scissors.png",
+                                "chest_opened_img": "images/locations/icons/scissors_inactive.png",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "Grinch Copter",
+                                    "opt_gadget_rando_off",
+                                    "Rotten Egg Launcher, Slime Shooter, Rocket Spring"
+                                ],
+                                "visibility_rules": [
+                                    "opt_randomize_mission_items_off"
                                 ]
                             }
                         ]
@@ -2578,7 +2696,7 @@
                             "Sleigh Room Key, opt_gadget_rando_off, opt_move_rando_off"
                         ],
                         "visibility_rules": [
-                            "false"
+                            "opt_randomize_sleigh_parts_off"
                         ]
                     },
                     {
@@ -2843,6 +2961,10 @@
                     {
                         "name": "WD - Minefield - OCD BP inside Guardian's House",
                         "ref": "Minefield/WD - Minefield - OCD BP inside Guardian's House"
+                    },
+                    {
+                        "name": "WD - Minefield - Scissors",
+                        "ref": "Minefield/WD - Minefield - Scissors"
                     },
                     {
                         "name": "WD - Power Plant - GC BP in Max Cave",
@@ -3663,7 +3785,7 @@
                                     "Sleigh Room Key, opt_gadget_rando_off"
                                 ],
                                 "visibility_rules": [
-                                    "false"
+                                    "opt_randomize_sleigh_parts_off"
                                 ]
                             }
                         ]
@@ -3696,41 +3818,54 @@
                                     },
                                     {
                                         "name": "WL - Scout's Hut - Steal Scout's Hat",
-                                        "chest_unopened_img": "images/locations/icons/scouts_hat.png",
-                                        "chest_opened_img": "images/locations/icons/scouts_hat_inactive.png",
+                                        "chest_unopened_img": "images/locations/icons/scout_clothes.png",
+                                        "chest_opened_img": "images/locations/icons/scout_clothes_inactive.png",
                                         "item_count": 1,
                                         "access_rules": [
                                             "Bad Breath",
                                             "opt_move_rando_off"
                                         ],
                                         "visibility_rules": [
-                                            "opt_misc_locations_on"
+                                            "opt_misc_locations_on, opt_randomize_mission_items_off"
                                         ]
                                     },
                                     {
                                         "name": "WL - Scout's Hut - Steal Scout's Shirt",
-                                        "chest_unopened_img": "images/locations/icons/scouts_shirt.png",
-                                        "chest_opened_img": "images/locations/icons/scouts_shirt_inactive.png",
+                                        "chest_unopened_img": "images/locations/icons/scout_clothes.png",
+                                        "chest_opened_img": "images/locations/icons/scout_clothes_inactive.png",
                                         "item_count": 1,
                                         "access_rules": [
                                             "Bad Breath, Pancake",
                                             "opt_move_rando_off"
                                         ],
                                         "visibility_rules": [
-                                            "opt_misc_locations_on"
+                                            "opt_misc_locations_on, opt_randomize_mission_items_off"
                                         ]
                                     },
                                     {
                                         "name": "WL - Scout's Hut - Steal Scout's Shorts",
-                                        "chest_unopened_img": "images/locations/icons/scouts_shorts.png",
-                                        "chest_opened_img": "images/locations/icons/scouts_shorts_inactive.png",
+                                        "chest_unopened_img": "images/locations/icons/scout_clothes.png",
+                                        "chest_opened_img": "images/locations/icons/scout_clothes_inactive.png",
                                         "item_count": 1,
                                         "access_rules": [
                                             "Bad Breath, Pancake",
                                             "opt_move_rando_off"
                                         ],
                                         "visibility_rules": [
-                                            "opt_misc_locations_on"
+                                            "opt_misc_locations_on, opt_randomize_mission_items_off"
+                                        ]
+                                    },
+                                    {
+                                        "name": "WL - Scout's Hut - Scout Clothes",
+                                        "chest_unopened_img": "images/locations/icons/scout_clothes.png",
+                                        "chest_opened_img": "images/locations/icons/scout_clothes_inactive.png",
+                                        "item_count": 1,
+                                        "access_rules": [
+                                            "Bad Breath, Pancake",
+                                            "opt_move_rando_off"
+                                        ],
+                                        "visibility_rules": [
+                                            "opt_randomize_mission_items_off"
                                         ]
                                     }
                                 ]
@@ -3817,7 +3952,7 @@
                                     "Sleigh Room Key, opt_gadget_rando_off, opt_move_rando_off"
                                 ],
                                 "visibility_rules": [
-                                    "false"
+                                    "opt_randomize_sleigh_parts_off"
                                 ]
                             },
                             {
@@ -3940,9 +4075,8 @@
                                     "Grinch Copter, Sneak",
                                     "Grinch Copter, opt_move_rando_off",
                                     "Rotten Egg Launcher, Octopus Climbing Device, Sneak",
-                                    "Rotten Egg Launcher, Octopus Climbing Device, opt_move_rando_off",
-                                    "Rotten Egg Launcher, Grinch Copter, Sneak",
-                                    "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off"
+                                    "Octopus Climbing Device, Sneak, Max",
+                                    "Sneak, Max, opt_gadget_rando_off"
                                 ],
                                 "visibility_rules": [
                                     ""
@@ -4314,6 +4448,120 @@
                                         ]
                                     },
                                     {
+                                        "name": "WL - Mayor's Villa - Rope",
+                                        "chest_unopened_img": "images/locations/icons/rope.png",
+                                        "chest_opened_img": "images/locations/icons/rope_inactive.png",
+                                        "item_count": 1,
+                                        "access_rules": [
+                                            "Max, Grinch Copter",
+                                            "Max, Rocket Spring",
+                                            "Max, opt_gadget_rando_off",
+                                            "Grinch Copter, opt_move_rando_off",
+                                            "Rocket Spring, opt_move_rando_off",
+                                            "opt_gadget_rando_off, opt_move_rando_off"
+                                        ],
+                                        "visibility_rules": [
+                                            "opt_randomize_mission_items_off"
+                                        ]
+                                    },
+                                    {
+                                        "name": "WL - Mayor's Villa - Hook",
+                                        "chest_unopened_img": "images/locations/icons/hook.png",
+                                        "chest_opened_img": "images/locations/icons/hook_inactive.png",
+                                        "item_count": 1,
+                                        "access_rules": [
+                                            "Bad Breath, Grinch Copter, Rotten Egg Launcher",
+                                            "Bad Breath, opt_gadget_rando_off",
+                                            "Grinch Copter, Rotten Egg Launcher, opt_move_rando_off",
+                                            "opt_gadget_rando_off, opt_move_rando_off"
+                                        ],
+                                        "visibility_rules": [
+                                            "opt_randomize_mission_items_off, opt_exclude_gc_off"
+                                        ]
+                                    },
+                                    {
+                                        "name": "WL - Mayor's Villa - Hooking The Mayor's Bed To The Motorboat - Scarf on Scout near Pier",
+                                        "chest_unopened_img": "images/locations/icons/scout_clothes.png",
+                                        "chest_opened_img": "images/locations/icons/scout_clothes_inactive.png",
+                                        "item_count": 1,
+                                        "access_rules": [
+                                            "Grinch Copter, Bad Breath",
+                                            "Rotten Egg Launcher, Rocket Spring, Pancake, Bad Breath",
+                                            "Bad Breath, opt_gadget_rando_off",
+                                            "Grinch Copter, opt_move_rando_off",
+                                            "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
+                                            "opt_gadget_rando_off, opt_move_rando_off"
+                                        ],
+                                        "visibility_rules": [
+                                            "opt_missionsanity_individual, opt_randomize_mission_items_off"
+                                        ]
+                                    },
+                                    {
+                                        "name": "WL - Mayor's Villa - Hooking The Mayor's Bed To The Motorboat - Scarf on Scout beside Tree Stump",
+                                        "chest_unopened_img": "images/locations/icons/scout_clothes.png",
+                                        "chest_opened_img": "images/locations/icons/scout_clothes_inactive.png",
+                                        "item_count": 1,
+                                        "access_rules": [
+                                            "Grinch Copter, Rotten Egg Launcher",
+                                            "Rotten Egg Launcher, Rocket Spring, Pancake",
+                                            "opt_gadget_rando_off",
+                                            "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
+                                            "opt_gadget_rando_off, opt_move_rando_off"
+                                        ],
+                                        "visibility_rules": [
+                                            "opt_missionsanity_individual, opt_randomize_mission_items_off"
+                                        ]
+                                    },
+                                    {
+                                        "name": "WL - Mayor's Villa - Hooking The Mayor's Bed To The Motorboat - Scarf on Scout above Villa",
+                                        "chest_unopened_img": "images/locations/icons/scout_clothes.png",
+                                        "chest_opened_img": "images/locations/icons/scout_clothes_inactive.png",
+                                        "item_count": 1,
+                                        "access_rules": [
+                                            "Grinch Copter, Bad Breath, Rotten Egg Launcher",
+                                            "Grinch Copter, Bad Breath, Slime Shooter",
+                                            "Bad Breath, opt_gadget_rando_off",
+                                            "Grinch Copter, Rotten Egg Launcher, opt_move_rando_off",
+                                            "Grinch Copter, Slime Shooter, opt_move_rando_off",
+                                            "opt_gadget_rando_off, opt_move_rando_off"
+                                        ],
+                                        "visibility_rules": [
+                                            "opt_missionsanity_individual, opt_randomize_mission_items_off, opt_exclude_gc_off"
+                                        ]
+                                    },
+                                    {
+                                        "name": "WL - Mayor's Villa - Hooking The Mayor's Bed To The Motorboat - Scarf on Flying Scout",
+                                        "chest_unopened_img": "images/locations/icons/scout_clothes.png",
+                                        "chest_opened_img": "images/locations/icons/scout_clothes_inactive.png",
+                                        "item_count": 1,
+                                        "access_rules": [
+                                            "Grinch Copter, Bad Breath",
+                                            "Bad Breath, opt_gadget_rando_off",
+                                            "Grinch Copter, opt_move_rando_off",
+                                            "opt_gadget_rando_off, opt_move_rando_off"
+                                        ],
+                                        "visibility_rules": [
+                                            "opt_missionsanity_individual, opt_randomize_mission_items_off, opt_exclude_gc_off"
+                                        ]
+                                    },
+                                    {
+                                        "name": "WL - Mayor's Villa - Hooking The Mayor's Bed To The Motorboat - Scarf on Scout near Pirate Cave",
+                                        "chest_unopened_img": "images/locations/icons/scout_clothes.png",
+                                        "chest_opened_img": "images/locations/icons/scout_clothes_inactive.png",
+                                        "item_count": 1,
+                                        "access_rules": [
+                                            "Grinch Copter, Bad Breath",
+                                            "Rotten Egg Launcher, Rocket Spring, Pancake, Bad Breath",
+                                            "Bad Breath, opt_gadget_rando_off",
+                                            "Grinch Copter, opt_move_rando_off",
+                                            "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
+                                            "opt_gadget_rando_off, opt_move_rando_off"
+                                        ],
+                                        "visibility_rules": [
+                                            "opt_missionsanity_individual, opt_randomize_mission_items_off"
+                                        ]
+                                    },
+                                    {
                                         "name": "WL - Mayor's Villa - Touch Grass",
                                         "item_count": 1,
                                         "access_rules": [],
@@ -4466,6 +4714,16 @@
                                 "access_rules": [],
                                 "visibility_rules": [
                                     ""
+                                ]
+                            },
+                            {
+                                "name": "WL - North Shore - Drill",
+                                "chest_unopened_img": "images/locations/icons/drill.png",
+                                "chest_opened_img": "images/locations/icons/drill_inactive.png",
+                                "item_count": 1,
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "opt_randomize_mission_items_off"
                                 ]
                             },
                             {
@@ -4748,6 +5006,10 @@
                         "ref": "South Shore/Scout's Hut/WL - Scout's Hut - Steal Scout's Shorts"
                     },
                     {
+                        "name": "WL - Scout's Hut - Scout Clothes",
+                        "ref": "South Shore/Scout's Hut/WL - Scout's Hut - Scout Clothes"
+                    },
+                    {
                         "name": "WL - Submarine World - Modifying The Marine Mobile - Outer Fast-moving Fish",
                         "ref": "Submarine World/WL - Submarine World - Modifying The Marine Mobile - Outer Fast-moving Fish"
                     },
@@ -4770,6 +5032,10 @@
                     {
                         "name": "WL - North Shore - Heart of Stone",
                         "ref": "North Shore/WL - North Shore - Heart of Stone"
+                    },
+                    {
+                        "name": "WL - North Shore - Drill",
+                        "ref": "North Shore/WL - North Shore - Drill"
                     },
                     {
                         "name": "WL - Submarine World - Twin-End Tuba",
@@ -4858,6 +5124,34 @@
                     {
                         "name": "WL - Mayor's Villa - GC BP in Pirate's Cave",
                         "ref": "North Shore/Mayor's Villa/WL - Mayor's Villa - GC BP in Pirate's Cave"
+                    },
+                    {
+                        "name": "WL - Mayor's Villa - Rope",
+                        "ref": "North Shore/Mayor's Villa/WL - Mayor's Villa - Rope"
+                    },
+                    {
+                        "name": "WL - Mayor's Villa - Hook",
+                        "ref": "North Shore/Mayor's Villa/WL - Mayor's Villa - Hook"
+                    },
+                    {
+                        "name": "WL - Mayor's Villa - Hooking The Mayor's Bed To The Motorboat - Scarf on Scout near Pier",
+                        "ref": "North Shore/Mayor's Villa/WL - Mayor's Villa - Hooking The Mayor's Bed To The Motorboat - Scarf on Scout near Pier"
+                    },
+                    {
+                        "name": "WL - Mayor's Villa - Hooking The Mayor's Bed To The Motorboat - Scarf on Scout beside Tree Stump",
+                        "ref": "North Shore/Mayor's Villa/WL - Mayor's Villa - Hooking The Mayor's Bed To The Motorboat - Scarf on Scout beside Tree Stump"
+                    },
+                    {
+                        "name": "WL - Mayor's Villa - Hooking The Mayor's Bed To The Motorboat - Scarf on Scout above Villa",
+                        "ref": "North Shore/Mayor's Villa/WL - Mayor's Villa - Hooking The Mayor's Bed To The Motorboat - Scarf on Scout above Villa"
+                    },
+                    {
+                        "name": "WL - Mayor's Villa - Hooking The Mayor's Bed To The Motorboat - Scarf on Flying Scout",
+                        "ref": "North Shore/Mayor's Villa/WL - Mayor's Villa - Hooking The Mayor's Bed To The Motorboat - Scarf on Flying Scout"
+                    },
+                    {
+                        "name": "WL - Mayor's Villa - Hooking The Mayor's Bed To The Motorboat - Scarf on Scout near Pirate Cave",
+                        "ref": "North Shore/Mayor's Villa/WL - Mayor's Villa - Hooking The Mayor's Bed To The Motorboat - Scarf on Scout near Pirate Cave"
                     },
                     {
                         "name": "WL - South Shore - Sabotaging The Tents - Right side of bridge to Scout Hut",
@@ -5035,10 +5329,10 @@
                         "name": "WL - Squashing All Gifts",
                         "item_count": 1,
                         "access_rules": [
-                            "Grinch Copter, Marine Mobile, Rotten Egg Launcher, Scout Clothes, Sneak, Pancake",
-                            "Scout Clothes, Sneak, Pancake, opt_gadget_rando_off",
-                            "Grinch Copter, Marine Mobile, Rotten Egg Launcher, Scout Clothes, opt_move_rando_off",
-                            "Scout Clothes, opt_gadget_rando_off, opt_move_rando_off"
+                            "Grinch Copter, Marine Mobile, Rotten Egg Launcher, Scout Clothes, Sneak, Pancake, Hook",
+                            "Scout Clothes, Sneak, Pancake, Hook, opt_gadget_rando_off",
+                            "Grinch Copter, Marine Mobile, Rotten Egg Launcher, Scout Clothes, Hook, opt_move_rando_off",
+                            "Scout Clothes, Hook, opt_gadget_rando_off, opt_move_rando_off"
                         ],
                         "visibility_rules": [
                             "opt_giftsanity_on, opt_missionsanity_completion, opt_exclude_gc_off"
@@ -5209,6 +5503,16 @@
                                         "visibility_rules": [
                                             ""
                                         ]
+                                    },
+                                    {
+                                        "name": "MC - Sleigh Ride - Save Christmas",
+                                        "item_count": 1,
+                                        "access_rules": [
+                                            ""
+                                        ],
+                                        "visibility_rules": [
+                                            ""
+                                        ]
                                     }
                                 ]
                             }
@@ -5311,7 +5615,7 @@
                             "opt_move_rando_off"
                         ],
                         "visibility_rules": [
-                            ""
+                            "opt_legacy_locations"
                         ]
                     },
                     {
@@ -5322,7 +5626,7 @@
                             "opt_move_rando_off"
                         ],
                         "visibility_rules": [
-                            ""
+                            "opt_legacy_locations"
                         ]
                     },
                     {
@@ -5333,7 +5637,7 @@
                             "opt_move_rando_off"
                         ],
                         "visibility_rules": [
-                            ""
+                            "opt_legacy_locations"
                         ]
                     },
                     {
@@ -5344,11 +5648,11 @@
                             "opt_move_rando_off"
                         ],
                         "visibility_rules": [
-                            ""
+                            "opt_legacy_locations"
                         ]
                     },
                     {
-                        "name": "MC - Collect all Rotten Egg Launcher Blueprints",
+                        "name": "WV - Collect all Rotten Egg Launcher Blueprints",
                         "item_count": 1,
                         "access_rules": [
                             "Whoville Vacuum Tube, Who Cloak, Max",
@@ -5361,7 +5665,7 @@
                         ]
                     },
                     {
-                        "name": "MC - Collect all Rocket Spring Blueprints",
+                        "name": "WF - Collect all Rocket Spring Blueprints",
                         "item_count": 1,
                         "access_rules": [
                             "Who Forest Vacuum Tube, Rotten Egg Launcher",
@@ -5376,7 +5680,7 @@
                         ]
                     },
                     {
-                        "name": "MC - Collect all Slime Shooter Blueprints",
+                        "name": "WF - Collect all Slime Shooter Blueprints",
                         "item_count": 1,
                         "access_rules": [
                             "Who Forest Vacuum Tube, Rotten Egg Launcher, Rocket Spring, Bad Breath",
@@ -5397,19 +5701,19 @@
                         ]
                     },
                     {
-                        "name": "MC - Collect all Octopus Climbing Device Blueprints",
+                        "name": "WD - Collect all Octopus Climbing Device Blueprints",
                         "item_count": 1,
                         "access_rules": [
                             "Who Dump Vacuum Tube, Rotten Egg Launcher, Rocket Spring, Pancake, Seize, Slime Shooter",
-                            "Who Dump Vacuum Tube, Rotten Egg Launcher, Grinch Copter, Pancake, Seize",
+                            "Who Dump Vacuum Tube, Rotten Egg Launcher, Rocket Spring, Grinch Copter, Pancake, Seize",
                             "Who Dump Vacuum Tube, Rotten Egg Launcher, Rocket Spring, Slime Shooter, opt_move_rando_off",
-                            "Who Dump Vacuum Tube, Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                            "Who Dump Vacuum Tube, Rotten Egg Launcher, Rocket Spring, Grinch Copter, opt_move_rando_off",
                             "Who Dump Vacuum Tube, opt_gadget_rando_off, Pancake, Seize",
                             "Who Dump Vacuum Tube, opt_gadget_rando_off, opt_move_rando_off",
                             "Progressive Vacuum Tube:3, Rotten Egg Launcher, Rocket Spring, Pancake, Seize, Slime Shooter",
-                            "Progressive Vacuum Tube:3, Rotten Egg Launcher, Grinch Copter, Pancake, Seize",
+                            "Progressive Vacuum Tube:3, Rotten Egg Launcher, Rocket Spring, Grinch Copter, Pancake, Seize",
                             "Progressive Vacuum Tube:3, Rotten Egg Launcher, Rocket Spring, Slime Shooter, opt_move_rando_off",
-                            "Progressive Vacuum Tube:3, Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                            "Progressive Vacuum Tube:3, Rotten Egg Launcher, Rocket Spring, Grinch Copter, opt_move_rando_off",
                             "Progressive Vacuum Tube:3, opt_gadget_rando_off, Pancake, Seize",
                             "Progressive Vacuum Tube:3, opt_gadget_rando_off, opt_move_rando_off"
                         ],
@@ -5418,20 +5722,20 @@
                         ]
                     },
                     {
-                        "name": "MC - Collect all Marine Mobile Blueprints",
+                        "name": "WL - Collect all Marine Mobile Blueprints",
                         "item_count": 1,
                         "access_rules": [
-                            "Who Lake Vacuum Tube, Scout Clothes, Grinch Copter, Max, Sneak",
+                            "Who Lake Vacuum Tube, Scout Clothes, Grinch Copter, Seize, Max, Sneak",
                             "Who Lake Vacuum Tube, Scout Clothes, Seize, Max, Sneak, Octopus Climbing Device, Rocket Spring",
                             "Who Lake Vacuum Tube, Scout Clothes, Grinch Copter, opt_move_rando_off",
                             "Who Lake Vacuum Tube, Scout Clothes, Octopus Climbing Device, Rocket Spring, opt_move_rando_off",
-                            "Who Lake Vacuum Tube, Scout Clothes, opt_gadget_rando_off, Max, Sneak",
+                            "Who Lake Vacuum Tube, Scout Clothes, opt_gadget_rando_off, Seize, Max, Sneak",
                             "Who Lake Vacuum Tube, Scout Clothes, opt_gadget_rando_off, opt_move_rando_off",
-                            "Progressive Vacuum Tube:4, Scout Clothes, Grinch Copter, Max, Sneak",
+                            "Progressive Vacuum Tube:4, Scout Clothes, Grinch Copter, Seize, Max, Sneak",
                             "Progressive Vacuum Tube:4, Scout Clothes, Seize, Max, Sneak, Octopus Climbing Device, Rocket Spring",
                             "Progressive Vacuum Tube:4, Scout Clothes, Grinch Copter, opt_move_rando_off",
                             "Progressive Vacuum Tube:4, Scout Clothes, Octopus Climbing Device, Rocket Spring, opt_move_rando_off",
-                            "Progressive Vacuum Tube:4, Scout Clothes, opt_gadget_rando_off, Max, Sneak",
+                            "Progressive Vacuum Tube:4, Scout Clothes, opt_gadget_rando_off, Seize, Max, Sneak",
                             "Progressive Vacuum Tube:4, Scout Clothes, opt_gadget_rando_off, opt_move_rando_off"
                         ],
                         "visibility_rules": [
@@ -5444,15 +5748,17 @@
                         "access_rules": [
                             "Whoville Vacuum Tube, Who Forest Vacuum Tube, Who Dump Vacuum Tube, Who Lake Vacuum Tube, Scout Clothes, Max, Seize, Rocket Spring, Cable Car Access Card, Marine Mobile, Bad Breath, Sneak, Pancake, Slime Shooter, Rotten Egg Launcher, Octopus Climbing Device",
                             "Whoville Vacuum Tube, Who Forest Vacuum Tube, Who Dump Vacuum Tube, Who Lake Vacuum Tube, Scout Clothes, Max, Seize, Rocket Spring, Cable Car Access Card, Marine Mobile, Bad Breath, Sneak, Pancake, Rotten Egg Launcher, Grinch Copter",
+                            "Whoville Vacuum Tube, Who Forest Vacuum Tube, Who Dump Vacuum Tube, Who Lake Vacuum Tube, Scout Clothes, Max, Seize, Rocket Spring, Cable Car Access Card, Marine Mobile, Bad Breath, Pancake, Slime Shooter, Rotten Egg Launcher, Grinch Copter",
                             "Whoville Vacuum Tube, Who Forest Vacuum Tube, Who Dump Vacuum Tube, Who Lake Vacuum Tube, Scout Clothes, Rocket Spring, Cable Car Access Card, Marine Mobile, Slime Shooter, Rotten Egg Launcher, Octopus Climbing Device, opt_move_rando_off",
                             "Whoville Vacuum Tube, Who Forest Vacuum Tube, Who Dump Vacuum Tube, Who Lake Vacuum Tube, Scout Clothes, Rocket Spring, Cable Car Access Card, Marine Mobile, Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
-                            "Whoville Vacuum Tube, Who Forest Vacuum Tube, Who Dump Vacuum Tube, Who Lake Vacuum Tube, Scout Clothes, Max, Seize, Cable Car Access Card, Bad Breath, Sneak, Pancake, opt_gadget_rando_off",
+                            "Whoville Vacuum Tube, Who Forest Vacuum Tube, Who Dump Vacuum Tube, Who Lake Vacuum Tube, Scout Clothes, Max, Seize, Cable Car Access Card, Bad Breath, Pancake, opt_gadget_rando_off",
                             "Whoville Vacuum Tube, Who Forest Vacuum Tube, Who Dump Vacuum Tube, Who Lake Vacuum Tube, Scout Clothes, Cable Car Access Card, opt_move_rando_off, opt_gadget_rando_off",
                             "Progressive Vacuum Tube:4, Scout Clothes, Max, Seize, Rocket Spring, Cable Car Access Card, Marine Mobile, Bad Breath, Sneak, Pancake, Slime Shooter, Rotten Egg Launcher, Octopus Climbing Device",
                             "Progressive Vacuum Tube:4, Scout Clothes, Max, Seize, Rocket Spring, Cable Car Access Card, Marine Mobile, Bad Breath, Sneak, Pancake, Rotten Egg Launcher, Grinch Copter",
+                            "Progressive Vacuum Tube:4, Scout Clothes, Max, Seize, Rocket Spring, Cable Car Access Card, Marine Mobile, Bad Breath, Pancake, Slime Shooter, Rotten Egg Launcher, Grinch Copter",
                             "Progressive Vacuum Tube:4, Scout Clothes, Rocket Spring, Cable Car Access Card, Marine Mobile, Slime Shooter, Rotten Egg Launcher, Octopus Climbing Device, opt_move_rando_off",
                             "Progressive Vacuum Tube:4, Scout Clothes, Rocket Spring, Cable Car Access Card, Marine Mobile, Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
-                            "Progressive Vacuum Tube:4, Scout Clothes, Max, Seize, Cable Car Access Card, Bad Breath, Sneak, Pancake, opt_gadget_rando_off",
+                            "Progressive Vacuum Tube:4, Scout Clothes, Max, Seize, Cable Car Access Card, Bad Breath, Pancake, opt_gadget_rando_off",
                             "Progressive Vacuum Tube:4, Scout Clothes, Cable Car Access Card, opt_move_rando_off, opt_gadget_rando_off"
                         ],
                         "visibility_rules": [
@@ -5460,7 +5766,7 @@
                         ]
                     },
                     {
-                        "name": "MC - Collect all Binoculars Blueprints",
+                        "name": "WV - Collect all Binoculars Blueprints",
                         "item_count": 1,
                         "access_rules": [
                             "Whoville Vacuum Tube, Rotten Egg Launcher, Seize",
@@ -5483,6 +5789,10 @@
                     {
                         "name": "MC - Sleigh Ride - Neutralizing Santa",
                         "ref": "Sleigh Room/Sleigh Ride/MC - Sleigh Ride - Neutralizing Santa"
+                    },
+                    {
+                        "name": "MC - Sleigh Ride - Save Christmas",
+                        "ref": "Sleigh Room/Sleigh Ride/MC - Sleigh Ride - Save Christmas"
                     }
                 ],
                 "map_locations": [

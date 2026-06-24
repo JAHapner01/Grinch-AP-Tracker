@@ -114,7 +114,7 @@ function get_slot_options(slot_data)
     -- Goal / victory condition
     set_progressive_option("opt_goal", first_slot_value(slot_data, { "goal", "opt_goal" }), 5)
     set_consumable_option("opt_mission_goal_count", first_slot_value(slot_data, { "mission_goal_count", "opt_mission_goal_count" }))
-    set_progressive_option("opt_include_gift_squashing", first_slot_value(slot_data, { "include_gift_squashing", "opt_include_gift_squashing" }), 1)
+    set_progressive_option("opt_include_gift_squashing", first_slot_value(slot_data, { "include_gift_squashing", "opt_include_gift_squashing", "include_gift_squash", "opt_include_gift_squash" }), 1)
 
     -- Item pool
     set_progressive_option("opt_starting_area", first_slot_value(slot_data, { "starting_area", "opt_starting_area" }), 3)
@@ -128,10 +128,24 @@ function get_slot_options(slot_data)
 
     -- Location / logic settings
     set_progressive_option("opt_missionsanity", first_slot_value(slot_data, { "mission_locations", "missionsanity", "opt_missionsanity" }), 3)
+    set_progressive_option("opt_randomize_mission_items", first_slot_value(slot_data, { "randomize_mission_items", "opt_randomize_mission_items" }), 1)
+    set_progressive_option("opt_randomize_sleigh_parts", first_slot_value(slot_data, { "randomize_sleigh_parts", "opt_randomize_sleigh_parts" }), 1)
     set_exclude_environments(first_slot_value(slot_data, { "exclude_environments", "opt_exclude_environments" }))
     set_progressive_option("opt_giftsanity", first_slot_value(slot_data, { "giftsanity", "opt_giftsanity" }), 1)
     set_progressive_option("opt_supadow", first_slot_value(slot_data, { "supadow_minigames", "supadow", "opt_supadow" }), 1)
     set_progressive_option("opt_killsanity", first_slot_value(slot_data, { "killsanity", "opt_killsanity" }), 1)
     set_progressive_option("opt_misc_locations", first_slot_value(slot_data, { "miscellaneous_locations", "misc_locations", "opt_misc_locations", "misc_checks", "opt_misc_checks" }), 1)
     set_progressive_option("opt_advanced_logic", first_slot_value(slot_data, { "advanced_logic", "opt_advanced_logic" }), 1)
+end
+
+-- Detects old vs new apworld by checking for location IDs removed in v1.5.7.
+-- Called after get_ap_locations() in onClear.
+function detect_legacy_locations(ap_locations)
+    if ap_locations[43778] then -- 43778-43781 were removed in v1.5.7
+        -- ID exists -> old apworld -> show legacy locations
+        set_progressive_option("opt_legacy_locations", 1, 1)
+    else
+        -- ID absent -> new apworld -> hide legacy locations
+        set_progressive_option("opt_legacy_locations", 0, 1)
+    end
 end

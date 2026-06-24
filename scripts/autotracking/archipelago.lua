@@ -73,6 +73,7 @@ function onClear(slot_data)
     IS_CONNECTED = TRUE
     get_slot_options(slot_data)
     local ap_locations = get_ap_locations()
+    detect_legacy_locations(ap_locations)
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
     if Archipelago.PlayerNumber > -1 then
