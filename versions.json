@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "0.0.3",
+			"download_url": "https://github.com/JAHapner01/Grinch-AP-Tracker/archive/refs/tags/0.0.3.zip",
+			"sha256": "F19E319B4C1923110C0410F5A4F0142FAD1EE1419918F9F3BB2031F06DB467C0",
+			"changelog": ["Updated locations/logic, diamonds for pseudo-locations, preemptive support for new options"]
+		},
+		{
 			"package_version": "0.0.2",
 			"download_url": "https://github.com/JAHapner01/Grinch-AP-Tracker/archive/refs/tags/0.0.2.zip",
 			"sha256": "DF73E97DF5727EEFB8CA8BB793070DF026F19DB74F7647C0A17D34401A581E32",
