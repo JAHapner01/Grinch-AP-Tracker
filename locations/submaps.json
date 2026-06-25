@@ -1351,7 +1351,8 @@
                     {
                         "map": "whoville",
                         "x": 1071,
-                        "y": 2883
+                        "y": 2883,
+                        "shape": "diamond"
                     }
                 ],
                 "children": [
@@ -1635,7 +1636,8 @@
                     {
                         "map": "whoville",
                         "x": 1019,
-                        "y": 461
+                        "y": 461,
+                        "shape": "diamond"
                     }
                 ],
                 "children": [
@@ -1781,7 +1783,8 @@
                     {
                         "map": "whoville",
                         "x": 2639,
-                        "y": 1141
+                        "y": 1141,
+                        "shape": "diamond"
                     }
                 ],
                 "children": [
@@ -2881,7 +2884,8 @@
                     {
                         "map": "who_forest",
                         "x": 326,
-                        "y": 331
+                        "y": 331,
+                        "shape": "diamond"
                     }
                 ],
                 "children": [
@@ -2990,7 +2994,8 @@
                     {
                         "map": "who_forest",
                         "x": 494,
-                        "y": 118
+                        "y": 118,
+                        "shape": "diamond"
                     }
                 ],
                 "children": [
@@ -4965,7 +4970,8 @@
                     {
                         "map": "who_dump",
                         "x": 927,
-                        "y": 144
+                        "y": 144,
+                        "shape": "diamond"
                     }
                 ],
                 "children": [
@@ -5089,7 +5095,8 @@
                     {
                         "map": "who_dump",
                         "x": 63,
-                        "y": 1465
+                        "y": 1465,
+                        "shape": "diamond"
                     }
                 ],
                 "children": [
@@ -5171,7 +5178,8 @@
                             {
                                 "map": "who_dump_power_plant",
                                 "x": 1165,
-                                "y": 298
+                                "y": 298,
+                                "shape": "diamond"
                             }
                         ],
                         "children": [
@@ -6358,7 +6366,8 @@
                     {
                         "map": "who_lake_south_shore",
                         "x": 1386,
-                        "y": 1716
+                        "y": 1716,
+                        "shape": "diamond"
                     }
                 ],
                 "children": [
@@ -6621,7 +6630,8 @@
                     {
                         "map": "who_lake_south_shore",
                         "x": 245,
-                        "y": 198
+                        "y": 198,
+                        "shape": "diamond"
                     }
                 ],
                 "children": [
@@ -7205,7 +7215,8 @@
                     {
                         "map": "who_lake_north_shore",
                         "x": 1590,
-                        "y": 429
+                        "y": 429,
+                        "shape": "diamond"
                     }
                 ],
                 "children": [
