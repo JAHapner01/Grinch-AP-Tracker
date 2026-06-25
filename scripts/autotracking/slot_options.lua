@@ -128,8 +128,10 @@ function get_slot_options(slot_data)
 
     -- Location / logic settings
     set_progressive_option("opt_missionsanity", first_slot_value(slot_data, { "mission_locations", "missionsanity", "opt_missionsanity" }), 3)
-    set_progressive_option("opt_randomize_mission_items", first_slot_value(slot_data, { "randomize_mission_items", "opt_randomize_mission_items" }), 1)
-    set_progressive_option("opt_randomize_sleigh_parts", first_slot_value(slot_data, { "randomize_sleigh_parts", "opt_randomize_sleigh_parts" }), 1)
+    local rmi = first_slot_value(slot_data, { "randomize_mission_items", "opt_randomize_mission_items" })
+    if rmi ~= nil then set_progressive_option("opt_randomize_mission_items", 1 - math.floor(tonumber(rmi) or 0), 1) end
+    local rsp = first_slot_value(slot_data, { "randomize_sleigh_parts", "opt_randomize_sleigh_parts" })
+    if rsp ~= nil then set_progressive_option("opt_randomize_sleigh_parts", 1 - math.floor(tonumber(rsp) or 0), 1) end
     set_exclude_environments(first_slot_value(slot_data, { "exclude_environments", "opt_exclude_environments" }))
     set_progressive_option("opt_giftsanity", first_slot_value(slot_data, { "giftsanity", "opt_giftsanity" }), 1)
     set_progressive_option("opt_supadow", first_slot_value(slot_data, { "supadow_minigames", "supadow", "opt_supadow" }), 1)

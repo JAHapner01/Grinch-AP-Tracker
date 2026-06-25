@@ -158,15 +158,15 @@
         "allow_disabled": false,
         "stages": [
             {
+                "name": "Randomize Mission Specific Items enabled",
+                "img": "images/items/painting_bucket.png",
+                "codes": "opt_randomize_mission_items,opt_randomize_mission_items_on"
+            },
+            {
                 "name": "Randomize Mission Specific Items disabled",
                 "img": "images/items/painting_bucket.png",
                 "img_mods": "@disabled",
-                "codes": "opt_randomize_mission_items,opt_randomize_mission_items_off"
-            },
-            {
-                "name": "Randomize Mission Specific Items enabled",
-                "img": "images/items/painting_bucket.png",
-                "codes": "opt_randomize_mission_items,opt_randomize_mission_items_on",
+                "codes": "opt_randomize_mission_items,opt_randomize_mission_items_off",
                 "inherit_codes": false
             }
         ]
@@ -178,15 +178,15 @@
         "allow_disabled": false,
         "stages": [
             {
+                "name": "Randomize Sleigh Parts enabled",
+                "img": "images/items/skis.png",
+                "codes": "opt_randomize_sleigh_parts,opt_randomize_sleigh_parts_on"
+            },
+            {
                 "name": "Randomize Sleigh Parts disabled",
                 "img": "images/items/skis.png",
                 "img_mods": "@disabled",
-                "codes": "opt_randomize_sleigh_parts,opt_randomize_sleigh_parts_off"
-            },
-            {
-                "name": "Randomize Sleigh Parts enabled",
-                "img": "images/items/skis.png",
-                "codes": "opt_randomize_sleigh_parts,opt_randomize_sleigh_parts_on",
+                "codes": "opt_randomize_sleigh_parts,opt_randomize_sleigh_parts_off",
                 "inherit_codes": false
             }
         ]
