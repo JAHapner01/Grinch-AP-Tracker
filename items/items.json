@@ -36,6 +36,12 @@
         "codes": "Grinch Copter"
     },
     {
+        "name": "Binoculars",
+        "type": "toggle",
+        "img": "images/items/binoculars.png",
+        "codes": "Binoculars"
+    },
+    {
         "name": "Who Cloak",
         "type": "toggle",
         "img": "images/items/icons/who_cloak.png",
@@ -156,6 +162,38 @@
         "initial_quantity": "0",
         "img": "images/items/whoville_vacuum_tube.png",
         "codes": "Progressive Vacuum Tube"
+    },
+    {
+        "name": "Spin N' Win Supadow",
+        "type": "toggle",
+        "img": "images/items/grinch_headshot.png",
+        "codes": "Spin N' Win Supadow"
+    },
+    {
+        "name": "Pankamania Supadow",
+        "type": "toggle",
+        "img": "images/items/pancake.png",
+        "codes": "Pankamania Supadow"
+    },
+    {
+        "name": "The Copter Race Contest Supadow",
+        "type": "toggle",
+        "img": "images/items/grinch_copter.png",
+        "codes": "The Copter Race Contest Supadow"
+    },
+    {
+        "name": "Bike Race Unlock",
+        "type": "toggle",
+        "img": "images/items/sleigh_room_key.png",
+        "codes": "Bike Race Unlock"
+    },
+    {
+        "name": "Progressive Supadow",
+        "type": "consumable",
+        "max_quantity": "4",
+        "initial_quantity": "0",
+        "img": "images/items/sleigh_room_key.png",
+        "codes": "Progressive Supadow"
     },
     {
         "name": "Sleigh Room Key",

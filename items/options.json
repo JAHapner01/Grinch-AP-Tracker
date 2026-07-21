@@ -481,13 +481,24 @@
                 "name": "Supadow disabled",
                 "img": "images/items/sleigh_room_key.png",
                 "img_mods": "@disabled",
-                "codes": "opt_supadow,opt_supadow_off"
+                "codes": ""
             },
             {
-                "name": "Supadow enabled",
+                "name": "Supadow Easy",
                 "img": "images/items/sleigh_room_key.png",
-                "codes": "opt_supadow,opt_supadow_on",
-                "inherit_codes": false
+                "codes": "opt_supadow,opt_supadow_easy"
+            },
+            {
+                "name": "Supadow Hard",
+                "img": "images/items/sleigh_room_key.png",
+                "codes": "opt_supadow,opt_supadow_hard",
+                "inherit_codes": true
+            },
+            {
+                "name": "Supadow Real Tough",
+                "img": "images/items/sleigh_room_key.png",
+                "codes": "opt_supadow,opt_supadow_real_tough",
+                "inherit_codes": true
             }
         ]
     },
@@ -658,7 +669,7 @@
         ]
     },
     {
-        "name": "Legacy Locations",
+        "name": "Mount Crumpit Door Locations",
         "type": "progressive",
         "loop": true,
         "allow_disabled": false,
@@ -672,7 +683,47 @@
             {
                 "name": "Old apworld - show legacy locations",
                 "img": "images/items/grinch_headshot.png",
-                "codes": "opt_legacy_locations",
+                "codes": "opt_mc_door_locations",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Mount Crumpit Crate Locations",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "New apworld - hide legacy locations",
+                "img": "images/items/grinch_headshot.png",
+                "img_mods": "@disabled",
+                "codes": ""
+            },
+            {
+                "name": "Old apworld - show legacy locations",
+                "img": "images/items/grinch_headshot.png",
+                "codes": "opt_mc_crate_locations",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Bike Race Locations",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Old apworld - hide new locations",
+                "img": "images/items/grinch_headshot.png",
+                "img_mods": "@disabled",
+                "codes": ""
+            },
+            {
+                "name": "New apworld - show new locations",
+                "img": "images/items/grinch_headshot.png",
+                "codes": "opt_bike_race_locations",
                 "inherit_codes": false
             }
         ]

@@ -242,6 +242,21 @@ LOCATION_MAPPING = {
     [43470] = {"@Speck of Dust/Who Forest/Ski Resort/WF - Ski Resort - Heart of Stone"},
     [43471] = {"@Speck of Dust/Who Dump/Minefield/WD - Minefield - Heart of Stone"},
     [43472] = {"@Speck of Dust/Who Lake/North Shore/WL - North Shore - Heart of Stone"},
+    
+    -- Supadow Locations
+    [43569] = {"@Speck of Dust/Mount Crumpit/Supadow/MC - Supadow - Spin N' Win - Easy"},
+    [43570] = {"@Speck of Dust/Mount Crumpit/Supadow/MC - Supadow - Spin N' Win - Hard"},
+    [43571] = {"@Speck of Dust/Mount Crumpit/Supadow/MC - Supadow - Spin N' Win - Real Tough"},
+    [43572] = {"@Speck of Dust/Mount Crumpit/Supadow/MC - Supadow - Pankamania - Easy - 12 Points"},
+    [43573] = {"@Speck of Dust/Mount Crumpit/Supadow/MC - Supadow - Pankamania - Hard - 12 Points"},
+    [43574] = {"@Speck of Dust/Mount Crumpit/Supadow/MC - Supadow - Pankamania - Real Tough - 12 Points"},
+    [43575] = {"@Speck of Dust/Mount Crumpit/Supadow/MC - Supadow - The Copter Race Contest - Easy"},
+    [43576] = {"@Speck of Dust/Mount Crumpit/Supadow/MC - Supadow - The Copter Race Contest - Hard"},
+    [43577] = {"@Speck of Dust/Mount Crumpit/Supadow/MC - Supadow - The Copter Race Contest - Real Tough"},
+    [43578] = {"@Speck of Dust/Mount Crumpit/Sleigh Room/MC - Supadow - Bike Race - 1st Place"},
+    [43579] = {"@Speck of Dust/Mount Crumpit/Sleigh Room/MC - Supadow - Bike Race - Top 2"},
+    [43580] = {"@Speck of Dust/Mount Crumpit/Sleigh Room/MC - Supadow - Bike Race - Top 3"},
+    [43581] = {"@Speck of Dust/Mount Crumpit/Sleigh Room/MC - Supadow - Bike Race - Top 4"},
 
     -- Sleigh Part Locations
     [43669] = {"@Speck of Dust/Whoville/WV - Exhaust Pipes"},

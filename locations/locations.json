@@ -14,7 +14,10 @@
                     {
                         "name": "Post Office",
                         "access_rules": [
-                            "Who Cloak"
+                            "Who Cloak",
+                            "false, opt_randomize_mission_items_off, Sneak",
+                            "false, opt_randomize_mission_items_off, Slime Shooter",
+                            "[opt_advanced_logic_on]"
                         ],
                         "visibility_rules": [
                             "opt_env_post_office_included"
@@ -185,7 +188,16 @@
                                     "Sculpting Tools, opt_move_rando_off",
                                     "Sculpting Tools, Slime Shooter, Bad Breath",
                                     "Sculpting Tools, Grinch Copter",
-                                    "Sculpting Tools, opt_gadget_rando_off"
+                                    "Sculpting Tools, opt_gadget_rando_off",
+                                    "false, opt_randomize_mission_items_off, Sneak, Seize, Pancake, Bad Breath",
+                                    "false, opt_randomize_mission_items_off, Slime Shooter, Seize, Pancake, Bad Breath",
+                                    "false, opt_randomize_mission_items_off, Grinch Copter, Seize, Pancake",
+                                    "false, opt_randomize_mission_items_off, opt_gadget_rando_off, Seize, Pancake",
+                                    "false, opt_randomize_mission_items_off, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Sculpting Tools, Sneak",
+                                    "[opt_advanced_logic_on], Sculpting Tools, Slime Shooter",
+                                    "false, opt_randomize_mission_items_off, [opt_advanced_logic_on], Sneak, Seize, Pancake",
+                                    "false, opt_randomize_mission_items_off, [opt_advanced_logic_on], Slime Shooter, Seize, Pancake"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_completion, opt_missionsanity_completion_only"
@@ -199,7 +211,16 @@
                                     "Sculpting Tools, opt_move_rando_off",
                                     "Sculpting Tools, Slime Shooter, Bad Breath",
                                     "Sculpting Tools, Grinch Copter",
-                                    "Sculpting Tools, opt_gadget_rando_off"
+                                    "Sculpting Tools, opt_gadget_rando_off",
+                                    "false, opt_randomize_mission_items_off, Sneak, Seize, Pancake, Bad Breath",
+                                    "false, opt_randomize_mission_items_off, Slime Shooter, Seize, Pancake, Bad Breath",
+                                    "false, opt_randomize_mission_items_off, Grinch Copter, Seize, Pancake",
+                                    "false, opt_randomize_mission_items_off, opt_gadget_rando_off, Seize, Pancake",
+                                    "false, opt_randomize_mission_items_off, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Sculpting Tools, Sneak",
+                                    "[opt_advanced_logic_on], Sculpting Tools, Slime Shooter",
+                                    "false, opt_randomize_mission_items_off, [opt_advanced_logic_on], Sneak, Seize, Pancake",
+                                    "false, opt_randomize_mission_items_off, [opt_advanced_logic_on], Slime Shooter, Seize, Pancake"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_completion"
@@ -270,7 +291,11 @@
                                     "opt_move_rando_off",
                                     "Slime Shooter, Bad Breath",
                                     "Bad Breath, opt_gadget_rando_off",
-                                    "Grinch Copter, Bad Breath"
+                                    "Grinch Copter, Bad Breath",
+                                    "[opt_advanced_logic_on], Sneak",
+                                    "[opt_advanced_logic_on], Slime Shooter",
+                                    "[opt_advanced_logic_on], Grinch Copter",
+                                    "[opt_advanced_logic_on], opt_gadget_rando_off"
                                 ],
                                 "visibility_rules": [
                                     ""
@@ -301,7 +326,8 @@
                             "opt_move_rando_off",
                             "Slime Shooter",
                             "opt_gadget_rando_off",
-                            "Who Cloak"
+                            "Who Cloak",
+                            "[opt_advanced_logic_on]"
                         ],
                         "visibility_rules": [
                             "opt_env_clock_tower_included"
@@ -345,7 +371,15 @@
                                     "Hammer, Rocket Spring, Seize, Max, Slime Shooter",
                                     "Hammer, Seize, Max, opt_gadget_rando_off",
                                     "Hammer, Rocket Spring, opt_move_rando_off",
-                                    "Hammer, opt_gadget_rando_off, opt_move_rando_off"
+                                    "Hammer, opt_gadget_rando_off, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Hammer, Rocket Spring, Seize",
+                                    "[opt_advanced_logic_on], Hammer, Seize, opt_gadget_rando_off",
+                                    "false, opt_randomize_mission_items_off, Rocket Spring, Seize, Max, Sneak",
+                                    "false, opt_randomize_mission_items_off, Rocket Spring, Seize, Max, Slime Shooter",
+                                    "false, opt_randomize_mission_items_off, Seize, Max, opt_gadget_rando_off",
+                                    "false, opt_randomize_mission_items_off, Rocket Spring, opt_move_rando_off",
+                                    "false, opt_randomize_mission_items_off, opt_gadget_rando_off, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], false, opt_randomize_mission_items_off, Rocket Spring, Seize, Max"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_completion, opt_missionsanity_completion_only"
@@ -359,7 +393,15 @@
                                     "Hammer, Rocket Spring, Seize, Max, Slime Shooter",
                                     "Hammer, Seize, Max, opt_gadget_rando_off",
                                     "Hammer, Rocket Spring, opt_move_rando_off",
-                                    "Hammer, opt_gadget_rando_off, opt_move_rando_off"
+                                    "Hammer, opt_gadget_rando_off, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Hammer, Rocket Spring, Seize",
+                                    "[opt_advanced_logic_on], Hammer, Seize, opt_gadget_rando_off",
+                                    "false, opt_randomize_mission_items_off, Rocket Spring, Seize, Max, Sneak",
+                                    "false, opt_randomize_mission_items_off, Rocket Spring, Seize, Max, Slime Shooter",
+                                    "false, opt_randomize_mission_items_off, Seize, Max, opt_gadget_rando_off",
+                                    "false, opt_randomize_mission_items_off, Rocket Spring, opt_move_rando_off",
+                                    "false, opt_randomize_mission_items_off, opt_gadget_rando_off, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], false, opt_randomize_mission_items_off, Rocket Spring, Seize, Max"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_completion"
@@ -375,7 +417,8 @@
                                     "Rocket Spring, Max, Seize, Slime Shooter",
                                     "Max, Seize, opt_gadget_rando_off",
                                     "Rocket Spring, opt_move_rando_off",
-                                    "opt_gadget_rando_off, opt_move_rando_off"
+                                    "opt_gadget_rando_off, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Rocket Spring, Max, Seize"
                                 ],
                                 "visibility_rules": [
                                     ""
@@ -391,7 +434,9 @@
                                     "Rocket Spring, Max, Seize, Slime Shooter",
                                     "Max, Seize, opt_gadget_rando_off",
                                     "Rocket Spring, opt_move_rando_off",
-                                    "opt_gadget_rando_off, opt_move_rando_off"
+                                    "opt_gadget_rando_off, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Rocket Spring, Seize",
+                                    "[opt_advanced_logic_on], Seize, opt_gadget_rando_off"
                                 ],
                                 "visibility_rules": [
                                     ""
@@ -407,7 +452,8 @@
                                     "Rocket Spring, Max, Seize, Slime Shooter",
                                     "Max, Seize, opt_gadget_rando_off",
                                     "Rocket Spring, opt_move_rando_off",
-                                    "opt_gadget_rando_off, opt_move_rando_off"
+                                    "opt_gadget_rando_off, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Rocket Spring, Max, Seize"
                                 ],
                                 "visibility_rules": [
                                     "opt_randomize_mission_items_off"
@@ -420,7 +466,8 @@
                                     "Rocket Spring, Sneak",
                                     "Rocket Spring, Slime Shooter",
                                     "Rocket Spring, opt_move_rando_off",
-                                    "opt_gadget_rando_off"
+                                    "opt_gadget_rando_off",
+                                    "[opt_advanced_logic_on], Rocket Spring"
                                 ],
                                 "visibility_rules": [
                                     "opt_misc_locations_on"
@@ -433,7 +480,8 @@
                                     "Rocket Spring, Sneak",
                                     "Rocket Spring, Slime Shooter",
                                     "Rocket Spring, opt_move_rando_off",
-                                    "opt_gadget_rando_off"
+                                    "opt_gadget_rando_off",
+                                    "[opt_advanced_logic_on], Rocket Spring"
                                 ],
                                 "visibility_rules": [
                                     "opt_misc_locations_on"
@@ -447,7 +495,8 @@
                                     "Rocket Spring, Seize, Slime Shooter",
                                     "Seize, opt_gadget_rando_off",
                                     "Rocket Spring, opt_move_rando_off",
-                                    "opt_gadget_rando_off, opt_move_rando_off"
+                                    "opt_gadget_rando_off, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Rocket Spring, Seize"
                                 ],
                                 "visibility_rules": [
                                     "opt_misc_locations_on"
@@ -461,7 +510,8 @@
                                     "Rocket Spring, Seize, Slime Shooter",
                                     "Seize, opt_gadget_rando_off",
                                     "Rocket Spring, opt_move_rando_off",
-                                    "opt_gadget_rando_off, opt_move_rando_off"
+                                    "opt_gadget_rando_off, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Rocket Spring, Seize"
                                 ],
                                 "visibility_rules": [
                                     "opt_misc_locations_on"
@@ -475,7 +525,9 @@
                                     "Rocket Spring, Seize, Max, Slime Shooter",
                                     "Seize, Max, opt_gadget_rando_off",
                                     "Rocket Spring, opt_move_rando_off",
-                                    "opt_gadget_rando_off, opt_move_rando_off"
+                                    "opt_gadget_rando_off, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Rocket Spring, Seize",
+                                    "[opt_advanced_logic_on], Seize, opt_gadget_rando_off"
                                 ],
                                 "visibility_rules": [
                                     "opt_misc_locations_on"
@@ -489,7 +541,9 @@
                                     "Rocket Spring, Seize, Max, Slime Shooter",
                                     "Seize, Max, opt_gadget_rando_off",
                                     "Rocket Spring, opt_move_rando_off",
-                                    "opt_gadget_rando_off, opt_move_rando_off"
+                                    "opt_gadget_rando_off, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Rocket Spring, Seize",
+                                    "[opt_advanced_logic_on], Seize, opt_gadget_rando_off"
                                 ],
                                 "visibility_rules": [
                                     "opt_misc_locations_on"
@@ -503,7 +557,9 @@
                                     "Rocket Spring, Seize, Max, Slime Shooter",
                                     "Seize, Max, opt_gadget_rando_off",
                                     "Rocket Spring, opt_move_rando_off",
-                                    "opt_gadget_rando_off, opt_move_rando_off"
+                                    "opt_gadget_rando_off, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Rocket Spring, Seize",
+                                    "[opt_advanced_logic_on], Seize, opt_gadget_rando_off"
                                 ],
                                 "visibility_rules": [
                                     "opt_misc_locations_on"
@@ -517,7 +573,9 @@
                                     "Rocket Spring, Seize, Max, Slime Shooter",
                                     "Seize, Max, opt_gadget_rando_off",
                                     "Rocket Spring, opt_move_rando_off",
-                                    "opt_gadget_rando_off, opt_move_rando_off"
+                                    "opt_gadget_rando_off, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Rocket Spring, Seize",
+                                    "[opt_advanced_logic_on], Seize, opt_gadget_rando_off"
                                 ],
                                 "visibility_rules": [
                                     "opt_misc_locations_on"
@@ -531,7 +589,9 @@
                                     "Rocket Spring, Seize, Max, Slime Shooter",
                                     "Seize, Max, opt_gadget_rando_off",
                                     "Rocket Spring, opt_move_rando_off",
-                                    "opt_gadget_rando_off, opt_move_rando_off"
+                                    "opt_gadget_rando_off, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Rocket Spring, Seize",
+                                    "[opt_advanced_logic_on], Seize, opt_gadget_rando_off"
                                 ],
                                 "visibility_rules": [
                                     "opt_misc_locations_on"
@@ -601,7 +661,9 @@
                         "chest_opened_img": "images/locations/poster_inactive.png",
                         "item_count": 1,
                         "access_rules": [
-                            "Painting Bucket"
+                            "Painting Bucket",
+                            "false, opt_randomize_mission_items_off, Pancake",
+                            "false, opt_randomize_mission_items_off, opt_move_rando_off"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_completion, opt_missionsanity_completion_only"
@@ -613,7 +675,9 @@
                         "chest_opened_img": "images/locations/poster_inactive.png",
                         "item_count": 1,
                         "access_rules": [
-                            "Painting Bucket"
+                            "Painting Bucket",
+                            "false, opt_randomize_mission_items_off, Pancake",
+                            "false, opt_randomize_mission_items_off, opt_move_rando_off"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_completion"
@@ -656,7 +720,11 @@
                             "Grinch Copter, Slime Shooter, Rotten Egg Launcher, Who Cloak, Rocket Spring, Pancake, Max, Seize",
                             "Who Cloak, Pancake, Max, Seize, opt_gadget_rando_off",
                             "Grinch Copter, Slime Shooter, Rotten Egg Launcher, Who Cloak, Rocket Spring, opt_move_rando_off",
-                            "Who Cloak, opt_gadget_rando_off, opt_move_rando_off"
+                            "Who Cloak, opt_gadget_rando_off, opt_move_rando_off",
+                            "false, opt_randomize_mission_items_off, Grinch Copter, Slime Shooter, Rotten Egg Launcher, Rocket Spring, Pancake, Max, Seize",
+                            "false, opt_randomize_mission_items_off, Pancake, Max, Seize, opt_gadget_rando_off",
+                            "false, opt_randomize_mission_items_off, Grinch Copter, Slime Shooter, Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
+                            "false, opt_randomize_mission_items_off, opt_gadget_rando_off, opt_move_rando_off"
                         ],
                         "visibility_rules": [
                             "opt_giftsanity_on, opt_missionsanity_completion, opt_exclude_gc_off"
@@ -998,7 +1066,8 @@
                         "chest_opened_img": "images/locations/poster_inactive.png",
                         "item_count": 1,
                         "access_rules": [
-                            "Painting Bucket"
+                            "Painting Bucket",
+                            "[opt_advanced_logic_on], Pancake"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_individual"
@@ -1010,7 +1079,8 @@
                         "chest_opened_img": "images/locations/poster_inactive.png",
                         "item_count": 1,
                         "access_rules": [
-                            "Painting Bucket"
+                            "Painting Bucket",
+                            "[opt_advanced_logic_on], Pancake"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_individual"
@@ -1022,7 +1092,8 @@
                         "chest_opened_img": "images/locations/poster_inactive.png",
                         "item_count": 1,
                         "access_rules": [
-                            "Painting Bucket"
+                            "Painting Bucket",
+                            "[opt_advanced_logic_on], Pancake"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_individual"
@@ -1034,7 +1105,8 @@
                         "chest_opened_img": "images/locations/poster_inactive.png",
                         "item_count": 1,
                         "access_rules": [
-                            "Painting Bucket"
+                            "Painting Bucket",
+                            "[opt_advanced_logic_on], Pancake"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_individual"
@@ -1046,7 +1118,8 @@
                         "chest_opened_img": "images/locations/poster_inactive.png",
                         "item_count": 1,
                         "access_rules": [
-                            "Painting Bucket"
+                            "Painting Bucket",
+                            "[opt_advanced_logic_on], Pancake"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_individual"
@@ -1058,7 +1131,8 @@
                         "chest_opened_img": "images/locations/poster_inactive.png",
                         "item_count": 1,
                         "access_rules": [
-                            "Painting Bucket"
+                            "Painting Bucket",
+                            "[opt_advanced_logic_on], Pancake"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_individual"
@@ -1070,7 +1144,8 @@
                         "chest_opened_img": "images/locations/poster_inactive.png",
                         "item_count": 1,
                         "access_rules": [
-                            "Painting Bucket"
+                            "Painting Bucket",
+                            "[opt_advanced_logic_on], Pancake"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_individual"
@@ -1082,7 +1157,8 @@
                         "chest_opened_img": "images/locations/poster_inactive.png",
                         "item_count": 1,
                         "access_rules": [
-                            "Painting Bucket"
+                            "Painting Bucket",
+                            "[opt_advanced_logic_on], Pancake"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_individual"
@@ -1094,7 +1170,8 @@
                         "chest_opened_img": "images/locations/poster_inactive.png",
                         "item_count": 1,
                         "access_rules": [
-                            "Painting Bucket"
+                            "Painting Bucket",
+                            "[opt_advanced_logic_on], Pancake"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_individual"
@@ -1106,7 +1183,8 @@
                         "chest_opened_img": "images/locations/poster_inactive.png",
                         "item_count": 1,
                         "access_rules": [
-                            "Painting Bucket"
+                            "Painting Bucket",
+                            "[opt_advanced_logic_on], Pancake"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_individual"
@@ -1227,7 +1305,16 @@
                     {
                         "name": "Ski Resort",
                         "access_rules": [
-                            "Cable Car Access Card"
+                            "Cable Car Access Card",
+                            "false, opt_randomize_mission_items_off, Rotten Egg Launcher, Rocket Spring, Bad Breath, Slime Shooter",
+                            "false, opt_randomize_mission_items_off, Rotten Egg Launcher, Grinch Copter, Bad Breath, Slime Shooter",
+                            "false, opt_randomize_mission_items_off, opt_gadget_rando_off, Bad Breath",
+                            "false, opt_randomize_mission_items_off, opt_move_rando_off, Rotten Egg Launcher, Rocket Spring, Slime Shooter",
+                            "false, opt_randomize_mission_items_off, opt_move_rando_off, Rotten Egg Launcher, Grinch Copter, Slime Shooter",
+                            "false, opt_randomize_mission_items_off, opt_gadget_rando_off, opt_move_rando_off",
+                            "false, opt_randomize_mission_items_off, [opt_advanced_logic_on], Rotten Egg Launcher, Slime Shooter, Pancake",
+                            "false, opt_randomize_mission_items_off, [opt_advanced_logic_on], opt_gadget_rando_off, Pancake",
+                            "false, opt_randomize_mission_items_off, [opt_advanced_logic_on], opt_move_rando_off, Rotten Egg Launcher, Slime Shooter"
                         ],
                         "visibility_rules": [
                             "opt_env_ski_resort_included"
@@ -1279,7 +1366,8 @@
                                 "access_rules": [
                                     "Rotten Egg Launcher",
                                     "opt_gadget_rando_off",
-                                    "Grinch Copter"
+                                    "Grinch Copter",
+                                    "[opt_advanced_logic_on]"
                                 ],
                                 "visibility_rules": [
                                     ""
@@ -1296,7 +1384,9 @@
                                     "Pancake, Max, opt_gadget_rando_off",
                                     "Slime Shooter, opt_move_rando_off",
                                     "Grinch Copter, opt_move_rando_off",
-                                    "opt_gadget_rando_off, opt_move_rando_off"
+                                    "opt_gadget_rando_off, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Pancake, Max",
+                                    "[opt_advanced_logic_on], opt_move_rando_off"
                                 ],
                                 "visibility_rules": [
                                     ""
@@ -1388,7 +1478,10 @@
                                     "Octopus Climbing Device, Rocket Spring, Sneak",
                                     "Octopus Climbing Device, Rocket Spring, opt_move_rando_off",
                                     "Grinch Copter, Rotten Egg Launcher, Slime Shooter, Bad Breath",
-                                    "Bad Breath, opt_gadget_rando_off"
+                                    "Bad Breath, opt_gadget_rando_off",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher, Octopus Climbing Device, Pancake, Bad Breath",
+                                    "[opt_advanced_logic_on], Octopus Climbing Device, Pancake, Sneak",
+                                    "[opt_advanced_logic_on], Octopus Climbing Device, opt_move_rando_off"
                                 ],
                                 "visibility_rules": [
                                     ""
@@ -1411,7 +1504,12 @@
                                     "Slime Shooter, Octopus Climbing Device, Rocket Spring, Sneak",
                                     "Slime Shooter, Octopus Climbing Device, Rocket Spring, opt_move_rando_off",
                                     "Grinch Copter, Rotten Egg Launcher, Slime Shooter, Bad Breath",
-                                    "Bad Breath, opt_gadget_rando_off"
+                                    "Bad Breath, opt_gadget_rando_off",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher, Octopus Climbing Device, Pancake, Bad Breath",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher, Octopus Climbing Device, Pancake, Sneak",
+                                    "[opt_advanced_logic_on], Slime Shooter, Octopus Climbing Device, Pancake, Sneak",
+                                    "[opt_advanced_logic_on], opt_move_rando_off, Rotten Egg Launcher, Octopus Climbing Device",
+                                    "[opt_advanced_logic_on], opt_move_rando_off, Slime Shooter, Octopus Climbing Device"
                                 ],
                                 "visibility_rules": [
                                     ""
@@ -1447,9 +1545,10 @@
                                 "access_rules": [
                                     "Rotten Egg Launcher, Grinch Copter",
                                     "opt_gadget_rando_off",
-                                    "Rotten Egg Launcher, Octopus Climbing Device, Rocket Spring, Slime Shooter, Bad Breath",
                                     "Rotten Egg Launcher, Octopus Climbing Device, Rocket Spring, Sneak, Bad Breath",
-                                    "Rotten Egg Launcher, Octopus Climbing Device, Rocket Spring, opt_move_rando_off"
+                                    "Rotten Egg Launcher, Octopus Climbing Device, Rocket Spring, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher, Octopus Climbing Device, Pancake",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher, Octopus Climbing Device, opt_move_rando_off"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_individual"
@@ -1478,7 +1577,9 @@
                                 "access_rules": [
                                     "Rotten Egg Launcher, Grinch Copter",
                                     "opt_gadget_rando_off",
-                                    "Rotten Egg Launcher, Octopus Climbing Device, Rocket Spring"
+                                    "Rotten Egg Launcher, Octopus Climbing Device, Rocket Spring",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher, Octopus Climbing Device, Pancake",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher, Octopus Climbing Device, opt_move_rando_off"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_individual"
@@ -1495,7 +1596,9 @@
                                     "Rotten Egg Launcher, Grinch Copter, Sneak, Bad Breath",
                                     "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
                                     "Rotten Egg Launcher, Octopus Climbing Device, Sneak, Bad Breath",
-                                    "Rotten Egg Launcher, Octopus Climbing Device, opt_move_rando_off"
+                                    "Rotten Egg Launcher, Octopus Climbing Device, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher, Grinch Copter",
+                                    "[opt_advanced_logic_on], opt_gadget_rando_off"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_individual"
@@ -1512,7 +1615,9 @@
                                     "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
                                     "Rotten Egg Launcher, Octopus Climbing Device, Rocket Spring, Slime Shooter, Bad Breath, Max",
                                     "Rotten Egg Launcher, Octopus Climbing Device, Rocket Spring, Sneak, Bad Breath, Max",
-                                    "Rotten Egg Launcher, Octopus Climbing Device, Rocket Spring, opt_move_rando_off"
+                                    "Rotten Egg Launcher, Octopus Climbing Device, Rocket Spring, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher, Grinch Copter",
+                                    "[opt_advanced_logic_on], opt_gadget_rando_off"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_individual"
@@ -1606,7 +1711,10 @@
                         "access_rules": [
                             "Glue Bucket, Rocket Spring",
                             "Glue Bucket, opt_gadget_rando_off",
-                            "Glue Bucket, Grinch Copter"
+                            "Glue Bucket, Grinch Copter",
+                            "false, opt_randomize_mission_items_off, Rotten Egg Launcher, Rocket Spring",
+                            "false, opt_randomize_mission_items_off, Rotten Egg Launcher, Grinch Copter",
+                            "false, opt_randomize_mission_items_off, opt_gadget_rando_off"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_completion, opt_missionsanity_completion_only"
@@ -1618,7 +1726,10 @@
                         "access_rules": [
                             "Glue Bucket, Rocket Spring",
                             "Glue Bucket, opt_gadget_rando_off",
-                            "Glue Bucket, Grinch Copter"
+                            "Glue Bucket, Grinch Copter",
+                            "false, opt_randomize_mission_items_off, Rotten Egg Launcher, Rocket Spring",
+                            "false, opt_randomize_mission_items_off, Rotten Egg Launcher, Grinch Copter",
+                            "false, opt_randomize_mission_items_off, opt_gadget_rando_off"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_completion"
@@ -1669,7 +1780,11 @@
                             "Grinch Copter, Cable Car Access Card, Slime Shooter, Rotten Egg Launcher, Bad Breath, Pancake",
                             "Cable Car Access Card, Bad Breath, Pancake, opt_gadget_rando_off",
                             "Grinch Copter, Cable Car Access Card, Slime Shooter, Rotten Egg Launcher, opt_move_rando_off",
-                            "Cable Car Access Card, opt_gadget_rando_off, opt_move_rando_off"
+                            "Cable Car Access Card, opt_gadget_rando_off, opt_move_rando_off",
+                            "false, opt_randomize_mission_items_off, Grinch Copter, Slime Shooter, Rotten Egg Launcher, Bad Breath, Pancake",
+                            "false, opt_randomize_mission_items_off, Bad Breath, Pancake, opt_gadget_rando_off",
+                            "false, opt_randomize_mission_items_off, Grinch Copter, Slime Shooter, Rotten Egg Launcher, opt_move_rando_off",
+                            "false, opt_randomize_mission_items_off, opt_gadget_rando_off, opt_move_rando_off"
                         ],
                         "visibility_rules": [
                             "opt_giftsanity_on, opt_missionsanity_completion, opt_exclude_gc_off"
@@ -1780,7 +1895,9 @@
                             "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
                             "opt_gadget_rando_off, opt_move_rando_off",
                             "Rotten Egg Launcher, Grinch Copter, Bad Breath",
-                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off"
+                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher",
+                            "[opt_advanced_logic_on], opt_gadget_rando_off"
                         ],
                         "visibility_rules": [
                             ""
@@ -1797,7 +1914,9 @@
                             "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
                             "opt_gadget_rando_off, opt_move_rando_off",
                             "Rotten Egg Launcher, Grinch Copter, Bad Breath",
-                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off"
+                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher",
+                            "[opt_advanced_logic_on], opt_gadget_rando_off"
                         ],
                         "visibility_rules": [
                             ""
@@ -1814,7 +1933,9 @@
                             "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
                             "opt_gadget_rando_off, opt_move_rando_off",
                             "Rotten Egg Launcher, Grinch Copter, Bad Breath",
-                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off"
+                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher",
+                            "[opt_advanced_logic_on], opt_gadget_rando_off"
                         ],
                         "visibility_rules": [
                             ""
@@ -1831,7 +1952,9 @@
                             "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
                             "opt_gadget_rando_off, opt_move_rando_off",
                             "Rotten Egg Launcher, Grinch Copter, Bad Breath",
-                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off"
+                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher",
+                            "[opt_advanced_logic_on], opt_gadget_rando_off"
                         ],
                         "visibility_rules": [
                             ""
@@ -1848,7 +1971,9 @@
                             "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
                             "opt_gadget_rando_off, opt_move_rando_off",
                             "Rotten Egg Launcher, Grinch Copter, Bad Breath",
-                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off"
+                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher",
+                            "[opt_advanced_logic_on], opt_gadget_rando_off"
                         ],
                         "visibility_rules": [
                             ""
@@ -1865,7 +1990,9 @@
                             "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
                             "opt_gadget_rando_off, opt_move_rando_off",
                             "Rotten Egg Launcher, Grinch Copter, Bad Breath",
-                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off"
+                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher",
+                            "[opt_advanced_logic_on], opt_gadget_rando_off"
                         ],
                         "visibility_rules": [
                             ""
@@ -1882,7 +2009,9 @@
                             "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
                             "opt_gadget_rando_off, opt_move_rando_off",
                             "Rotten Egg Launcher, Grinch Copter, Bad Breath",
-                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off"
+                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher",
+                            "[opt_advanced_logic_on], opt_gadget_rando_off"
                         ],
                         "visibility_rules": [
                             ""
@@ -1899,7 +2028,9 @@
                             "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
                             "opt_gadget_rando_off, opt_move_rando_off",
                             "Rotten Egg Launcher, Grinch Copter, Bad Breath",
-                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off"
+                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher",
+                            "[opt_advanced_logic_on], opt_gadget_rando_off"
                         ],
                         "visibility_rules": [
                             ""
@@ -1916,7 +2047,9 @@
                             "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
                             "opt_gadget_rando_off, opt_move_rando_off",
                             "Rotten Egg Launcher, Grinch Copter, Bad Breath",
-                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off"
+                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher",
+                            "[opt_advanced_logic_on], opt_gadget_rando_off"
                         ],
                         "visibility_rules": [
                             ""
@@ -2038,7 +2171,9 @@
                         "item_count": 1,
                         "access_rules": [
                             "Bad Breath",
-                            "opt_move_rando_off"
+                            "opt_move_rando_off",
+                            "[opt_advanced_logic_on], Grinch Copter",
+                            "[opt_advanced_logic_on], opt_gadget_rando_off"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_individual"
@@ -2090,7 +2225,9 @@
                             "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
                             "opt_gadget_rando_off, opt_move_rando_off",
                             "Rotten Egg Launcher, Rocket Spring, Bad Breath",
-                            "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off"
+                            "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher, Grinch Copter",
+                            "[opt_advanced_logic_on], opt_gadget_rando_off"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_individual"
@@ -2105,7 +2242,9 @@
                             "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
                             "opt_gadget_rando_off, opt_move_rando_off",
                             "Rotten Egg Launcher, Rocket Spring, Bad Breath",
-                            "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off"
+                            "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher, Pancake, Bad Breath",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher, opt_move_rando_off"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_individual"
@@ -2117,7 +2256,8 @@
                         "access_rules": [
                             "Rotten Egg Launcher, Grinch Copter",
                             "opt_gadget_rando_off",
-                            "Rotten Egg Launcher, Rocket Spring"
+                            "Rotten Egg Launcher, Rocket Spring",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_individual"
@@ -2132,7 +2272,9 @@
                             "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
                             "opt_gadget_rando_off, opt_move_rando_off",
                             "Rotten Egg Launcher, Rocket Spring, Bad Breath",
-                            "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off"
+                            "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher, Grinch Copter",
+                            "[opt_advanced_logic_on], opt_gadget_rando_off"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_individual"
@@ -2145,7 +2287,9 @@
                             "Rotten Egg Launcher, Bad Breath",
                             "Bad Breath, opt_gadget_rando_off",
                             "Rotten Egg Launcher, opt_move_rando_off",
-                            "opt_gadget_rando_off, opt_move_rando_off"
+                            "opt_gadget_rando_off, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher, Grinch Copter",
+                            "[opt_advanced_logic_on], opt_gadget_rando_off"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_individual"
@@ -2160,7 +2304,11 @@
                             "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
                             "opt_gadget_rando_off, opt_move_rando_off",
                             "Rotten Egg Launcher, Rocket Spring, Bad Breath",
-                            "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off"
+                            "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher, Grinch Copter",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher, Bad Breath",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher, opt_move_rando_off",
+                            "[opt_advanced_logic_on], opt_gadget_rando_off"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_individual"
@@ -2175,7 +2323,9 @@
                             "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
                             "opt_gadget_rando_off, opt_move_rando_off",
                             "Rotten Egg Launcher, Rocket Spring, Bad Breath",
-                            "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off"
+                            "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher, Grinch Copter",
+                            "[opt_advanced_logic_on], opt_gadget_rando_off"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_individual"
@@ -2270,12 +2420,15 @@
                         "chest_opened_img": "images/locations/icons/cable_car_access_card_inactive.png",
                         "item_count": 1,
                         "access_rules": [
-                            "Rotten Egg Launcher, Rocket Spring, Bad Breath, Slime Shooter",
-                            "Rotten Egg Launcher, Grinch Copter, Bad Breath, Slime Shooter",
+                            "Rotten Egg Launcher, Rocket Spring, Bad Breath, Pancake, Slime Shooter",
+                            "Rotten Egg Launcher, Grinch Copter, Bad Breath, Pancake, Slime Shooter",
                             "opt_move_rando_off, Rotten Egg Launcher, Rocket Spring, Slime Shooter",
                             "opt_move_rando_off, Rotten Egg Launcher, Grinch Copter, Slime Shooter",
-                            "opt_gadget_rando_off, Bad Breath",
-                            "opt_move_rando_off, opt_gadget_rando_off"
+                            "opt_gadget_rando_off, Bad Breath, Pancake",
+                            "opt_move_rando_off, opt_gadget_rando_off",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher, Slime Shooter, Pancake",
+                            "[opt_advanced_logic_on], opt_gadget_rando_off, Pancake",
+                            "[opt_advanced_logic_on], opt_move_rando_off, Rotten Egg Launcher, Slime Shooter"
                         ],
                         "visibility_rules": [
                             "opt_randomize_mission_items_off"
@@ -2320,7 +2473,11 @@
                             "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
                             "opt_gadget_rando_off, opt_move_rando_off",
                             "Rotten Egg Launcher, Grinch Copter, Pancake",
-                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off"
+                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Slime Shooter, Rocket Spring, Pancake",
+                            "[opt_advanced_logic_on], Slime Shooter, Rocket Spring, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Slime Shooter, Grinch Copter, Pancake",
+                            "[opt_advanced_logic_on], Slime Shooter, Grinch Copter, opt_move_rando_off"
                         ],
                         "visibility_rules": [
                             "opt_env_minefield_included"
@@ -2351,7 +2508,25 @@
                                     "Grinch Copter, Scissors, opt_move_rando_off",
                                     "Scissors, opt_gadget_rando_off, opt_move_rando_off",
                                     "Rotten Egg Launcher, Slime Shooter, Rocket Spring, Sneak, Scissors",
-                                    "Rotten Egg Launcher, Slime Shooter, Rocket Spring, Scissors, opt_move_rando_off"
+                                    "Rotten Egg Launcher, Slime Shooter, Rocket Spring, Scissors, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher, Max, Rocket Spring, Sneak, Scissors",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher, Max, Pancake, Sneak, Scissors",
+                                    "[opt_advanced_logic_on], Slime Shooter, Rocket Spring, Sneak, Scissors",
+                                    "[opt_advanced_logic_on], Slime Shooter, Pancake, Sneak, Scissors",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher, Scissors, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Slime Shooter, Scissors, opt_move_rando_off",
+                                    "false, opt_randomize_mission_items_off, Grinch Copter, Sneak",
+                                    "false, opt_randomize_mission_items_off, Sneak, opt_gadget_rando_off",
+                                    "false, opt_randomize_mission_items_off, Grinch Copter, opt_move_rando_off",
+                                    "false, opt_randomize_mission_items_off, opt_gadget_rando_off, opt_move_rando_off",
+                                    "false, opt_randomize_mission_items_off, Rotten Egg Launcher, Slime Shooter, Rocket Spring, Sneak",
+                                    "false, opt_randomize_mission_items_off, Rotten Egg Launcher, Slime Shooter, Rocket Spring, opt_move_rando_off",
+                                    "false, opt_randomize_mission_items_off, [opt_advanced_logic_on], Rotten Egg Launcher, Max, Rocket Spring, Sneak",
+                                    "false, opt_randomize_mission_items_off, [opt_advanced_logic_on], Rotten Egg Launcher, Max, Pancake, Sneak",
+                                    "false, opt_randomize_mission_items_off, [opt_advanced_logic_on], Slime Shooter, Rocket Spring, Sneak",
+                                    "false, opt_randomize_mission_items_off, [opt_advanced_logic_on], Slime Shooter, Pancake, Sneak",
+                                    "false, opt_randomize_mission_items_off, [opt_advanced_logic_on], Rotten Egg Launcher, opt_move_rando_off",
+                                    "false, opt_randomize_mission_items_off, [opt_advanced_logic_on], Slime Shooter, opt_move_rando_off"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_completion, opt_missionsanity_completion_only"
@@ -2366,7 +2541,25 @@
                                     "Grinch Copter, Scissors, opt_move_rando_off",
                                     "Scissors, opt_gadget_rando_off, opt_move_rando_off",
                                     "Rotten Egg Launcher, Slime Shooter, Rocket Spring, Sneak, Scissors",
-                                    "Rotten Egg Launcher, Slime Shooter, Rocket Spring, Scissors, opt_move_rando_off"
+                                    "Rotten Egg Launcher, Slime Shooter, Rocket Spring, Scissors, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher, Max, Rocket Spring, Sneak, Scissors",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher, Max, Pancake, Sneak, Scissors",
+                                    "[opt_advanced_logic_on], Slime Shooter, Rocket Spring, Sneak, Scissors",
+                                    "[opt_advanced_logic_on], Slime Shooter, Pancake, Sneak, Scissors",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher, Scissors, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Slime Shooter, Scissors, opt_move_rando_off",
+                                    "false, opt_randomize_mission_items_off, Grinch Copter, Sneak",
+                                    "false, opt_randomize_mission_items_off, Sneak, opt_gadget_rando_off",
+                                    "false, opt_randomize_mission_items_off, Grinch Copter, opt_move_rando_off",
+                                    "false, opt_randomize_mission_items_off, opt_gadget_rando_off, opt_move_rando_off",
+                                    "false, opt_randomize_mission_items_off, Rotten Egg Launcher, Slime Shooter, Rocket Spring, Sneak",
+                                    "false, opt_randomize_mission_items_off, Rotten Egg Launcher, Slime Shooter, Rocket Spring, opt_move_rando_off",
+                                    "false, opt_randomize_mission_items_off, [opt_advanced_logic_on], Rotten Egg Launcher, Max, Rocket Spring, Sneak",
+                                    "false, opt_randomize_mission_items_off, [opt_advanced_logic_on], Rotten Egg Launcher, Max, Pancake, Sneak",
+                                    "false, opt_randomize_mission_items_off, [opt_advanced_logic_on], Slime Shooter, Rocket Spring, Sneak",
+                                    "false, opt_randomize_mission_items_off, [opt_advanced_logic_on], Slime Shooter, Pancake, Sneak",
+                                    "false, opt_randomize_mission_items_off, [opt_advanced_logic_on], Rotten Egg Launcher, opt_move_rando_off",
+                                    "false, opt_randomize_mission_items_off, [opt_advanced_logic_on], Slime Shooter, opt_move_rando_off"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_completion"
@@ -2380,7 +2573,13 @@
                                 "access_rules": [
                                     "Grinch Copter",
                                     "opt_gadget_rando_off",
-                                    "Rotten Egg Launcher, Slime Shooter, Rocket Spring"
+                                    "Rotten Egg Launcher, Slime Shooter, Rocket Spring",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher, Max, Rocket Spring",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher, Max, Pancake",
+                                    "[opt_advanced_logic_on], Slime Shooter, Rocket Spring",
+                                    "[opt_advanced_logic_on], Slime Shooter, Pancake",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Slime Shooter, opt_move_rando_off"
                                 ],
                                 "visibility_rules": [
                                     ""
@@ -2396,7 +2595,9 @@
                                     "opt_gadget_rando_off",
                                     "Rotten Egg Launcher, Slime Shooter, Rocket Spring",
                                     "Max",
-                                    "opt_move_rando_off"
+                                    "opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Slime Shooter, Rocket Spring",
+                                    "[opt_advanced_logic_on], Slime Shooter, Pancake"
                                 ],
                                 "visibility_rules": [
                                     ""
@@ -2410,7 +2611,13 @@
                                 "access_rules": [
                                     "Grinch Copter",
                                     "opt_gadget_rando_off",
-                                    "Rotten Egg Launcher, Slime Shooter, Rocket Spring"
+                                    "Rotten Egg Launcher, Slime Shooter, Rocket Spring",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher, Max, Rocket Spring",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher, Max, Pancake",
+                                    "[opt_advanced_logic_on], Slime Shooter, Rocket Spring",
+                                    "[opt_advanced_logic_on], Slime Shooter, Pancake",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Slime Shooter, opt_move_rando_off"
                                 ],
                                 "visibility_rules": [
                                     ""
@@ -2426,7 +2633,9 @@
                                     "opt_gadget_rando_off",
                                     "Rotten Egg Launcher, Slime Shooter, Rocket Spring",
                                     "Max",
-                                    "opt_move_rando_off"
+                                    "opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Slime Shooter, Rocket Spring",
+                                    "[opt_advanced_logic_on], Slime Shooter, Pancake"
                                 ],
                                 "visibility_rules": [
                                     ""
@@ -2440,7 +2649,13 @@
                                 "access_rules": [
                                     "Grinch Copter",
                                     "opt_gadget_rando_off",
-                                    "Rotten Egg Launcher, Slime Shooter, Rocket Spring"
+                                    "Rotten Egg Launcher, Slime Shooter, Rocket Spring",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher, Max, Rocket Spring",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher, Max, Pancake",
+                                    "[opt_advanced_logic_on], Slime Shooter, Rocket Spring",
+                                    "[opt_advanced_logic_on], Slime Shooter, Pancake",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Slime Shooter, opt_move_rando_off"
                                 ],
                                 "visibility_rules": [
                                     "opt_randomize_mission_items_off"
@@ -2522,7 +2737,8 @@
                                         "access_rules": [
                                             "Slime Shooter, Octopus Climbing Device, Rotten Egg Launcher",
                                             "opt_gadget_rando_off",
-                                            "Grinch Copter, Rotten Egg Launcher"
+                                            "Grinch Copter, Rotten Egg Launcher",
+                                            "[opt_advanced_logic_on], Rocket Spring, Rotten Egg Launcher"
                                         ],
                                         "visibility_rules": [
                                             "opt_missionsanity_individual"
@@ -2691,9 +2907,13 @@
                         "item_count": 1,
                         "access_rules": [
                             "Rocket Spring, Rotten Egg Launcher, Sleigh Room Key, Seize, Pancake",
+                            "Grinch Copter, Rocket Spring, Rotten Egg Launcher, Sleigh Room Key, Seize, Pancake",
                             "Sleigh Room Key, Seize, Pancake, opt_gadget_rando_off",
                             "Rocket Spring, Rotten Egg Launcher, Sleigh Room Key, opt_move_rando_off",
-                            "Sleigh Room Key, opt_gadget_rando_off, opt_move_rando_off"
+                            "Grinch Copter, Rocket Spring, Rotten Egg Launcher, Sleigh Room Key, opt_move_rando_off",
+                            "Sleigh Room Key, opt_gadget_rando_off, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Grinch Copter, Rotten Egg Launcher, Sleigh Room Key, Seize, Pancake",
+                            "[opt_advanced_logic_on], Grinch Copter, Rotten Egg Launcher, Sleigh Room Key, opt_move_rando_off"
                         ],
                         "visibility_rules": [
                             "opt_randomize_sleigh_parts_off"
@@ -2722,7 +2942,9 @@
                             "Rocket Spring, Rotten Egg Launcher, Pancake, Seize",
                             "Pancake, Seize, opt_gadget_rando_off",
                             "Rocket Spring, Rotten Egg Launcher, opt_move_rando_off",
-                            "opt_gadget_rando_off, opt_move_rando_off"
+                            "opt_gadget_rando_off, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Grinch Copter, Rotten Egg Launcher, Pancake, Seize",
+                            "[opt_advanced_logic_on], Grinch Copter, Rotten Egg Launcher, opt_move_rando_off"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_completion, opt_missionsanity_completion_only"
@@ -2735,7 +2957,9 @@
                             "Rocket Spring, Rotten Egg Launcher, Pancake, Seize",
                             "Pancake, Seize, opt_gadget_rando_off",
                             "Rocket Spring, Rotten Egg Launcher, opt_move_rando_off",
-                            "opt_gadget_rando_off, opt_move_rando_off"
+                            "opt_gadget_rando_off, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Grinch Copter, Rotten Egg Launcher, Pancake, Seize",
+                            "[opt_advanced_logic_on], Grinch Copter, Rotten Egg Launcher, opt_move_rando_off"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_completion"
@@ -2748,7 +2972,9 @@
                             "Rocket Spring, Rotten Egg Launcher, Pancake, Seize",
                             "Pancake, Seize, opt_gadget_rando_off",
                             "Rocket Spring, Rotten Egg Launcher, opt_move_rando_off",
-                            "opt_gadget_rando_off, opt_move_rando_off"
+                            "opt_gadget_rando_off, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Grinch Copter, Rotten Egg Launcher, Pancake, Seize",
+                            "[opt_advanced_logic_on], Grinch Copter, Rotten Egg Launcher, opt_move_rando_off"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_completion, opt_missionsanity_completion_only"
@@ -2761,7 +2987,9 @@
                             "Rocket Spring, Rotten Egg Launcher, Pancake, Seize",
                             "Pancake, Seize, opt_gadget_rando_off",
                             "Rocket Spring, Rotten Egg Launcher, opt_move_rando_off",
-                            "opt_gadget_rando_off, opt_move_rando_off"
+                            "opt_gadget_rando_off, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Grinch Copter, Rotten Egg Launcher, Pancake, Seize",
+                            "[opt_advanced_logic_on], Grinch Copter, Rotten Egg Launcher, opt_move_rando_off"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_completion"
@@ -2776,7 +3004,10 @@
                             "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
                             "opt_gadget_rando_off, opt_move_rando_off",
                             "Rotten Egg Launcher, Grinch Copter, Pancake, Max",
-                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off"
+                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher, Rocket Spring, Pancake",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher, Grinch Copter, Pancake",
+                            "[opt_advanced_logic_on], opt_gadget_rando_off, Pancake"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_completion, opt_missionsanity_completion_only"
@@ -2804,7 +3035,9 @@
                             "Rocket Spring, Rotten Egg Launcher, Pancake, Seize",
                             "Pancake, Seize, opt_gadget_rando_off",
                             "Rocket Spring, Rotten Egg Launcher, opt_move_rando_off",
-                            "opt_gadget_rando_off, opt_move_rando_off"
+                            "opt_gadget_rando_off, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Grinch Copter, Rotten Egg Launcher, Pancake, Seize",
+                            "[opt_advanced_logic_on], Grinch Copter, Rotten Egg Launcher, opt_move_rando_off"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_completion, opt_missionsanity_completion_only"
@@ -2817,7 +3050,9 @@
                             "Rocket Spring, Rotten Egg Launcher, Pancake, Seize",
                             "Pancake, Seize, opt_gadget_rando_off",
                             "Rocket Spring, Rotten Egg Launcher, opt_move_rando_off",
-                            "opt_gadget_rando_off, opt_move_rando_off"
+                            "opt_gadget_rando_off, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Grinch Copter, Rotten Egg Launcher, Pancake, Seize",
+                            "[opt_advanced_logic_on], Grinch Copter, Rotten Egg Launcher, opt_move_rando_off"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_completion"
@@ -2832,7 +3067,9 @@
                             "Grinch Copter, Rocket Spring, Slime Shooter, Rotten Egg Launcher, opt_move_rando_off",
                             "opt_gadget_rando_off, opt_move_rando_off",
                             "Octopus Climbing Device, Rocket Spring, Slime Shooter, Rotten Egg Launcher, Bad Breath, Pancake, Max",
-                            "Octopus Climbing Device, Rocket Spring, Slime Shooter, Rotten Egg Launcher, opt_move_rando_off"
+                            "Octopus Climbing Device, Rocket Spring, Slime Shooter, Rotten Egg Launcher, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Grinch Copter, Slime Shooter, Rotten Egg Launcher, Bad Breath, Pancake, Max",
+                            "[opt_advanced_logic_on], Grinch Copter, Slime Shooter, Rotten Egg Launcher, opt_move_rando_off"
                         ],
                         "visibility_rules": [
                             "opt_giftsanity_on, opt_missionsanity_completion, opt_exclude_gc_off"
@@ -2853,7 +3090,11 @@
                             "Slime Shooter, Rocket Spring, Pancake",
                             "Slime Shooter, Rocket Spring, opt_move_rando_off",
                             "Slime Shooter, Grinch Copter, Pancake",
-                            "Slime Shooter, Grinch Copter, opt_move_rando_off"
+                            "Slime Shooter, Grinch Copter, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher, Pancake",
+                            "[opt_advanced_logic_on], Slime Shooter, Pancake",
+                            "[opt_advanced_logic_on], opt_move_rando_off, Rotten Egg Launcher",
+                            "[opt_advanced_logic_on], opt_move_rando_off, Slime Shooter"
                         ],
                         "visibility_rules": [
                             ""
@@ -2929,7 +3170,9 @@
                             "Slime Shooter, Rocket Spring, Pancake",
                             "Slime Shooter, Rocket Spring, opt_move_rando_off",
                             "Slime Shooter, Grinch Copter, Pancake",
-                            "Slime Shooter, Grinch Copter, opt_move_rando_off"
+                            "Slime Shooter, Grinch Copter, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Max",
+                            "[opt_advanced_logic_on], opt_move_rando_off"
                         ],
                         "visibility_rules": [
                             ""
@@ -2944,7 +3187,9 @@
                             "Rotten Egg Launcher, Rocket Spring, Pancake, Seize",
                             "Pancake, Seize, opt_gadget_rando_off",
                             "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
-                            "opt_gadget_rando_off, opt_move_rando_off"
+                            "opt_gadget_rando_off, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Grinch Copter, Rotten Egg Launcher, Pancake, Seize",
+                            "[opt_advanced_logic_on], Grinch Copter, Rotten Egg Launcher, opt_move_rando_off"
                         ],
                         "visibility_rules": [
                             ""
@@ -3037,7 +3282,10 @@
                             "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
                             "opt_gadget_rando_off, opt_move_rando_off",
                             "Rotten Egg Launcher, Grinch Copter, Pancake",
-                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off"
+                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher, Max, Binoculars",
+                            "[opt_advanced_logic_on], opt_gadget_rando_off, Max",
+                            "[opt_advanced_logic_on], opt_move_rando_off, Rotten Egg Launcher, Binoculars"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_individual"
@@ -3052,7 +3300,10 @@
                             "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
                             "opt_gadget_rando_off, opt_move_rando_off",
                             "Rotten Egg Launcher, Grinch Copter, Pancake",
-                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off"
+                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher, Max",
+                            "[opt_advanced_logic_on], opt_gadget_rando_off, Max",
+                            "[opt_advanced_logic_on], opt_move_rando_off, Rotten Egg Launcher"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_individual"
@@ -3067,7 +3318,10 @@
                             "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
                             "opt_gadget_rando_off, opt_move_rando_off",
                             "Rotten Egg Launcher, Grinch Copter, Pancake",
-                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off"
+                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher, Max, Binoculars",
+                            "[opt_advanced_logic_on], opt_gadget_rando_off, Max",
+                            "[opt_advanced_logic_on], opt_move_rando_off, Rotten Egg Launcher, Binoculars"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_individual"
@@ -3132,7 +3386,9 @@
                         "access_rules": [
                             "Rotten Egg Launcher, Rocket Spring",
                             "opt_gadget_rando_off",
-                            "Slime Shooter, Rocket Spring"
+                            "Slime Shooter, Rocket Spring",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher",
+                            "[opt_advanced_logic_on], Slime Shooter"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_individual"
@@ -3167,10 +3423,10 @@
                             "opt_gadget_rando_off, opt_move_rando_off",
                             "Slime Shooter, Rocket Spring, Pancake",
                             "Slime Shooter, Rocket Spring, opt_move_rando_off",
-                            "Rotten Egg Launcher, Grinch Copter, Pancake",
-                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
-                            "Slime Shooter, Grinch Copter, Pancake",
-                            "Slime Shooter, Grinch Copter, opt_move_rando_off"
+                            "[opt_advanced_logic_on], Rotten Egg Launcher, Grinch Copter, Pancake",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Slime Shooter, Grinch Copter, Pancake",
+                            "[opt_advanced_logic_on], Slime Shooter, Grinch Copter, opt_move_rando_off"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_individual"
@@ -3185,7 +3441,10 @@
                             "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
                             "opt_gadget_rando_off, opt_move_rando_off",
                             "Rotten Egg Launcher, Grinch Copter, Pancake",
-                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off"
+                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher",
+                            "[opt_advanced_logic_on], Slime Shooter",
+                            "[opt_advanced_logic_on], opt_gadget_rando_off"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_individual"
@@ -3200,7 +3459,11 @@
                             "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
                             "opt_gadget_rando_off, opt_move_rando_off",
                             "Rotten Egg Launcher, Grinch Copter, Pancake, Seize",
-                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off"
+                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Slime Shooter, Rocket Spring, Pancake, Seize",
+                            "[opt_advanced_logic_on], Slime Shooter, Rocket Spring, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Slime Shooter, Grinch Copter, Pancake, Seize",
+                            "[opt_advanced_logic_on], Slime Shooter, Grinch Copter, opt_move_rando_off"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_individual"
@@ -3234,7 +3497,11 @@
                             "Rotten Egg Launcher, Grinch Copter, Pancake",
                             "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
                             "Slime Shooter, Grinch Copter, Pancake",
-                            "Slime Shooter, Grinch Copter, opt_move_rando_off"
+                            "Slime Shooter, Grinch Copter, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher, Pancake",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Slime Shooter, Pancake",
+                            "[opt_advanced_logic_on], Slime Shooter, opt_move_rando_off"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_individual"
@@ -3249,7 +3516,11 @@
                             "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
                             "opt_gadget_rando_off, opt_move_rando_off",
                             "Slime Shooter, Rocket Spring, Pancake",
-                            "Slime Shooter, Rocket Spring, opt_move_rando_off"
+                            "Slime Shooter, Rocket Spring, opt_move_rando_off",
+                            "Rotten Egg Launcher, Grinch Copter, Pancake",
+                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                            "Slime Shooter, Grinch Copter, Pancake",
+                            "Slime Shooter, Grinch Copter, opt_move_rando_off"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_individual"
@@ -3262,14 +3533,16 @@
                             "Rotten Egg Launcher, Rocket Spring, Pancake, Seize",
                             "Pancake, Seize, opt_gadget_rando_off",
                             "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
-                            "opt_gadget_rando_off, opt_move_rando_off"
+                            "opt_gadget_rando_off, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher, Grinch Copter, Pancake, Seize",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher, Grinch Copter, opt_move_rando_off"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_individual"
                         ]
                     },
                     {
-                        "name": "WD - Infesting The Mayor's House With Rats - Rat 1",
+                        "name": "WD - Infesting The Mayor's House With Rats - Rudolph the Rat",
                         "item_count": 1,
                         "access_rules": [
                             "Rotten Egg Launcher, Rocket Spring, Pancake, Max",
@@ -3277,14 +3550,17 @@
                             "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
                             "opt_gadget_rando_off, opt_move_rando_off",
                             "Rotten Egg Launcher, Grinch Copter, Pancake, Max",
-                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off"
+                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher, Rocket Spring, Pancake",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher, Grinch Copter, Pancake",
+                            "[opt_advanced_logic_on], opt_gadget_rando_off, Pancake"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_individual"
                         ]
                     },
                     {
-                        "name": "WD - Infesting The Mayor's House With Rats - Rat 2",
+                        "name": "WD - Infesting The Mayor's House With Rats - Dasher the Rat",
                         "item_count": 1,
                         "access_rules": [
                             "Rotten Egg Launcher, Rocket Spring, Pancake, Max",
@@ -3292,14 +3568,17 @@
                             "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
                             "opt_gadget_rando_off, opt_move_rando_off",
                             "Rotten Egg Launcher, Grinch Copter, Pancake, Max",
-                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off"
+                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher, Rocket Spring, Pancake",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher, Grinch Copter, Pancake",
+                            "[opt_advanced_logic_on], opt_gadget_rando_off, Pancake"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_individual"
                         ]
                     },
                     {
-                        "name": "WD - Infesting The Mayor's House With Rats - Rat 3",
+                        "name": "WD - Infesting The Mayor's House With Rats - Dancer the Rat",
                         "item_count": 1,
                         "access_rules": [
                             "Rotten Egg Launcher, Rocket Spring, Pancake, Max",
@@ -3307,14 +3586,17 @@
                             "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
                             "opt_gadget_rando_off, opt_move_rando_off",
                             "Rotten Egg Launcher, Grinch Copter, Pancake, Max",
-                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off"
+                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher, Rocket Spring, Pancake",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher, Grinch Copter, Pancake",
+                            "[opt_advanced_logic_on], opt_gadget_rando_off, Pancake"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_individual"
                         ]
                     },
                     {
-                        "name": "WD - Infesting The Mayor's House With Rats - Rat 4",
+                        "name": "WD - Infesting The Mayor's House With Rats - Prancer the Rat",
                         "item_count": 1,
                         "access_rules": [
                             "Rotten Egg Launcher, Rocket Spring, Pancake, Max",
@@ -3322,14 +3604,17 @@
                             "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
                             "opt_gadget_rando_off, opt_move_rando_off",
                             "Rotten Egg Launcher, Grinch Copter, Pancake, Max",
-                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off"
+                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher, Rocket Spring, Pancake",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher, Grinch Copter, Pancake",
+                            "[opt_advanced_logic_on], opt_gadget_rando_off, Pancake"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_individual"
                         ]
                     },
                     {
-                        "name": "WD - Infesting The Mayor's House With Rats - Rat 5",
+                        "name": "WD - Infesting The Mayor's House With Rats - Vixen the Rat",
                         "item_count": 1,
                         "access_rules": [
                             "Rotten Egg Launcher, Rocket Spring, Pancake, Max",
@@ -3337,14 +3622,17 @@
                             "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
                             "opt_gadget_rando_off, opt_move_rando_off",
                             "Rotten Egg Launcher, Grinch Copter, Pancake, Max",
-                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off"
+                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher, Rocket Spring, Pancake",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher, Grinch Copter, Pancake",
+                            "[opt_advanced_logic_on], opt_gadget_rando_off, Pancake"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_individual"
                         ]
                     },
                     {
-                        "name": "WD - Infesting The Mayor's House With Rats - Rat 6",
+                        "name": "WD - Infesting The Mayor's House With Rats - Comet the Rat",
                         "item_count": 1,
                         "access_rules": [
                             "Rotten Egg Launcher, Rocket Spring, Pancake, Max",
@@ -3352,14 +3640,17 @@
                             "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
                             "opt_gadget_rando_off, opt_move_rando_off",
                             "Rotten Egg Launcher, Grinch Copter, Pancake, Max",
-                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off"
+                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher, Rocket Spring, Pancake",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher, Grinch Copter, Pancake",
+                            "[opt_advanced_logic_on], opt_gadget_rando_off, Pancake"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_individual"
                         ]
                     },
                     {
-                        "name": "WD - Infesting The Mayor's House With Rats - Rat 7",
+                        "name": "WD - Infesting The Mayor's House With Rats - Cupid the Rat",
                         "item_count": 1,
                         "access_rules": [
                             "Rotten Egg Launcher, Rocket Spring, Pancake, Max",
@@ -3367,14 +3658,17 @@
                             "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
                             "opt_gadget_rando_off, opt_move_rando_off",
                             "Rotten Egg Launcher, Grinch Copter, Pancake, Max",
-                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off"
+                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher, Rocket Spring, Pancake",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher, Grinch Copter, Pancake",
+                            "[opt_advanced_logic_on], opt_gadget_rando_off, Pancake"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_individual"
                         ]
                     },
                     {
-                        "name": "WD - Infesting The Mayor's House With Rats - Rat 8",
+                        "name": "WD - Infesting The Mayor's House With Rats - Donner the Rat",
                         "item_count": 1,
                         "access_rules": [
                             "Rotten Egg Launcher, Rocket Spring, Pancake, Max",
@@ -3382,14 +3676,17 @@
                             "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
                             "opt_gadget_rando_off, opt_move_rando_off",
                             "Rotten Egg Launcher, Grinch Copter, Pancake, Max",
-                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off"
+                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher, Rocket Spring, Pancake",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher, Grinch Copter, Pancake",
+                            "[opt_advanced_logic_on], opt_gadget_rando_off, Pancake"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_individual"
                         ]
                     },
                     {
-                        "name": "WD - Infesting The Mayor's House With Rats - Rat 9",
+                        "name": "WD - Infesting The Mayor's House With Rats - Blitzen the Rat",
                         "item_count": 1,
                         "access_rules": [
                             "Rotten Egg Launcher, Rocket Spring, Pancake, Max",
@@ -3397,14 +3694,17 @@
                             "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
                             "opt_gadget_rando_off, opt_move_rando_off",
                             "Rotten Egg Launcher, Grinch Copter, Pancake, Max",
-                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off"
+                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher, Rocket Spring, Pancake",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher, Grinch Copter, Pancake",
+                            "[opt_advanced_logic_on], opt_gadget_rando_off, Pancake"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_individual"
                         ]
                     },
                     {
-                        "name": "WD - Infesting The Mayor's House With Rats - Rat 10",
+                        "name": "WD - Infesting The Mayor's House With Rats - Larry the Rat",
                         "item_count": 1,
                         "access_rules": [
                             "Rotten Egg Launcher, Rocket Spring, Pancake, Max",
@@ -3412,7 +3712,10 @@
                             "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
                             "opt_gadget_rando_off, opt_move_rando_off",
                             "Rotten Egg Launcher, Grinch Copter, Pancake, Max",
-                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off"
+                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher, Rocket Spring, Pancake",
+                            "[opt_advanced_logic_on], Rotten Egg Launcher, Grinch Copter, Pancake",
+                            "[opt_advanced_logic_on], opt_gadget_rando_off, Pancake"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_individual"
@@ -3446,7 +3749,11 @@
                             "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
                             "opt_gadget_rando_off, opt_move_rando_off",
                             "Rotten Egg Launcher, Grinch Copter, Pancake",
-                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off"
+                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Slime Shooter, Rocket Spring, Pancake",
+                            "[opt_advanced_logic_on], Slime Shooter, Rocket Spring, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Slime Shooter, Grinch Copter, Pancake",
+                            "[opt_advanced_logic_on], Slime Shooter, Grinch Copter, opt_move_rando_off"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_individual"
@@ -3474,7 +3781,11 @@
                             "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
                             "opt_gadget_rando_off, opt_move_rando_off",
                             "Rotten Egg Launcher, Grinch Copter, Pancake",
-                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off"
+                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Slime Shooter, Rocket Spring, Pancake",
+                            "[opt_advanced_logic_on], Slime Shooter, Grinch Copter, Pancake",
+                            "[opt_advanced_logic_on], Slime Shooter, Rocket Spring, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Slime Shooter, Grinch Copter, opt_move_rando_off"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_individual"
@@ -3489,7 +3800,11 @@
                             "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
                             "opt_gadget_rando_off, opt_move_rando_off",
                             "Rotten Egg Launcher, Grinch Copter, Pancake",
-                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off"
+                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Slime Shooter, Rocket Spring, Pancake",
+                            "[opt_advanced_logic_on], Slime Shooter, Rocket Spring, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Slime Shooter, Grinch Copter, Pancake",
+                            "[opt_advanced_logic_on], Slime Shooter, Grinch Copter, opt_move_rando_off"
                         ],
                         "visibility_rules": [
                             "opt_missionsanity_individual"
@@ -3585,7 +3900,11 @@
                             "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
                             "opt_gadget_rando_off, opt_move_rando_off",
                             "Rotten Egg Launcher, Grinch Copter, Pancake",
-                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off"
+                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Slime Shooter, Rocket Spring, Pancake",
+                            "[opt_advanced_logic_on], Slime Shooter, Rocket Spring, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Slime Shooter, Grinch Copter, Pancake",
+                            "[opt_advanced_logic_on], Slime Shooter, Grinch Copter, opt_move_rando_off"
                         ],
                         "visibility_rules": [
                             "opt_misc_locations_on"
@@ -3600,7 +3919,11 @@
                             "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
                             "opt_gadget_rando_off, opt_move_rando_off",
                             "Rotten Egg Launcher, Grinch Copter, Pancake",
-                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off"
+                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Slime Shooter, Rocket Spring, Pancake",
+                            "[opt_advanced_logic_on], Slime Shooter, Rocket Spring, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Slime Shooter, Grinch Copter, Pancake",
+                            "[opt_advanced_logic_on], Slime Shooter, Grinch Copter, opt_move_rando_off"
                         ],
                         "visibility_rules": [
                             "opt_misc_locations_on"
@@ -3615,7 +3938,11 @@
                             "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
                             "opt_gadget_rando_off, opt_move_rando_off",
                             "Rotten Egg Launcher, Grinch Copter, Pancake",
-                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off"
+                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Slime Shooter, Rocket Spring, Pancake",
+                            "[opt_advanced_logic_on], Slime Shooter, Rocket Spring, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Slime Shooter, Grinch Copter, Pancake",
+                            "[opt_advanced_logic_on], Slime Shooter, Grinch Copter, opt_move_rando_off"
                         ],
                         "visibility_rules": [
                             "opt_misc_locations_on"
@@ -3630,7 +3957,11 @@
                             "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
                             "opt_gadget_rando_off, opt_move_rando_off",
                             "Rotten Egg Launcher, Grinch Copter, Pancake",
-                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off"
+                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Slime Shooter, Rocket Spring, Pancake",
+                            "[opt_advanced_logic_on], Slime Shooter, Rocket Spring, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Slime Shooter, Grinch Copter, Pancake",
+                            "[opt_advanced_logic_on], Slime Shooter, Grinch Copter, opt_move_rando_off"
                         ],
                         "visibility_rules": [
                             "opt_misc_locations_on"
@@ -3645,7 +3976,11 @@
                             "Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
                             "opt_gadget_rando_off, opt_move_rando_off",
                             "Rotten Egg Launcher, Grinch Copter, Pancake",
-                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off"
+                            "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Slime Shooter, Rocket Spring, Pancake",
+                            "[opt_advanced_logic_on], Slime Shooter, Rocket Spring, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Slime Shooter, Grinch Copter, Pancake",
+                            "[opt_advanced_logic_on], Slime Shooter, Grinch Copter, opt_move_rando_off"
                         ],
                         "visibility_rules": [
                             "opt_misc_locations_on"
@@ -3802,7 +4137,10 @@
                                     "Grinch Copter, opt_move_rando_off",
                                     "opt_gadget_rando_off, opt_move_rando_off",
                                     "Rocket Spring, Sneak",
-                                    "Rocket Spring, opt_move_rando_off"
+                                    "Rocket Spring, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Grinch Copter",
+                                    "[opt_advanced_logic_on], Rocket Spring",
+                                    "[opt_advanced_logic_on], opt_gadget_rando_off"
                                 ],
                                 "visibility_rules": [
                                     "opt_env_scouts_hut_included"
@@ -3889,7 +4227,10 @@
                                     "Rotten Egg Launcher, Octopus Climbing Device, opt_move_rando_off",
                                     "opt_gadget_rando_off, opt_move_rando_off",
                                     "Rotten Egg Launcher, Grinch Copter, Sneak",
-                                    "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off"
+                                    "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher, Octopus Climbing Device",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher, Grinch Copter",
+                                    "[opt_advanced_logic_on], opt_gadget_rando_off"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_completion, opt_missionsanity_completion_only"
@@ -3904,7 +4245,10 @@
                                     "Rotten Egg Launcher, Octopus Climbing Device, opt_move_rando_off",
                                     "opt_gadget_rando_off, opt_move_rando_off",
                                     "Rotten Egg Launcher, Grinch Copter, Sneak",
-                                    "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off"
+                                    "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher, Octopus Climbing Device",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher, Grinch Copter",
+                                    "[opt_advanced_logic_on], opt_gadget_rando_off"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_completion"
@@ -3919,7 +4263,10 @@
                                     "opt_gadget_rando_off, opt_move_rando_off",
                                     "Grinch Copter, Pancake, Sneak",
                                     "Pancake, Sneak, opt_gadget_rando_off",
-                                    "Grinch Copter, opt_move_rando_off"
+                                    "Grinch Copter, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Octopus Climbing Device, Rocket Spring, Pancake, Seize",
+                                    "[opt_advanced_logic_on], Grinch Copter, Pancake",
+                                    "[opt_advanced_logic_on], opt_gadget_rando_off, Pancake"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_completion, opt_missionsanity_completion_only"
@@ -3934,7 +4281,10 @@
                                     "opt_gadget_rando_off, opt_move_rando_off",
                                     "Grinch Copter, Pancake, Sneak",
                                     "Pancake, Sneak, opt_gadget_rando_off",
-                                    "Grinch Copter, opt_move_rando_off"
+                                    "Grinch Copter, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Octopus Climbing Device, Rocket Spring, Pancake, Seize",
+                                    "[opt_advanced_logic_on], Grinch Copter, Pancake",
+                                    "[opt_advanced_logic_on], opt_gadget_rando_off, Pancake"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_completion"
@@ -3949,7 +4299,9 @@
                                     "Rotten Egg Launcher, Sleigh Room Key, Sneak",
                                     "Sleigh Room Key, Sneak, opt_gadget_rando_off",
                                     "Rotten Egg Launcher, Sleigh Room Key, opt_move_rando_off",
-                                    "Sleigh Room Key, opt_gadget_rando_off, opt_move_rando_off"
+                                    "Sleigh Room Key, opt_gadget_rando_off, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher, Sleigh Room Key",
+                                    "[opt_advanced_logic_on], Sleigh Room Key, opt_gadget_rando_off"
                                 ],
                                 "visibility_rules": [
                                     "opt_randomize_sleigh_parts_off"
@@ -3963,7 +4315,8 @@
                                 "access_rules": [
                                     "Max",
                                     "Sneak",
-                                    "opt_move_rando_off"
+                                    "opt_move_rando_off",
+                                    "[opt_advanced_logic_on]"
                                 ],
                                 "visibility_rules": [
                                     ""
@@ -3977,7 +4330,8 @@
                                 "access_rules": [
                                     "Max",
                                     "Sneak",
-                                    "opt_move_rando_off"
+                                    "opt_move_rando_off",
+                                    "[opt_advanced_logic_on]"
                                 ],
                                 "visibility_rules": [
                                     ""
@@ -3991,7 +4345,8 @@
                                 "access_rules": [
                                     "Max",
                                     "Sneak",
-                                    "opt_move_rando_off"
+                                    "opt_move_rando_off",
+                                    "[opt_advanced_logic_on]"
                                 ],
                                 "visibility_rules": [
                                     ""
@@ -4005,7 +4360,8 @@
                                 "access_rules": [
                                     "Max",
                                     "Sneak",
-                                    "opt_move_rando_off"
+                                    "opt_move_rando_off",
+                                    "[opt_advanced_logic_on]"
                                 ],
                                 "visibility_rules": [
                                     ""
@@ -4022,7 +4378,10 @@
                                     "Rocket Spring, opt_move_rando_off",
                                     "opt_gadget_rando_off, opt_move_rando_off",
                                     "Grinch Copter, Sneak",
-                                    "Grinch Copter, opt_move_rando_off"
+                                    "Grinch Copter, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Rocket Spring",
+                                    "[opt_advanced_logic_on], Grinch Copter",
+                                    "[opt_advanced_logic_on], opt_gadget_rando_off"
                                 ],
                                 "visibility_rules": [
                                     ""
@@ -4039,7 +4398,10 @@
                                     "Grinch Copter, opt_move_rando_off",
                                     "opt_gadget_rando_off, opt_move_rando_off",
                                     "Rocket Spring, Seize, Sneak",
-                                    "Rocket Spring, opt_move_rando_off"
+                                    "Rocket Spring, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Rocket Spring",
+                                    "[opt_advanced_logic_on], Grinch Copter",
+                                    "[opt_advanced_logic_on], opt_gadget_rando_off"
                                 ],
                                 "visibility_rules": [
                                     ""
@@ -4056,7 +4418,10 @@
                                     "Rocket Spring, Octopus Climbing Device, opt_move_rando_off",
                                     "opt_gadget_rando_off, opt_move_rando_off",
                                     "Grinch Copter, Sneak",
-                                    "Grinch Copter, opt_move_rando_off"
+                                    "Grinch Copter, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Rocket Spring, Octopus Climbing Device",
+                                    "[opt_advanced_logic_on], Grinch Copter",
+                                    "[opt_advanced_logic_on], opt_gadget_rando_off"
                                 ],
                                 "visibility_rules": [
                                     ""
@@ -4069,14 +4434,18 @@
                                 "item_count": 1,
                                 "access_rules": [
                                     "Octopus Climbing Device, Sneak, Pancake",
-                                    "Sneak, Pancake, opt_gadget_rando_off",
+                                    "Sneak, opt_gadget_rando_off",
                                     "Octopus Climbing Device, opt_move_rando_off",
                                     "opt_gadget_rando_off, opt_move_rando_off",
                                     "Grinch Copter, Sneak",
                                     "Grinch Copter, opt_move_rando_off",
                                     "Rotten Egg Launcher, Octopus Climbing Device, Sneak",
                                     "Octopus Climbing Device, Sneak, Max",
-                                    "Sneak, Max, opt_gadget_rando_off"
+                                    "[opt_advanced_logic_on], Octopus Climbing Device, Pancake",
+                                    "[opt_advanced_logic_on], Grinch Copter",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher, Octopus Climbing Device",
+                                    "[opt_advanced_logic_on], Octopus Climbing Device, Max",
+                                    "[opt_advanced_logic_on], opt_gadget_rando_off"
                                 ],
                                 "visibility_rules": [
                                     ""
@@ -4086,8 +4455,9 @@
                                 "name": "WL - South Shore - Sabotaging The Tents - Right side of bridge to Scout Hut",
                                 "item_count": 1,
                                 "access_rules": [
-                                    "Pancake, Sneak",
-                                    "opt_move_rando_off"
+                                    "Sneak, Pancake",
+                                    "opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Pancake"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_individual"
@@ -4102,7 +4472,10 @@
                                     "Octopus Climbing Device, opt_move_rando_off",
                                     "opt_gadget_rando_off, opt_move_rando_off",
                                     "Grinch Copter, Sneak, Pancake",
-                                    "Grinch Copter, opt_move_rando_off"
+                                    "Grinch Copter, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Octopus Climbing Device, Pancake",
+                                    "[opt_advanced_logic_on], Pancake, opt_gadget_rando_off",
+                                    "[opt_advanced_logic_on], Grinch Copter, Pancake"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_individual"
@@ -4113,7 +4486,8 @@
                                 "item_count": 1,
                                 "access_rules": [
                                     "Sneak, Pancake",
-                                    "opt_move_rando_off"
+                                    "opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Pancake"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_individual"
@@ -4128,7 +4502,10 @@
                                     "Grinch Copter, opt_move_rando_off",
                                     "opt_gadget_rando_off, opt_move_rando_off",
                                     "Rocket Spring, Seize, Sneak, Pancake",
-                                    "Rocket Spring, opt_move_rando_off"
+                                    "Rocket Spring, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Grinch Copter, Pancake",
+                                    "[opt_advanced_logic_on], Pancake, opt_gadget_rando_off",
+                                    "[opt_advanced_logic_on], Rocket Spring, Pancake"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_individual"
@@ -4139,7 +4516,8 @@
                                 "item_count": 1,
                                 "access_rules": [
                                     "Sneak, Pancake",
-                                    "opt_move_rando_off"
+                                    "opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Pancake"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_individual"
@@ -4154,7 +4532,10 @@
                                     "Octopus Climbing Device, opt_move_rando_off",
                                     "opt_gadget_rando_off, opt_move_rando_off",
                                     "Grinch Copter, Sneak, Pancake",
-                                    "Grinch Copter, opt_move_rando_off"
+                                    "Grinch Copter, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Octopus Climbing Device, Pancake",
+                                    "[opt_advanced_logic_on], Pancake, opt_gadget_rando_off",
+                                    "[opt_advanced_logic_on], Grinch Copter, Pancake"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_individual"
@@ -4165,7 +4546,8 @@
                                 "item_count": 1,
                                 "access_rules": [
                                     "Sneak, Pancake",
-                                    "opt_move_rando_off"
+                                    "opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Pancake"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_individual"
@@ -4180,7 +4562,10 @@
                                     "Rocket Spring, Octopus Climbing Device, opt_move_rando_off",
                                     "opt_gadget_rando_off, opt_move_rando_off",
                                     "Grinch Copter, Sneak, Pancake",
-                                    "Grinch Copter, opt_move_rando_off"
+                                    "Grinch Copter, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Rocket Spring, Octopus Climbing Device, Pancake",
+                                    "[opt_advanced_logic_on], Pancake, opt_gadget_rando_off",
+                                    "[opt_advanced_logic_on], Grinch Copter, Pancake"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_individual"
@@ -4191,7 +4576,8 @@
                                 "item_count": 1,
                                 "access_rules": [
                                     "Sneak, Pancake",
-                                    "opt_move_rando_off"
+                                    "opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Pancake"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_individual"
@@ -4202,7 +4588,8 @@
                                 "item_count": 1,
                                 "access_rules": [
                                     "Sneak, Pancake",
-                                    "opt_move_rando_off"
+                                    "opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Pancake"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_individual"
@@ -4215,7 +4602,9 @@
                                     "Sneak, Rotten Egg Launcher",
                                     "Sneak, opt_gadget_rando_off",
                                     "Rotten Egg Launcher, opt_move_rando_off",
-                                    "opt_gadget_rando_off, opt_move_rando_off"
+                                    "opt_gadget_rando_off, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher",
+                                    "[opt_advanced_logic_on], opt_gadget_rando_off"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_individual"
@@ -4228,7 +4617,9 @@
                                     "Sneak, Rotten Egg Launcher",
                                     "Sneak, opt_gadget_rando_off",
                                     "Rotten Egg Launcher, opt_move_rando_off",
-                                    "opt_gadget_rando_off, opt_move_rando_off"
+                                    "opt_gadget_rando_off, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher",
+                                    "[opt_advanced_logic_on], opt_gadget_rando_off"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_individual"
@@ -4241,7 +4632,9 @@
                                     "Sneak, Rotten Egg Launcher",
                                     "Sneak, opt_gadget_rando_off",
                                     "Rotten Egg Launcher, opt_move_rando_off",
-                                    "opt_gadget_rando_off, opt_move_rando_off"
+                                    "opt_gadget_rando_off, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher",
+                                    "[opt_advanced_logic_on], opt_gadget_rando_off"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_individual"
@@ -4254,7 +4647,9 @@
                                     "Sneak, Rotten Egg Launcher",
                                     "Sneak, opt_gadget_rando_off",
                                     "Rotten Egg Launcher, opt_move_rando_off",
-                                    "opt_gadget_rando_off, opt_move_rando_off"
+                                    "opt_gadget_rando_off, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher",
+                                    "[opt_advanced_logic_on], opt_gadget_rando_off"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_individual"
@@ -4269,7 +4664,10 @@
                                     "Rotten Egg Launcher, Octopus Climbing Device, opt_move_rando_off",
                                     "opt_gadget_rando_off, opt_move_rando_off",
                                     "Sneak, Rotten Egg Launcher, Grinch Copter",
-                                    "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off"
+                                    "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher, Octopus Climbing Device",
+                                    "[opt_advanced_logic_on], opt_gadget_rando_off",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher, Grinch Copter"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_individual"
@@ -4284,7 +4682,10 @@
                                     "Rotten Egg Launcher, Octopus Climbing Device, opt_move_rando_off",
                                     "opt_gadget_rando_off, opt_move_rando_off",
                                     "Sneak, Rotten Egg Launcher, Grinch Copter",
-                                    "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off"
+                                    "Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher, Octopus Climbing Device",
+                                    "[opt_advanced_logic_on], opt_gadget_rando_off",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher, Grinch Copter"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_individual"
@@ -4297,7 +4698,9 @@
                                     "Sneak, Rotten Egg Launcher",
                                     "Sneak, opt_gadget_rando_off",
                                     "Rotten Egg Launcher, opt_move_rando_off",
-                                    "opt_gadget_rando_off, opt_move_rando_off"
+                                    "opt_gadget_rando_off, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher",
+                                    "[opt_advanced_logic_on], opt_gadget_rando_off"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_individual"
@@ -4310,7 +4713,9 @@
                                     "Sneak, Rotten Egg Launcher",
                                     "Sneak, opt_gadget_rando_off",
                                     "Rotten Egg Launcher, opt_move_rando_off",
-                                    "opt_gadget_rando_off, opt_move_rando_off"
+                                    "opt_gadget_rando_off, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher",
+                                    "[opt_advanced_logic_on], opt_gadget_rando_off"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_individual"
@@ -4323,7 +4728,9 @@
                                     "Sneak, Rotten Egg Launcher",
                                     "Sneak, opt_gadget_rando_off",
                                     "Rotten Egg Launcher, opt_move_rando_off",
-                                    "opt_gadget_rando_off, opt_move_rando_off"
+                                    "opt_gadget_rando_off, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher",
+                                    "[opt_advanced_logic_on], opt_gadget_rando_off"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_individual"
@@ -4336,7 +4743,9 @@
                                     "Sneak, Rotten Egg Launcher",
                                     "Sneak, opt_gadget_rando_off",
                                     "Rotten Egg Launcher, opt_move_rando_off",
-                                    "opt_gadget_rando_off, opt_move_rando_off"
+                                    "opt_gadget_rando_off, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher",
+                                    "[opt_advanced_logic_on], opt_gadget_rando_off"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_individual"
@@ -4356,7 +4765,17 @@
                         "name": "North Shore",
                         "access_rules": [
                             "Scout Clothes, Sneak",
-                            "Scout Clothes, opt_move_rando_off"
+                            "Scout Clothes, opt_move_rando_off",
+                            "false, opt_randomize_mission_items_off, Rocket Spring, Bad Breath, Pancake, Sneak",
+                            "false, opt_randomize_mission_items_off, Grinch Copter, Bad Breath, Pancake, Sneak",
+                            "false, opt_randomize_mission_items_off, opt_gadget_rando_off, Bad Breath, Pancake, Sneak",
+                            "false, opt_randomize_mission_items_off, opt_move_rando_off, Rocket Spring",
+                            "false, opt_randomize_mission_items_off, opt_move_rando_off, Grinch Copter",
+                            "false, opt_randomize_mission_items_off, opt_gadget_rando_off, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Scout Clothes",
+                            "false, opt_randomize_mission_items_off, [opt_advanced_logic_on], Rocket Spring, Bad Breath, Pancake",
+                            "false, opt_randomize_mission_items_off, [opt_advanced_logic_on], Grinch Copter, Bad Breath, Pancake",
+                            "false, opt_randomize_mission_items_off, [opt_advanced_logic_on], opt_gadget_rando_off, Bad Breath, Pancake"
                         ],
                         "visibility_rules": [
                             "opt_env_north_shore_included"
@@ -4365,7 +4784,7 @@
                             {
                                 "name": "Mayor's Villa",
                                 "access_rules": [
-                                    "Scout Clothes"
+                                    ""
                                 ],
                                 "visibility_rules": [
                                     "opt_env_mayors_villa_included"
@@ -4394,7 +4813,11 @@
                                             "Rope, Hook, Rotten Egg Launcher, Scout Clothes, Pancake, Sneak",
                                             "Rope, Hook, Scout Clothes, Pancake, Sneak, opt_gadget_rando_off",
                                             "Rope, Hook, Rotten Egg Launcher, Scout Clothes, opt_move_rando_off",
-                                            "Rope, Hook, Scout Clothes, opt_gadget_rando_off, opt_move_rando_off"
+                                            "Rope, Hook, Scout Clothes, opt_gadget_rando_off, opt_move_rando_off",
+                                            "false, opt_randomize_mission_items_off, Rotten Egg Launcher, Grinch Copter, Pancake, Sneak, Bad Breath, Max",
+                                            "false, opt_randomize_mission_items_off, Pancake, Sneak, Bad Breath, Max, opt_gadget_rando_off",
+                                            "false, opt_randomize_mission_items_off, Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                                            "false, opt_randomize_mission_items_off, opt_gadget_rando_off, opt_move_rando_off"
                                         ],
                                         "visibility_rules": [
                                             "opt_missionsanity_completion, opt_missionsanity_completion_only"
@@ -4407,7 +4830,11 @@
                                             "Rope, Hook, Rotten Egg Launcher, Scout Clothes, Pancake, Sneak",
                                             "Rope, Hook, Scout Clothes, Pancake, Sneak, opt_gadget_rando_off",
                                             "Rope, Hook, Rotten Egg Launcher, Scout Clothes, opt_move_rando_off",
-                                            "Rope, Hook, Scout Clothes, opt_gadget_rando_off, opt_move_rando_off"
+                                            "Rope, Hook, Scout Clothes, opt_gadget_rando_off, opt_move_rando_off",
+                                            "false, opt_randomize_mission_items_off, Rotten Egg Launcher, Grinch Copter, Pancake, Sneak, Bad Breath, Max",
+                                            "false, opt_randomize_mission_items_off, Pancake, Sneak, Bad Breath, Max, opt_gadget_rando_off",
+                                            "false, opt_randomize_mission_items_off, Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                                            "false, opt_randomize_mission_items_off, opt_gadget_rando_off, opt_move_rando_off"
                                         ],
                                         "visibility_rules": [
                                             "opt_missionsanity_completion"
@@ -4594,7 +5021,9 @@
                                 "item_count": 1,
                                 "access_rules": [
                                     "Drill, Seize, Max",
-                                    "Drill, opt_move_rando_off"
+                                    "Drill, opt_move_rando_off",
+                                    "false, opt_randomize_mission_items_off, Seize, Max",
+                                    "false, opt_randomize_mission_items_off, opt_move_rando_off"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_completion, opt_missionsanity_completion_only"
@@ -4605,7 +5034,9 @@
                                 "item_count": 1,
                                 "access_rules": [
                                     "Drill, Seize, Max",
-                                    "Drill, opt_move_rando_off"
+                                    "Drill, opt_move_rando_off",
+                                    "false, opt_randomize_mission_items_off, Seize, Max",
+                                    "false, opt_randomize_mission_items_off, opt_move_rando_off"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_completion"
@@ -4730,7 +5161,8 @@
                                 "name": "WL - North Shore - Drilling Holes In Canoes - Right side adjacent to fence area",
                                 "item_count": 1,
                                 "access_rules": [
-                                    "Drill"
+                                    "Drill",
+                                    "false, opt_randomize_mission_items_off"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_individual"
@@ -4740,7 +5172,8 @@
                                 "name": "WL - North Shore - Drilling Holes In Canoes - Left side adjacent to fence area",
                                 "item_count": 1,
                                 "access_rules": [
-                                    "Drill"
+                                    "Drill",
+                                    "false, opt_randomize_mission_items_off"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_individual"
@@ -4751,7 +5184,9 @@
                                 "item_count": 1,
                                 "access_rules": [
                                     "Drill, Max",
-                                    "Drill, opt_move_rando_off"
+                                    "Drill, opt_move_rando_off",
+                                    "false, opt_randomize_mission_items_off, Max",
+                                    "false, opt_randomize_mission_items_off, opt_move_rando_off"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_individual"
@@ -4762,7 +5197,9 @@
                                 "item_count": 1,
                                 "access_rules": [
                                     "Drill, Max",
-                                    "Drill, opt_move_rando_off"
+                                    "Drill, opt_move_rando_off",
+                                    "false, opt_randomize_mission_items_off, Max",
+                                    "false, opt_randomize_mission_items_off, opt_move_rando_off"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_individual"
@@ -4772,7 +5209,8 @@
                                 "name": "WL - North Shore - Drilling Holes In Canoes - On beach left side below max house",
                                 "item_count": 1,
                                 "access_rules": [
-                                    "Drill"
+                                    "Drill",
+                                    "false, opt_randomize_mission_items_off"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_individual"
@@ -4782,7 +5220,8 @@
                                 "name": "WL - North Shore - Drilling Holes In Canoes - On beach right side below max house",
                                 "item_count": 1,
                                 "access_rules": [
-                                    "Drill"
+                                    "Drill",
+                                    "false, opt_randomize_mission_items_off"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_individual"
@@ -4793,7 +5232,9 @@
                                 "item_count": 1,
                                 "access_rules": [
                                     "Drill, Max",
-                                    "Drill, opt_move_rando_off"
+                                    "Drill, opt_move_rando_off",
+                                    "false, opt_randomize_mission_items_off, Max",
+                                    "false, opt_randomize_mission_items_off, opt_move_rando_off"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_individual"
@@ -4803,7 +5244,8 @@
                                 "name": "WL - North Shore - Drilling Holes In Canoes - Behind max house",
                                 "item_count": 1,
                                 "access_rules": [
-                                    "Drill"
+                                    "Drill",
+                                    "false, opt_randomize_mission_items_off"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_individual"
@@ -4814,7 +5256,11 @@
                                 "item_count": 1,
                                 "access_rules": [
                                     "Drill, Seize",
-                                    "Drill, opt_move_rando_off"
+                                    "Drill, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Drill, Pancake",
+                                    "false, opt_randomize_mission_items_off, Seize",
+                                    "false, opt_randomize_mission_items_off, opt_move_rando_off",
+                                    "false, opt_randomize_mission_items_off, [opt_advanced_logic_on], Pancake"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_individual"
@@ -4825,7 +5271,11 @@
                                 "item_count": 1,
                                 "access_rules": [
                                     "Drill, Seize",
-                                    "Drill, opt_move_rando_off"
+                                    "Drill, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Drill, Pancake",
+                                    "false, opt_randomize_mission_items_off, Seize",
+                                    "false, opt_randomize_mission_items_off, opt_move_rando_off",
+                                    "false, opt_randomize_mission_items_off, [opt_advanced_logic_on], Pancake"
                                 ],
                                 "visibility_rules": [
                                     "opt_missionsanity_individual"
@@ -5332,7 +5782,15 @@
                             "Grinch Copter, Marine Mobile, Rotten Egg Launcher, Scout Clothes, Sneak, Pancake, Hook",
                             "Scout Clothes, Sneak, Pancake, Hook, opt_gadget_rando_off",
                             "Grinch Copter, Marine Mobile, Rotten Egg Launcher, Scout Clothes, Hook, opt_move_rando_off",
-                            "Scout Clothes, Hook, opt_gadget_rando_off, opt_move_rando_off"
+                            "Scout Clothes, Hook, opt_gadget_rando_off, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Grinch Copter, Marine Mobile, Rotten Egg Launcher, Scout Clothes, Pancake, Hook",
+                            "[opt_advanced_logic_on], opt_gadget_rando_off, Scout Clothes, Pancake, Hook",
+                            "false, opt_randomize_mission_items_off, Grinch Copter, Marine Mobile, Rotten Egg Launcher, Sneak, Pancake, Bad Breath",
+                            "false, opt_randomize_mission_items_off, opt_gadget_rando_off, Sneak, Pancake, Bad Breath",
+                            "false, opt_randomize_mission_items_off, opt_move_rando_off, Grinch Copter, Marine Mobile, Rotten Egg Launcher",
+                            "false, opt_randomize_mission_items_off, opt_gadget_rando_off, opt_move_rando_off",
+                            "false, opt_randomize_mission_items_off, [opt_advanced_logic_on], Grinch Copter, Marine Mobile, Rotten Egg Launcher, Pancake, Bad Breath",
+                            "false, opt_randomize_mission_items_off, [opt_advanced_logic_on], opt_gadget_rando_off, Pancake, Bad Breath"
                         ],
                         "visibility_rules": [
                             "opt_giftsanity_on, opt_missionsanity_completion, opt_exclude_gc_off"
@@ -5360,113 +5818,102 @@
                         ],
                         "sections": [
                             {
-                                "name": "Spin N' Win - Easy",
+                                "name": "MC - Supadow - Spin N' Win - Easy",
                                 "item_count": 1,
                                 "access_rules": [
-                                    ""
+                                    "Spin N' Win Supadow",
+                                    "Progressive Supadow:1"
                                 ],
                                 "visibility_rules": [
-                                    "opt_supadow_on"
+                                    "opt_supadow_easy"
                                 ]
                             },
                             {
-                                "name": "Spin N' Win - Hard",
+                                "name": "MC - Supadow - Spin N' Win - Hard",
                                 "item_count": 1,
                                 "access_rules": [
-                                    ""
+                                    "Spin N' Win Supadow",
+                                    "Progressive Supadow:1"
                                 ],
                                 "visibility_rules": [
-                                    "opt_supadow_on"
+                                    "opt_supadow_hard"
                                 ]
                             },
                             {
-                                "name": "Spin N' Win - Real Tough",
+                                "name": "MC - Supadow - Spin N' Win - Real Tough",
                                 "item_count": 1,
                                 "access_rules": [
-                                    ""
+                                    "Spin N' Win Supadow",
+                                    "Progressive Supadow:1"
                                 ],
                                 "visibility_rules": [
-                                    "opt_supadow_on"
+                                    "opt_supadow_real_tough"
                                 ]
                             },
                             {
-                                "name": "Dankamania",
+                                "name": "MC - Supadow - Pankamania - Easy - 12 Points",
                                 "item_count": 1,
                                 "access_rules": [
-                                    ""
+                                    "Pankamania Supadow",
+                                    "Progressive Supadow:2"
                                 ],
                                 "visibility_rules": [
-                                    "opt_supadow_on"
+                                    "opt_supadow_easy"
                                 ]
                             },
                             {
-                                "name": "The Copter Race Contest - Easy",
+                                "name": "MC - Supadow - Pankamania - Hard - 12 Points",
                                 "item_count": 1,
                                 "access_rules": [
-                                    ""
+                                    "Pankamania Supadow",
+                                    "Progressive Supadow:2"
                                 ],
                                 "visibility_rules": [
-                                    "opt_supadow_on"
+                                    "opt_supadow_hard"
                                 ]
                             },
                             {
-                                "name": "The Copter Race Contest - Hard",
+                                "name": "MC - Supadow - Pankamania - Real Tough - 12 Points",
                                 "item_count": 1,
                                 "access_rules": [
-                                    ""
+                                    "Pankamania Supadow",
+                                    "Progressive Supadow:2"
                                 ],
                                 "visibility_rules": [
-                                    "opt_supadow_on"
+                                    "opt_supadow_real_tough"
                                 ]
                             },
                             {
-                                "name": "The Copter Race Contest - Real Tough",
+                                "name": "MC - Supadow - The Copter Race Contest - Easy",
                                 "item_count": 1,
                                 "access_rules": [
-                                    ""
+                                    "The Copter Race Contest Supadow",
+                                    "Progressive Supadow:3"
                                 ],
                                 "visibility_rules": [
-                                    "opt_supadow_on"
+                                    "opt_supadow_easy"
                                 ]
                             },
                             {
-                                "name": "Bike Race - 1st Place",
+                                "name": "MC - Supadow - The Copter Race Contest - Hard",
                                 "item_count": 1,
                                 "access_rules": [
-                                    ""
+                                    "The Copter Race Contest Supadow",
+                                    "Progressive Supadow:3"
                                 ],
                                 "visibility_rules": [
-                                    "opt_supadow_on"
+                                    "opt_supadow_hard"
                                 ]
                             },
                             {
-                                "name": "Bike Race - Top 2",
+                                "name": "MC - Supadow - The Copter Race Contest - Real Tough",
                                 "item_count": 1,
                                 "access_rules": [
-                                    ""
+                                    "The Copter Race Contest Supadow",
+                                    "Progressive Supadow:3"
                                 ],
                                 "visibility_rules": [
-                                    "opt_supadow_on"
-                                ]
-                            },
-                            {
-                                "name": "Bike Race - Top 3",
-                                "item_count": 1,
-                                "access_rules": [
-                                    ""
-                                ],
-                                "visibility_rules": [
-                                    "opt_supadow_on"
-                                ]
-                            },
-                            {
-                                "name": "Bike Race - Top 4",
-                                "item_count": 1,
-                                "access_rules": [
-                                    ""
-                                ],
-                                "visibility_rules": [
-                                    "opt_supadow_on"
+                                    "opt_supadow_real_tough"
                                 ]
                             }
                         ]
@@ -5476,12 +5923,70 @@
                         "access_rules": [
                             "Sleigh Room Key"
                         ],
-                        "sections": [],
+                        "sections": [
+                            {
+                                "name": "MC - Supadow - Bike Race - 1st Place",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "Bike Race Unlock",
+                                    "Progressive Supadow:4"
+                                ],
+                                "visibility_rules": [
+                                    "opt_supadow, opt_bike_race_locations"
+                                ]
+                            },
+                            {
+                                "name": "MC - Supadow - Bike Race - Top 2",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "Bike Race Unlock",
+                                    "Progressive Supadow:4"
+                                ],
+                                "visibility_rules": [
+                                    "opt_supadow, opt_bike_race_locations"
+                                ]
+                            },
+                            {
+                                "name": "MC - Supadow - Bike Race - Top 3",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "Bike Race Unlock",
+                                    "Progressive Supadow:4"
+                                ],
+                                "visibility_rules": [
+                                    "opt_supadow, opt_bike_race_locations"
+                                ]
+                            },
+                            {
+                                "name": "MC - Supadow - Bike Race - Top 4",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "Bike Race Unlock",
+                                    "Progressive Supadow:4"
+                                ],
+                                "visibility_rules": [
+                                    "opt_supadow, opt_bike_race_locations"
+                                ]
+                            }
+                        ],
                         "children": [
                             {
                                 "name": "Sleigh Ride",
                                 "access_rules": [
-                                    "Exhaust Pipes, Twin-End Tuba, Skis, Tires"
+                                    "Exhaust Pipes, Twin-End Tuba, Skis, Tires",
+                                    "opt_randomize_sleigh_parts_off, Exhaust Pipes, Twin-End Tuba, Skis, Tires",
+                                    "opt_randomize_sleigh_parts_off, Whoville Vacuum Tube, Who Forest Vacuum Tube, Who Dump Vacuum Tube, Who Lake Vacuum Tube, Rotten Egg Launcher, Rocket Spring, Marine Mobile, Max, Seize, Pancake",
+                                    "opt_randomize_sleigh_parts_off, Whoville Vacuum Tube, Who Forest Vacuum Tube, Who Dump Vacuum Tube, Who Lake Vacuum Tube, opt_gadget_rando_off, Max, Seize, Pancake",
+                                    "opt_randomize_sleigh_parts_off, Whoville Vacuum Tube, Who Forest Vacuum Tube, Who Dump Vacuum Tube, Who Lake Vacuum Tube, opt_move_rando_off, Rotten Egg Launcher, Rocket Spring, Marine Mobile",
+                                    "opt_randomize_sleigh_parts_off, Whoville Vacuum Tube, Who Forest Vacuum Tube, Who Dump Vacuum Tube, Who Lake Vacuum Tube, opt_gadget_rando_off, opt_move_rando_off",
+                                    "opt_randomize_sleigh_parts_off, Progressive Vacuum Tube:4, Rotten Egg Launcher, Rocket Spring, Marine Mobile, Max, Seize, Pancake",
+                                    "opt_randomize_sleigh_parts_off, Progressive Vacuum Tube:4, opt_gadget_rando_off, Max, Seize, Pancake",
+                                    "opt_randomize_sleigh_parts_off, Progressive Vacuum Tube:4, opt_move_rando_off, Rotten Egg Launcher, Rocket Spring, Marine Mobile",
+                                    "opt_randomize_sleigh_parts_off, Progressive Vacuum Tube:4, opt_gadget_rando_off, opt_move_rando_off",
+                                    "opt_randomize_sleigh_parts_off, [opt_advanced_logic_on], Whoville Vacuum Tube, Who Forest Vacuum Tube, Who Dump Vacuum Tube, Who Lake Vacuum Tube, Rotten Egg Launcher, Grinch Copter, Marine Mobile, Max, Seize, Pancake",
+                                    "opt_randomize_sleigh_parts_off, [opt_advanced_logic_on], Whoville Vacuum Tube, Who Forest Vacuum Tube, Who Dump Vacuum Tube, Who Lake Vacuum Tube, opt_move_rando_off, Rotten Egg Launcher, Grinch Copter, Marine Mobile",
+                                    "opt_randomize_sleigh_parts_off, [opt_advanced_logic_on], Progressive Vacuum Tube:4, Rotten Egg Launcher, Grinch Copter, Marine Mobile, Max, Seize, Pancake",
+                                    "opt_randomize_sleigh_parts_off, [opt_advanced_logic_on], Progressive Vacuum Tube:4, opt_move_rando_off, Rotten Egg Launcher, Grinch Copter, Marine Mobile"
                                 ],
                                 "sections": [
                                     {
@@ -5560,7 +6065,7 @@
                             "opt_move_rando_off"
                         ],
                         "visibility_rules": [
-                            ""
+                            "opt_mc_crate_locations"
                         ]
                     },
                     {
@@ -5571,7 +6076,7 @@
                             "opt_move_rando_off"
                         ],
                         "visibility_rules": [
-                            ""
+                            "opt_mc_crate_locations"
                         ]
                     },
                     {
@@ -5582,7 +6087,7 @@
                             "opt_move_rando_off"
                         ],
                         "visibility_rules": [
-                            ""
+                            "opt_mc_crate_locations"
                         ]
                     },
                     {
@@ -5593,7 +6098,7 @@
                             "opt_move_rando_off"
                         ],
                         "visibility_rules": [
-                            ""
+                            "opt_mc_crate_locations"
                         ]
                     },
                     {
@@ -5604,7 +6109,7 @@
                             "opt_move_rando_off"
                         ],
                         "visibility_rules": [
-                            ""
+                            "opt_mc_crate_locations"
                         ]
                     },
                     {
@@ -5615,7 +6120,7 @@
                             "opt_move_rando_off"
                         ],
                         "visibility_rules": [
-                            "opt_legacy_locations"
+                            "opt_mc_door_locations"
                         ]
                     },
                     {
@@ -5626,7 +6131,7 @@
                             "opt_move_rando_off"
                         ],
                         "visibility_rules": [
-                            "opt_legacy_locations"
+                            "opt_mc_door_locations"
                         ]
                     },
                     {
@@ -5637,7 +6142,7 @@
                             "opt_move_rando_off"
                         ],
                         "visibility_rules": [
-                            "opt_legacy_locations"
+                            "opt_mc_door_locations"
                         ]
                     },
                     {
@@ -5648,7 +6153,7 @@
                             "opt_move_rando_off"
                         ],
                         "visibility_rules": [
-                            "opt_legacy_locations"
+                            "opt_mc_door_locations"
                         ]
                     },
                     {
@@ -5658,7 +6163,19 @@
                             "Whoville Vacuum Tube, Who Cloak, Max",
                             "Whoville Vacuum Tube, Who Cloak, opt_move_rando_off",
                             "Progressive Vacuum Tube:1, Who Cloak, Max",
-                            "Progressive Vacuum Tube:1, Who Cloak, opt_move_rando_off"
+                            "Progressive Vacuum Tube:1, Who Cloak, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Whoville Vacuum Tube, Max",
+                            "[opt_advanced_logic_on], Whoville Vacuum Tube, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Progressive Vacuum Tube:1, Max",
+                            "[opt_advanced_logic_on], Progressive Vacuum Tube:1, opt_move_rando_off",
+                            "false, opt_randomize_mission_items_off, Whoville Vacuum Tube, Max, Sneak",
+                            "false, opt_randomize_mission_items_off, Whoville Vacuum Tube, opt_move_rando_off",
+                            "false, opt_randomize_mission_items_off, Progressive Vacuum Tube:1, Max, Sneak",
+                            "false, opt_randomize_mission_items_off, Progressive Vacuum Tube:1, opt_move_rando_off",
+                            "false, opt_randomize_mission_items_off, Whoville Vacuum Tube, Max, Slime Shooter",
+                            "false, opt_randomize_mission_items_off, Whoville Vacuum Tube, opt_gadget_rando_off, Max",
+                            "false, opt_randomize_mission_items_off, Progressive Vacuum Tube:1, Max, Slime Shooter",
+                            "false, opt_randomize_mission_items_off, Progressive Vacuum Tube:1, opt_gadget_rando_off, Max"
                         ],
                         "visibility_rules": [
                             "opt_misc_locations_on"
@@ -5694,7 +6211,11 @@
                             "Progressive Vacuum Tube:2, Rotten Egg Launcher, Rocket Spring, opt_move_rando_off",
                             "Progressive Vacuum Tube:2, Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
                             "Progressive Vacuum Tube:2, opt_gadget_rando_off, Bad Breath",
-                            "Progressive Vacuum Tube:2, opt_gadget_rando_off, opt_move_rando_off"
+                            "Progressive Vacuum Tube:2, opt_gadget_rando_off, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Who Forest Vacuum Tube, Rotten Egg Launcher",
+                            "[opt_advanced_logic_on], Progressive Vacuum Tube:2, Rotten Egg Launcher",
+                            "[opt_advanced_logic_on], Who Forest Vacuum Tube, opt_gadget_rando_off",
+                            "[opt_advanced_logic_on], Progressive Vacuum Tube:2, opt_gadget_rando_off"
                         ],
                         "visibility_rules": [
                             "opt_misc_locations_on"
@@ -5715,7 +6236,11 @@
                             "Progressive Vacuum Tube:3, Rotten Egg Launcher, Rocket Spring, Slime Shooter, opt_move_rando_off",
                             "Progressive Vacuum Tube:3, Rotten Egg Launcher, Rocket Spring, Grinch Copter, opt_move_rando_off",
                             "Progressive Vacuum Tube:3, opt_gadget_rando_off, Pancake, Seize",
-                            "Progressive Vacuum Tube:3, opt_gadget_rando_off, opt_move_rando_off"
+                            "Progressive Vacuum Tube:3, opt_gadget_rando_off, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Who Dump Vacuum Tube, Rotten Egg Launcher, Grinch Copter, Pancake, Seize",
+                            "[opt_advanced_logic_on], Who Dump Vacuum Tube, Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Progressive Vacuum Tube:3, Rotten Egg Launcher, Grinch Copter, Pancake, Seize",
+                            "[opt_advanced_logic_on], Progressive Vacuum Tube:3, Rotten Egg Launcher, Grinch Copter, opt_move_rando_off"
                         ],
                         "visibility_rules": [
                             "opt_misc_locations_on"
@@ -5736,7 +6261,31 @@
                             "Progressive Vacuum Tube:4, Scout Clothes, Grinch Copter, opt_move_rando_off",
                             "Progressive Vacuum Tube:4, Scout Clothes, Octopus Climbing Device, Rocket Spring, opt_move_rando_off",
                             "Progressive Vacuum Tube:4, Scout Clothes, opt_gadget_rando_off, Seize, Max, Sneak",
-                            "Progressive Vacuum Tube:4, Scout Clothes, opt_gadget_rando_off, opt_move_rando_off"
+                            "Progressive Vacuum Tube:4, Scout Clothes, opt_gadget_rando_off, opt_move_rando_off",
+                            "[opt_advanced_logic_on], Who Lake Vacuum Tube, Scout Clothes, Grinch Copter, Seize, Max",
+                            "[opt_advanced_logic_on], Who Lake Vacuum Tube, Scout Clothes, Seize, Max, Octopus Climbing Device, Rocket Spring",
+                            "[opt_advanced_logic_on], Who Lake Vacuum Tube, Scout Clothes, opt_gadget_rando_off, Seize, Max",
+                            "[opt_advanced_logic_on], Progressive Vacuum Tube:4, Scout Clothes, Grinch Copter, Seize, Max",
+                            "[opt_advanced_logic_on], Progressive Vacuum Tube:4, Scout Clothes, Seize, Max, Sneak, Octopus Climbing Device, Rocket Spring",
+                            "[opt_advanced_logic_on], Progressive Vacuum Tube:4, Scout Clothes, opt_gadget_rando_off, Seize, Max",
+                            "false, opt_randomize_mission_items_off, Who Lake Vacuum Tube, Grinch Copter, Seize, Max, Sneak, Bad Breath, Pancake",
+                            "false, opt_randomize_mission_items_off, Who Lake Vacuum Tube, Seize, Max, Sneak, Bad Breath, Pancake, Octopus Climbing Device, Rocket Spring",
+                            "false, opt_randomize_mission_items_off, Who Lake Vacuum Tube, Grinch Copter, opt_move_rando_off",
+                            "false, opt_randomize_mission_items_off, Who Lake Vacuum Tube, Octopus Climbing Device, Rocket Spring, opt_move_rando_off",
+                            "false, opt_randomize_mission_items_off, Who Lake Vacuum Tube, opt_gadget_rando_off, Seize, Max, Sneak, Bad Breath, Pancake",
+                            "false, opt_randomize_mission_items_off, Who Lake Vacuum Tube, opt_gadget_rando_off, opt_move_rando_off",
+                            "false, opt_randomize_mission_items_off, Progressive Vacuum Tube:4, Grinch Copter, Seize, Max, Sneak, Bad Breath, Pancake",
+                            "false, opt_randomize_mission_items_off, Progressive Vacuum Tube:4, Seize, Max, Sneak, Bad Breath, Pancake, Octopus Climbing Device, Rocket Spring",
+                            "false, opt_randomize_mission_items_off, Progressive Vacuum Tube:4, Grinch Copter, opt_move_rando_off",
+                            "false, opt_randomize_mission_items_off, Progressive Vacuum Tube:4, Octopus Climbing Device, Rocket Spring, opt_move_rando_off",
+                            "false, opt_randomize_mission_items_off, Progressive Vacuum Tube:4, opt_gadget_rando_off, Seize, Max, Sneak, Bad Breath, Pancake",
+                            "false, opt_randomize_mission_items_off, Progressive Vacuum Tube:4, opt_gadget_rando_off, opt_move_rando_off",
+                            "false, opt_randomize_mission_items_off, [opt_advanced_logic_on], Who Lake Vacuum Tube, Grinch Copter, Seize, Max, Bad Breath, Pancake",
+                            "false, opt_randomize_mission_items_off, [opt_advanced_logic_on], Who Lake Vacuum Tube, Seize, Max, Bad Breath, Pancake, Octopus Climbing Device, Rocket Spring",
+                            "false, opt_randomize_mission_items_off, [opt_advanced_logic_on], Who Lake Vacuum Tube, opt_gadget_rando_off, Seize, Max, Bad Breath, Pancake",
+                            "false, opt_randomize_mission_items_off, [opt_advanced_logic_on], Progressive Vacuum Tube:4, Grinch Copter, Seize, Max, Bad Breath, Pancake",
+                            "false, opt_randomize_mission_items_off, [opt_advanced_logic_on], Progressive Vacuum Tube:4, Seize, Max, Sneak, Bad Breath, Pancake, Octopus Climbing Device, Rocket Spring",
+                            "false, opt_randomize_mission_items_off, [opt_advanced_logic_on], Progressive Vacuum Tube:4, opt_gadget_rando_off, Seize, Max, Bad Breath, Pancake"
                         ],
                         "visibility_rules": [
                             "opt_misc_locations_on"
@@ -5748,18 +6297,40 @@
                         "access_rules": [
                             "Whoville Vacuum Tube, Who Forest Vacuum Tube, Who Dump Vacuum Tube, Who Lake Vacuum Tube, Scout Clothes, Max, Seize, Rocket Spring, Cable Car Access Card, Marine Mobile, Bad Breath, Sneak, Pancake, Slime Shooter, Rotten Egg Launcher, Octopus Climbing Device",
                             "Whoville Vacuum Tube, Who Forest Vacuum Tube, Who Dump Vacuum Tube, Who Lake Vacuum Tube, Scout Clothes, Max, Seize, Rocket Spring, Cable Car Access Card, Marine Mobile, Bad Breath, Sneak, Pancake, Rotten Egg Launcher, Grinch Copter",
-                            "Whoville Vacuum Tube, Who Forest Vacuum Tube, Who Dump Vacuum Tube, Who Lake Vacuum Tube, Scout Clothes, Max, Seize, Rocket Spring, Cable Car Access Card, Marine Mobile, Bad Breath, Pancake, Slime Shooter, Rotten Egg Launcher, Grinch Copter",
                             "Whoville Vacuum Tube, Who Forest Vacuum Tube, Who Dump Vacuum Tube, Who Lake Vacuum Tube, Scout Clothes, Rocket Spring, Cable Car Access Card, Marine Mobile, Slime Shooter, Rotten Egg Launcher, Octopus Climbing Device, opt_move_rando_off",
                             "Whoville Vacuum Tube, Who Forest Vacuum Tube, Who Dump Vacuum Tube, Who Lake Vacuum Tube, Scout Clothes, Rocket Spring, Cable Car Access Card, Marine Mobile, Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
-                            "Whoville Vacuum Tube, Who Forest Vacuum Tube, Who Dump Vacuum Tube, Who Lake Vacuum Tube, Scout Clothes, Max, Seize, Cable Car Access Card, Bad Breath, Pancake, opt_gadget_rando_off",
+                            "Whoville Vacuum Tube, Who Forest Vacuum Tube, Who Dump Vacuum Tube, Who Lake Vacuum Tube, Scout Clothes, Max, Seize, Cable Car Access Card, Bad Breath, Sneak, Pancake, opt_gadget_rando_off",
                             "Whoville Vacuum Tube, Who Forest Vacuum Tube, Who Dump Vacuum Tube, Who Lake Vacuum Tube, Scout Clothes, Cable Car Access Card, opt_move_rando_off, opt_gadget_rando_off",
                             "Progressive Vacuum Tube:4, Scout Clothes, Max, Seize, Rocket Spring, Cable Car Access Card, Marine Mobile, Bad Breath, Sneak, Pancake, Slime Shooter, Rotten Egg Launcher, Octopus Climbing Device",
                             "Progressive Vacuum Tube:4, Scout Clothes, Max, Seize, Rocket Spring, Cable Car Access Card, Marine Mobile, Bad Breath, Sneak, Pancake, Rotten Egg Launcher, Grinch Copter",
-                            "Progressive Vacuum Tube:4, Scout Clothes, Max, Seize, Rocket Spring, Cable Car Access Card, Marine Mobile, Bad Breath, Pancake, Slime Shooter, Rotten Egg Launcher, Grinch Copter",
                             "Progressive Vacuum Tube:4, Scout Clothes, Rocket Spring, Cable Car Access Card, Marine Mobile, Slime Shooter, Rotten Egg Launcher, Octopus Climbing Device, opt_move_rando_off",
                             "Progressive Vacuum Tube:4, Scout Clothes, Rocket Spring, Cable Car Access Card, Marine Mobile, Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
-                            "Progressive Vacuum Tube:4, Scout Clothes, Max, Seize, Cable Car Access Card, Bad Breath, Pancake, opt_gadget_rando_off",
-                            "Progressive Vacuum Tube:4, Scout Clothes, Cable Car Access Card, opt_move_rando_off, opt_gadget_rando_off"
+                            "Progressive Vacuum Tube:4, Scout Clothes, Max, Seize, Cable Car Access Card, Bad Breath, Sneak, Pancake, opt_gadget_rando_off",
+                            "Progressive Vacuum Tube:4, Scout Clothes, Cable Car Access Card, opt_move_rando_off, opt_gadget_rando_off",
+                            "[opt_advanced_logic_on], Whoville Vacuum Tube, Who Forest Vacuum Tube, Who Dump Vacuum Tube, Who Lake Vacuum Tube, Scout Clothes, Max, Seize, Rocket Spring, Cable Car Access Card, Marine Mobile, Bad Breath, Pancake, Slime Shooter, Rotten Egg Launcher, Octopus Climbing Device",
+                            "[opt_advanced_logic_on], Whoville Vacuum Tube, Who Forest Vacuum Tube, Who Dump Vacuum Tube, Who Lake Vacuum Tube, Scout Clothes, Max, Seize, Rocket Spring, Cable Car Access Card, Marine Mobile, Bad Breath, Pancake, Rotten Egg Launcher, Grinch Copter",
+                            "[opt_advanced_logic_on], Whoville Vacuum Tube, Who Forest Vacuum Tube, Who Dump Vacuum Tube, Who Lake Vacuum Tube, Scout Clothes, Max, Seize, Cable Car Access Card, Bad Breath, Pancake, opt_gadget_rando_off",
+                            "[opt_advanced_logic_on], Progressive Vacuum Tube:4, Scout Clothes, Max, Seize, Rocket Spring, Cable Car Access Card, Marine Mobile, Bad Breath, Pancake, Slime Shooter, Rotten Egg Launcher, Octopus Climbing Device",
+                            "[opt_advanced_logic_on], Progressive Vacuum Tube:4, Scout Clothes, Max, Seize, Rocket Spring, Cable Car Access Card, Marine Mobile, Bad Breath, Pancake, Rotten Egg Launcher, Grinch Copter",
+                            "[opt_advanced_logic_on], Progressive Vacuum Tube:4, Scout Clothes, Max, Seize, Cable Car Access Card, Bad Breath, Pancake, opt_gadget_rando_off",
+                            "false, opt_randomize_mission_items_off, Whoville Vacuum Tube, Who Forest Vacuum Tube, Who Dump Vacuum Tube, Who Lake Vacuum Tube, Max, Seize, Rocket Spring, Marine Mobile, Bad Breath, Sneak, Pancake, Slime Shooter, Rotten Egg Launcher, Octopus Climbing Device",
+                            "false, opt_randomize_mission_items_off, Whoville Vacuum Tube, Who Forest Vacuum Tube, Who Dump Vacuum Tube, Who Lake Vacuum Tube, Max, Seize, Rocket Spring, Marine Mobile, Bad Breath, Sneak, Pancake, Rotten Egg Launcher, Grinch Copter",
+                            "false, opt_randomize_mission_items_off, Whoville Vacuum Tube, Who Forest Vacuum Tube, Who Dump Vacuum Tube, Who Lake Vacuum Tube, Rocket Spring, Marine Mobile, Slime Shooter, Rotten Egg Launcher, Octopus Climbing Device, opt_move_rando_off",
+                            "false, opt_randomize_mission_items_off, Whoville Vacuum Tube, Who Forest Vacuum Tube, Who Dump Vacuum Tube, Who Lake Vacuum Tube, Rocket Spring, Marine Mobile, Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                            "false, opt_randomize_mission_items_off, Whoville Vacuum Tube, Who Forest Vacuum Tube, Who Dump Vacuum Tube, Who Lake Vacuum Tube, Max, Seize, Bad Breath, Sneak, Pancake, opt_gadget_rando_off",
+                            "false, opt_randomize_mission_items_off, Whoville Vacuum Tube, Who Forest Vacuum Tube, Who Dump Vacuum Tube, Who Lake Vacuum Tube, opt_move_rando_off, opt_gadget_rando_off",
+                            "false, opt_randomize_mission_items_off, Progressive Vacuum Tube:4, Max, Seize, Rocket Spring, Marine Mobile, Bad Breath, Sneak, Pancake, Slime Shooter, Rotten Egg Launcher, Octopus Climbing Device",
+                            "false, opt_randomize_mission_items_off, Progressive Vacuum Tube:4, Max, Seize, Rocket Spring, Marine Mobile, Bad Breath, Sneak, Pancake, Rotten Egg Launcher, Grinch Copter",
+                            "false, opt_randomize_mission_items_off, Progressive Vacuum Tube:4, Rocket Spring, Marine Mobile, Slime Shooter, Rotten Egg Launcher, Octopus Climbing Device, opt_move_rando_off",
+                            "false, opt_randomize_mission_items_off, Progressive Vacuum Tube:4, Rocket Spring, Marine Mobile, Rotten Egg Launcher, Grinch Copter, opt_move_rando_off",
+                            "false, opt_randomize_mission_items_off, Progressive Vacuum Tube:4, Max, Seize, Bad Breath, Sneak, Pancake, opt_gadget_rando_off",
+                            "false, opt_randomize_mission_items_off, Progressive Vacuum Tube:4, opt_move_rando_off, opt_gadget_rando_off",
+                            "false, opt_randomize_mission_items_off, [opt_advanced_logic_on], Whoville Vacuum Tube, Who Forest Vacuum Tube, Who Dump Vacuum Tube, Who Lake Vacuum Tube, Max, Seize, Rocket Spring, Marine Mobile, Bad Breath, Pancake, Slime Shooter, Rotten Egg Launcher, Octopus Climbing Device",
+                            "false, opt_randomize_mission_items_off, [opt_advanced_logic_on], Whoville Vacuum Tube, Who Forest Vacuum Tube, Who Dump Vacuum Tube, Who Lake Vacuum Tube, Max, Seize, Rocket Spring, Marine Mobile, Bad Breath, Pancake, Rotten Egg Launcher, Grinch Copter",
+                            "false, opt_randomize_mission_items_off, [opt_advanced_logic_on], Whoville Vacuum Tube, Who Forest Vacuum Tube, Who Dump Vacuum Tube, Who Lake Vacuum Tube, Max, Seize, Bad Breath, Pancake, opt_gadget_rando_off",
+                            "false, opt_randomize_mission_items_off, [opt_advanced_logic_on], Progressive Vacuum Tube:4, Max, Seize, Rocket Spring, Marine Mobile, Bad Breath, Pancake, Slime Shooter, Rotten Egg Launcher, Octopus Climbing Device",
+                            "false, opt_randomize_mission_items_off, [opt_advanced_logic_on], Progressive Vacuum Tube:4, Max, Seize, Rocket Spring, Marine Mobile, Bad Breath, Pancake, Rotten Egg Launcher, Grinch Copter",
+                            "false, opt_randomize_mission_items_off, [opt_advanced_logic_on], Progressive Vacuum Tube:4, Max, Seize, Bad Breath, Pancake, opt_gadget_rando_off"
                         ],
                         "visibility_rules": [
                             "opt_misc_locations_on, opt_exclude_gc_off"
@@ -5781,6 +6352,58 @@
                         "visibility_rules": [
                             "opt_misc_locations_on"
                         ]
+                    },
+                    {
+                        "name": "MC - Supadow - Spin N' Win - Easy",
+                        "ref": "Supadow/MC - Supadow - Spin N' Win - Easy"
+                    },
+                    {
+                        "name": "MC - Supadow - Spin N' Win - Hard",
+                        "ref": "Supadow/MC - Supadow - Spin N' Win - Hard"
+                    },
+                    {
+                        "name": "MC - Supadow - Spin N' Win - Real Tough",
+                        "ref": "Supadow/MC - Supadow - Spin N' Win - Real Tough"
+                    },
+                    {
+                        "name": "MC - Supadow - Pankamania - Easy - 12 Points",
+                        "ref": "Supadow/MC - Supadow - Pankamania - Easy - 12 Points"
+                    },
+                    {
+                        "name": "MC - Supadow - Pankamania - Hard - 12 Points",
+                        "ref": "Supadow/MC - Supadow - Pankamania - Hard - 12 Points"
+                    },
+                    {
+                        "name": "MC - Supadow - Pankamania - Real Tough - 12 Points",
+                        "ref": "Supadow/MC - Supadow - Pankamania - Real Tough - 12 Points"
+                    },
+                    {
+                        "name": "MC - Supadow - The Copter Race Contest - Easy",
+                        "ref": "Supadow/MC - Supadow - The Copter Race Contest - Easy"
+                    },
+                    {
+                        "name": "MC - Supadow - The Copter Race Contest - Hard",
+                        "ref": "Supadow/MC - Supadow - The Copter Race Contest - Hard"
+                    },
+                    {
+                        "name": "MC - Supadow - The Copter Race Contest - Real Tough",
+                        "ref": "Supadow/MC - Supadow - The Copter Race Contest - Real Tough"
+                    },
+                    {
+                        "name": "MC - Supadow - Bike Race - 1st Place",
+                        "ref": "Sleigh Room/MC - Supadow - Bike Race - 1st Place"
+                    },
+                    {
+                        "name": "MC - Supadow - Bike Race - Top 2",
+                        "ref": "Sleigh Room/MC - Supadow - Bike Race - Top 2"
+                    },
+                    {
+                        "name": "MC - Supadow - Bike Race - Top 3",
+                        "ref": "Sleigh Room/MC - Supadow - Bike Race - Top 3"
+                    },
+                    {
+                        "name": "MC - Supadow - Bike Race - Top 4",
+                        "ref": "Sleigh Room/MC - Supadow - Bike Race - Top 4"
                     },
                     {
                         "name": "MC - Sleigh Ride - Stealing All Gifts",

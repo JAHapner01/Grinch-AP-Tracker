@@ -140,14 +140,28 @@ function get_slot_options(slot_data)
     set_progressive_option("opt_advanced_logic", first_slot_value(slot_data, { "advanced_logic", "opt_advanced_logic" }), 1)
 end
 
--- Detects old vs new apworld by checking for location IDs removed in v1.5.7.
+-- Detects existence of locations that don't exist in all versions of the apworld.
 -- Called after get_ap_locations() in onClear.
 function detect_legacy_locations(ap_locations)
     if ap_locations[43778] then -- 43778-43781 were removed in v1.5.7
         -- ID exists -> old apworld -> show legacy locations
-        set_progressive_option("opt_legacy_locations", 1, 1)
+        set_progressive_option("opt_mc_door_locations", 1, 1)
     else
         -- ID absent -> new apworld -> hide legacy locations
-        set_progressive_option("opt_legacy_locations", 0, 1)
+        set_progressive_option("opt_mc_door_locations", 0, 1)
+    end
+    if ap_locations[43769] then -- 43769-43773 were removed in v1.6.0-PR4
+        -- ID exists -> old apworld -> show legacy locations
+        set_progressive_option("opt_mc_crate_locations", 1, 1)
+    else
+        -- ID absent -> new apworld -> hide legacy locations
+        set_progressive_option("opt_mc_crate_locations", 0, 1)
+    end
+    if ap_locations[43578] then -- 43578-43581 have yet to be added as of v1.6.0
+        -- ID exists -> new apworld -> show new locations
+        set_progressive_option("opt_bike_race_locations", 1, 1)
+    else
+        -- ID absent -> old apworld -> hide new locations
+        set_progressive_option("opt_bike_race_locations", 0, 1)
     end
 end

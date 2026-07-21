@@ -32,20 +32,20 @@
                 },
                 {
                     "type": "group",
+                    "header": "Logic Settings",
+                    "content": {
+                        "type": "layout",
+                        "key": "logic_grid"
+                    }
+                },
+                {
+                    "type": "group",
                     "header": "Excluded Environments",
                     "content": {
                         "type": "layout",
                         "key": "excluded_environments_grid"
                     }
-                }//,
-                //{
-                //    "type": "group",
-                //    "header": "Logic Settings",
-                //    "content": {
-                //        "type": "layout",
-                //        "key": "logic_grid"
-                //    }
-                //}
+                }
             ]
         }
     },
@@ -79,8 +79,10 @@
                 "opt_gadget_rando",
                 //"opt_gadget_rando_list",
                 "opt_exclude_gc",
-                "opt_move_rando"//,
-                //"opt_move_rando_list"
+                "opt_move_rando",
+                //"opt_move_rando_list",
+                "opt_randomize_mission_items",
+                "opt_randomize_sleigh_parts"
             ]
         ]
     },
@@ -94,7 +96,7 @@
             [
                 "opt_missionsanity",
                 "opt_giftsanity",
-                //"opt_supadow",
+                "opt_supadow",
                 //"opt_killsanity",
                 "opt_misc_locations",
                 "auto_tab"

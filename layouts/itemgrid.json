@@ -21,7 +21,8 @@
                         "Octopus Climbing Device",
                         "Slime Shooter",
                         "Marine Mobile",
-                        "Grinch Copter"
+                        "Grinch Copter",
+                        "Binoculars"
                     ]
                 ]
             },
@@ -103,6 +104,13 @@
                         "Who Lake Vacuum Tube",
                         "Progressive Vacuum Tube",
                         "Sleigh Room Key"
+                    ],
+                    [
+                        "Spin N' Win Supadow",
+                        "Pankamania Supadow",
+                        "The Copter Race Contest Supadow"//,
+                        //"Progressive Supadow",
+                        //"Bike Race Unlock"
                     ]
                 ]
             }
