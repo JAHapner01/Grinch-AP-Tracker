@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "0.0.4",
+			"download_url": "https://github.com/JAHapner01/Grinch-AP-Tracker/archive/refs/tags/0.0.4.zip",
+			"sha256": "F5382DA1ECDA2238D76BF9F3B974E583C09A049CD24C006F9C3A4DF52D8A0248",
+			"changelog": ["Advanced logic, supadow"]
+		},
+		{
 			"package_version": "0.0.3",
 			"download_url": "https://github.com/JAHapner01/Grinch-AP-Tracker/archive/refs/tags/0.0.3.zip",
 			"sha256": "F19E319B4C1923110C0410F5A4F0142FAD1EE1419918F9F3BB2031F06DB467C0",
