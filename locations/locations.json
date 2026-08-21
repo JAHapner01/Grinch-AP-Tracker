@@ -1479,9 +1479,11 @@
                                     "Octopus Climbing Device, Rocket Spring, opt_move_rando_off",
                                     "Grinch Copter, Rotten Egg Launcher, Slime Shooter, Bad Breath",
                                     "Bad Breath, opt_gadget_rando_off",
-                                    "[opt_advanced_logic_on], Rotten Egg Launcher, Octopus Climbing Device, Pancake, Bad Breath",
-                                    "[opt_advanced_logic_on], Octopus Climbing Device, Pancake, Sneak",
-                                    "[opt_advanced_logic_on], Octopus Climbing Device, opt_move_rando_off"
+                                    "[opt_advanced_logic_on], Octopus Climbing Device, Pancake",
+                                    "[opt_advanced_logic_on], Octopus Climbing Device, Rocket Spring",
+                                    "[opt_advanced_logic_on], Octopus Climbing Device, opt_move_rando_off",
+                                    "[opt_advanced_logic_on], Grinch Copter",
+                                    "[opt_advanced_logic_on], opt_gadget_rando_off"
                                 ],
                                 "visibility_rules": [
                                     ""
@@ -1505,11 +1507,15 @@
                                     "Slime Shooter, Octopus Climbing Device, Rocket Spring, opt_move_rando_off",
                                     "Grinch Copter, Rotten Egg Launcher, Slime Shooter, Bad Breath",
                                     "Bad Breath, opt_gadget_rando_off",
-                                    "[opt_advanced_logic_on], Rotten Egg Launcher, Octopus Climbing Device, Pancake, Bad Breath",
-                                    "[opt_advanced_logic_on], Rotten Egg Launcher, Octopus Climbing Device, Pancake, Sneak",
-                                    "[opt_advanced_logic_on], Slime Shooter, Octopus Climbing Device, Pancake, Sneak",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher, Octopus Climbing Device, Pancake",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher, Octopus Climbing Device, Rocket Spring",
+                                    "[opt_advanced_logic_on], Slime Shooter, Octopus Climbing Device, Pancake",
+                                    "[opt_advanced_logic_on], Slime Shooter, Octopus Climbing Device, Rocket Spring",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher, Grinch Copter",
+                                    "[opt_advanced_logic_on], Slime Shooter, Grinch Copter",
                                     "[opt_advanced_logic_on], opt_move_rando_off, Rotten Egg Launcher, Octopus Climbing Device",
-                                    "[opt_advanced_logic_on], opt_move_rando_off, Slime Shooter, Octopus Climbing Device"
+                                    "[opt_advanced_logic_on], opt_move_rando_off, Slime Shooter, Octopus Climbing Device",
+                                    "[opt_advanced_logic_on], opt_gadget_rando_off"
                                 ],
                                 "visibility_rules": [
                                     ""
@@ -1548,6 +1554,7 @@
                                     "Rotten Egg Launcher, Octopus Climbing Device, Rocket Spring, Sneak, Bad Breath",
                                     "Rotten Egg Launcher, Octopus Climbing Device, Rocket Spring, opt_move_rando_off",
                                     "[opt_advanced_logic_on], Rotten Egg Launcher, Octopus Climbing Device, Pancake",
+                                    "[opt_advanced_logic_on], Rotten Egg Launcher, Octopus Climbing Device, Rocket Spring",
                                     "[opt_advanced_logic_on], Rotten Egg Launcher, Octopus Climbing Device, opt_move_rando_off"
                                 ],
                                 "visibility_rules": [
