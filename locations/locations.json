@@ -1367,6 +1367,8 @@
                                     "Rotten Egg Launcher",
                                     "opt_gadget_rando_off",
                                     "Grinch Copter",
+                                    "Max",
+                                    "opt_move_rando_off",
                                     "[opt_advanced_logic_on]"
                                 ],
                                 "visibility_rules": [
