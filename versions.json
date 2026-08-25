@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "0.0.5",
+			"download_url": "https://github.com/JAHapner01/Grinch-AP-Tracker/archive/refs/tags/0.0.5.zip",
+			"sha256": "BE37638D0C1BB02A60D98F05953835D543243E3F6DC2B43F44A23D00B47E2F1C",
+			"changelog": ["Rat name fix, compressed images, minor logic changes"]
+		},
+		{
 			"package_version": "0.0.4",
 			"download_url": "https://github.com/JAHapner01/Grinch-AP-Tracker/archive/refs/tags/0.0.4.zip",
 			"sha256": "F5382DA1ECDA2238D76BF9F3B974E583C09A049CD24C006F9C3A4DF52D8A0248",
